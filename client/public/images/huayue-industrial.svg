@@ -1,0 +1,63 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Industrial piping system -->
+  <g>
+    <!-- Main horizontal pipes -->
+    <rect x="50" y="150" width="700" height="40" fill="#28a745" stroke="#1e7e34" stroke-width="3"/>
+    <rect x="50" y="220" width="700" height="30" fill="#28a745" stroke="#1e7e34" stroke-width="2"/>
+    <rect x="50" y="280" width="700" height="25" fill="#28a745" stroke="#1e7e34" stroke-width="2"/>
+    
+    <!-- Vertical connecting pipes -->
+    <rect x="200" y="150" width="25" height="155" fill="#28a745" stroke="#1e7e34" stroke-width="2"/>
+    <rect x="400" y="150" width="30" height="155" fill="#28a745" stroke="#1e7e34" stroke-width="2"/>
+    <rect x="600" y="150" width="25" height="155" fill="#28a745" stroke="#1e7e34" stroke-width="2"/>
+    
+    <!-- Pipe joints/flanges -->
+    <circle cx="200" cy="170" r="20" fill="#1e7e34" stroke="#000" stroke-width="1"/>
+    <circle cx="400" cy="170" r="25" fill="#1e7e34" stroke="#000" stroke-width="1"/>
+    <circle cx="600" cy="170" r="20" fill="#1e7e34" stroke="#000" stroke-width="1"/>
+    
+    <!-- Valve handles -->
+    <rect x="190" y="140" width="20" height="10" fill="#000" rx="2"/>
+    <rect x="390" y="135" width="30" height="15" fill="#000" rx="3"/>
+    <rect x="590" y="140" width="20" height="10" fill="#000" rx="2"/>
+    
+    <!-- Pipe fittings -->
+    <ellipse cx="300" cy="170" rx="15" ry="8" fill="#1e7e34"/>
+    <ellipse cx="500" cy="170" rx="18" ry="10" fill="#1e7e34"/>
+    <ellipse cx="700" cy="170" rx="15" ry="8" fill="#1e7e34"/>
+    
+    <!-- Pressure gauges -->
+    <circle cx="150" cy="120" r="25" fill="#fff" stroke="#000" stroke-width="2"/>
+    <circle cx="150" cy="120" r="20" fill="none" stroke="#28a745" stroke-width="2"/>
+    <line x1="140" y1="120" x2="160" y2="110" stroke="#28a745" stroke-width="3"/>
+    
+    <circle cx="650" cy="120" r="25" fill="#fff" stroke="#000" stroke-width="2"/>
+    <circle cx="650" cy="120" r="20" fill="none" stroke="#28a745" stroke-width="2"/>
+    <line x1="640" y1="120" x2="660" y2="110" stroke="#28a745" stroke-width="3"/>
+    
+    <!-- Support brackets -->
+    <polygon points="100,190 120,190 110,210" fill="#666"/>
+    <polygon points="350,190 370,190 360,210" fill="#666"/>
+    <polygon points="550,190 570,190 560,210" fill="#666"/>
+    <polygon points="750,190 770,190 760,210" fill="#666"/>
+    
+    <!-- Industrial labels -->
+    <rect x="80" y="90" width="120" height="25" fill="#28a745" stroke="#1e7e34" stroke-width="1"/>
+    <text x="140" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">PPR PIPES</text>
+    
+    <rect x="480" y="90" width="120" height="25" fill="#28a745" stroke="#1e7e34" stroke-width="1"/>
+    <text x="540" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">FITTINGS</text>
+    
+    <!-- Flow direction arrows -->
+    <polygon points="320,160 340,170 320,180 325,170" fill="#000"/>
+    <polygon points="520,160 540,170 520,180 525,170" fill="#000"/>
+    
+    <!-- Technical specifications -->
+    <text x="50" y="350" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000">HUAYUE Industrial Grade PPR System</text>
+    <text x="50" y="370" font-family="Arial, sans-serif" font-size="12" fill="#666">High Pressure • Corrosion Resistant • Industrial Applications</text>
+    <text x="50" y="385" font-family="Arial, sans-serif" font-size="12" fill="#666">Diameter: 20mm-50mm | Pressure: PN16-PN20 | Temperature: -10°C to +95°C</text>
+  </g>
+</svg>
