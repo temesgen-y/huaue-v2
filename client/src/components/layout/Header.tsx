@@ -38,20 +38,18 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            {navItems.map((item) => (
-              <Link
-                key={item.path}
-                href={item.path}
-                className={`font-medium transition-colors duration-200 ${
-                  isActiveLink(item.path)
-                    ? "corporate-blue"
-                    : "corporate-gray hover:text-blue-600"
-                }`}
-                data-testid={`link-nav-${item.label.toLowerCase().replace(/\s+/g, '-')}`}
-              >
-                {item.label}
-              </Link>
-            ))}
+            {/* Home Link */}
+            <Link
+              href="/"
+              className={`font-medium transition-colors duration-200 ${
+                isActiveLink("/")
+                  ? "corporate-blue"
+                  : "corporate-gray hover:text-blue-600"
+              }`}
+              data-testid="link-nav-home"
+            >
+              Home
+            </Link>
 
             {/* Products Dropdown */}
             <DropdownMenu>
@@ -78,6 +76,22 @@ export default function Header() {
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
+
+            {/* Other Navigation Items */}
+            {navItems.slice(1).map((item) => (
+              <Link
+                key={item.path}
+                href={item.path}
+                className={`font-medium transition-colors duration-200 ${
+                  isActiveLink(item.path)
+                    ? "corporate-blue"
+                    : "corporate-gray hover:text-blue-600"
+                }`}
+                data-testid={`link-nav-${item.label.toLowerCase().replace(/\s+/g, '-')}`}
+              >
+                {item.label}
+              </Link>
+            ))}
           </div>
 
           {/* Mobile Menu */}
@@ -89,7 +103,53 @@ export default function Header() {
             </SheetTrigger>
             <SheetContent side="right" className="w-80">
               <div className="flex flex-col space-y-4 mt-8">
-                {navItems.map((item) => (
+                {/* Home Link */}
+                <Link
+                  href="/"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={`block px-3 py-2 text-lg ${
+                    isActiveLink("/")
+                      ? "corporate-blue font-semibold"
+                      : "corporate-gray"
+                  }`}
+                  data-testid="link-mobile-home"
+                >
+                  Home
+                </Link>
+                
+                {/* Products Section */}
+                <div className="px-3 py-2">
+                  <span className="text-lg font-semibold corporate-gray">Products</span>
+                  <div className="ml-4 mt-2 space-y-2">
+                    <Link
+                      href="/products/huayue"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className={`block px-3 py-2 text-base ${
+                        isActiveLink("/products/huayue")
+                          ? "corporate-blue font-semibold"
+                          : "corporate-gray"
+                      }`}
+                      data-testid="link-mobile-huayue-products"
+                    >
+                      Huayue Products
+                    </Link>
+                    <Link
+                      href="/products/edier"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className={`block px-3 py-2 text-base ${
+                        isActiveLink("/products/edier")
+                          ? "corporate-blue font-semibold"
+                          : "corporate-gray"
+                      }`}
+                      data-testid="link-mobile-edier-products"
+                    >
+                      Edier Products
+                    </Link>
+                  </div>
+                </div>
+
+                {/* Other Navigation Items */}
+                {navItems.slice(1).map((item) => (
                   <Link
                     key={item.path}
                     href={item.path}
@@ -104,22 +164,6 @@ export default function Header() {
                     {item.label}
                   </Link>
                 ))}
-                <Link
-                  href="/products/huayue"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="block px-3 py-2 text-lg corporate-gray"
-                  data-testid="link-mobile-huayue-products"
-                >
-                  Huayue Products
-                </Link>
-                <Link
-                  href="/products/edier"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="block px-3 py-2 text-lg corporate-gray"
-                  data-testid="link-mobile-edier-products"
-                >
-                  Edier Products
-                </Link>
               </div>
             </SheetContent>
           </Sheet>
