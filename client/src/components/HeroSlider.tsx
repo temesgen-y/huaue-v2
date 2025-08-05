@@ -51,6 +51,70 @@ const heroSlides: HeroSlide[] = [
     subtitle: "Pioneering solutions through research, development, and advanced manufacturing processes",
     ctaText: "Contact Us",
     ctaLink: "/contact"
+  },
+  {
+    id: 5,
+    image: "/images/hero/banner5.svg",
+    title: "Sustainable Manufacturing",
+    subtitle: "Eco-friendly production processes with renewable energy and environmental responsibility",
+    ctaText: "Sustainability",
+    ctaLink: "/about"
+  },
+  {
+    id: 6,
+    image: "/images/hero/banner6.svg",
+    title: "Global Supply Chain",
+    subtitle: "Worldwide logistics network ensuring timely delivery and international market reach",
+    ctaText: "Global Reach",
+    ctaLink: "/about"
+  },
+  {
+    id: 7,
+    image: "/images/hero/banner7.svg",
+    title: "Research & Development",
+    subtitle: "Cutting-edge laboratory facilities driving innovation in plastic technology and materials",
+    ctaText: "Innovation",
+    ctaLink: "/about"
+  },
+  {
+    id: 8,
+    image: "/images/hero/banner8.svg",
+    title: "Customer Support",
+    subtitle: "24/7 dedicated support team providing exceptional service and technical assistance",
+    ctaText: "Support Center",
+    ctaLink: "/contact"
+  },
+  {
+    id: 9,
+    image: "/images/hero/banner9.svg",
+    title: "Strategic Partnerships",
+    subtitle: "Building strong relationships with global partners for mutual growth and success",
+    ctaText: "Partnerships",
+    ctaLink: "/contact"
+  },
+  {
+    id: 10,
+    image: "/images/hero/banner10.svg",
+    title: "Future Technology",
+    subtitle: "Embracing next-generation technologies including AI, IoT, and advanced automation",
+    ctaText: "Technology",
+    ctaLink: "/about"
+  },
+  {
+    id: 11,
+    image: "/images/hero/banner11.svg",
+    title: "Training & Education",
+    subtitle: "Comprehensive training programs ensuring skilled workforce and continuous improvement",
+    ctaText: "Career Center",
+    ctaLink: "/contact"
+  },
+  {
+    id: 12,
+    image: "/images/hero/banner12.svg",
+    title: "Awards & Recognition",
+    subtitle: "Industry recognition for excellence in quality, innovation, and customer satisfaction",
+    ctaText: "Achievements",
+    ctaLink: "/about"
   }
 ];
 

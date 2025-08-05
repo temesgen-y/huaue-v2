@@ -1,0 +1,108 @@
+<svg width="1920" height="800" viewBox="0 0 1920 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#92400E"/>
+      <stop offset="100%" style="stop-color:#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="overlayGradient8" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgba(0,0,0,0.5)"/>
+      <stop offset="100%" style="stop-color:rgba(0,0,0,0.3)"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="800" fill="url(#heroGradient8)"/>
+  
+  <!-- Customer service and support center -->
+  <rect x="0" y="650" width="1920" height="150" fill="#1F2937"/>
+  
+  <!-- Office workstations -->
+  <rect x="100" y="400" width="120" height="200" fill="#E5E7EB" rx="10"/>
+  <rect x="110" y="420" width="100" height="80" fill="#1F2937" rx="5"/>
+  <rect x="115" y="425" width="90" height="70" fill="#3B82F6" opacity="0.8"/>
+  <rect x="140" y="520" width="50" height="15" fill="#6B7280" rx="7"/>
+  
+  <rect x="280" y="380" width="140" height="220" fill="#E5E7EB" rx="10"/>
+  <rect x="290" y="400" width="120" height="100" fill="#1F2937" rx="5"/>
+  <rect x="295" y="405" width="110" height="90" fill="#10B981" opacity="0.8"/>
+  <rect x="320" y="520" width="60" height="18" fill="#6B7280" rx="9"/>
+  
+  <rect x="480" y="420" width="130" height="180" fill="#E5E7EB" rx="10"/>
+  <rect x="490" y="440" width="110" height="80" fill="#1F2937" rx="5"/>
+  <rect x="495" y="445" width="100" height="70" fill="#EF4444" opacity="0.8"/>
+  <rect x="515" y="540" width="55" height="16" fill="#6B7280" rx="8"/>
+  
+  <rect x="670" y="360" width="150" height="240" fill="#E5E7EB" rx="10"/>
+  <rect x="680" y="380" width="130" height="120" fill="#1F2937" rx="5"/>
+  <rect x="685" y="385" width="120" height="110" fill="#7C3AED" opacity="0.8"/>
+  <rect x="715" y="520" width="65" height="20" fill="#6B7280" rx="10"/>
+  
+  <rect x="880" y="400" width="135" height="200" fill="#E5E7EB" rx="10"/>
+  <rect x="890" y="420" width="115" height="90" fill="#1F2937" rx="5"/>
+  <rect x="895" y="425" width="105" height="80" fill="#F59E0B" opacity="0.8"/>
+  <rect x="918" y="530" width="58" height="17" fill="#6B7280" rx="8"/>
+  
+  <rect x="1080" y="380" width="145" height="220" fill="#E5E7EB" rx="10"/>
+  <rect x="1090" y="400" width="125" height="110" fill="#1F2937" rx="5"/>
+  <rect x="1095" y="405" width="115" height="100" fill="#06B6D4" opacity="0.8"/>
+  <rect x="1123" y="530" width="62" height="19" fill="#6B7280" rx="9"/>
+  
+  <rect x="1290" y="420" width="125" height="180" fill="#E5E7EB" rx="10"/>
+  <rect x="1300" y="440" width="105" height="85" fill="#1F2937" rx="5"/>
+  <rect x="1305" y="445" width="95" height="75" fill="#EC4899" opacity="0.8"/>
+  <rect x="1325" y="545" width="52" height="15" fill="#6B7280" rx="7"/>
+  
+  <rect x="1480" y="360" width="160" height="240" fill="#E5E7EB" rx="10"/>
+  <rect x="1490" y="380" width="140" height="125" fill="#1F2937" rx="5"/>
+  <rect x="1495" y="385" width="130" height="115" fill="#059669" opacity="0.8"/>
+  <rect x="1530" y="525" width="68" height="22" fill="#6B7280" rx="11"/>
+  
+  <rect x="1700" y="400" width="130" height="200" fill="#E5E7EB" rx="10"/>
+  <rect x="1710" y="420" width="110" height="95" fill="#1F2937" rx="5"/>
+  <rect x="1715" y="425" width="100" height="85" fill="#DC2626" opacity="0.8"/>
+  <rect x="1738" y="535" width="56" height="18" fill="#6B7280" rx="9"/>
+  
+  <!-- Communication icons and elements -->
+  <circle cx="200" cy="300" r="20" fill="#3B82F6"/>
+  <text x="200" y="307" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">📞</text>
+  
+  <circle cx="450" cy="280" r="22" fill="#10B981"/>
+  <text x="450" y="288" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="white">💬</text>
+  
+  <circle cx="750" cy="290" r="21" fill="#F59E0B"/>
+  <text x="750" y="298" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="white">📧</text>
+  
+  <circle cx="1150" cy="270" r="23" fill="#7C3AED"/>
+  <text x="1150" y="279" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="white">🌐</text>
+  
+  <circle cx="1560" cy="300" r="20" fill="#EC4899"/>
+  <text x="1560" y="307" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">📱</text>
+  
+  <!-- Customer satisfaction indicators -->
+  <rect x="300" y="200" width="80" height="60" fill="#10B981" rx="10"/>
+  <text x="340" y="225" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="white">98%</text>
+  <text x="340" y="245" text-anchor="middle" font-family="Arial" font-size="12" fill="white">Satisfaction</text>
+  
+  <rect x="700" y="180" width="90" height="70" fill="#3B82F6" rx="10"/>
+  <text x="745" y="210" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="white">24/7</text>
+  <text x="745" y="230" text-anchor="middle" font-family="Arial" font-size="12" fill="white">Support</text>
+  
+  <rect x="1200" y="190" width="85" height="65" fill="#F59E0B" rx="10"/>
+  <text x="1242" y="218" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="white">&lt;2min</text>
+  <text x="1242" y="238" text-anchor="middle" font-family="Arial" font-size="11" fill="white">Response</text>
+  
+  <!-- Communication network lines -->
+  <path d="M200,320 Q400,250 600,320" stroke="#3B82F6" stroke-width="4" fill="none" opacity="0.6"/>
+  <path d="M450,300 Q650,200 850,300" stroke="#10B981" stroke-width="4" fill="none" opacity="0.6"/>
+  <path d="M750,310 Q950,220 1150,290" stroke="#F59E0B" stroke-width="4" fill="none" opacity="0.6"/>
+  <path d="M1150,290 Q1350,200 1560,320" stroke="#7C3AED" stroke-width="4" fill="none" opacity="0.6"/>
+  
+  <!-- Connection nodes -->
+  <circle cx="400" cy="285" r="5" fill="#3B82F6"/>
+  <circle cx="600" cy="320" r="5" fill="#3B82F6"/>
+  <circle cx="650" cy="225" r="5" fill="#10B981"/>
+  <circle cx="850" cy="300" r="5" fill="#10B981"/>
+  <circle cx="950" cy="245" r="5" fill="#F59E0B"/>
+  <circle cx="1350" cy="225" r="5" fill="#7C3AED"/>
+  
+  <!-- Dark overlay -->
+  <rect width="1920" height="800" fill="url(#overlayGradient8)"/>
+</svg>
