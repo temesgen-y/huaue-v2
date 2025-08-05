@@ -1,0 +1,56 @@
+<svg width="1920" height="800" viewBox="0 0 1920 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF"/>
+      <stop offset="100%" style="stop-color:#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="overlayGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgba(0,0,0,0.6)"/>
+      <stop offset="100%" style="stop-color:rgba(0,0,0,0.2)"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="800" fill="url(#heroGradient1)"/>
+  
+  <!-- Industrial factory silhouette -->
+  <rect x="0" y="600" width="1920" height="200" fill="#0F172A"/>
+  <rect x="100" y="400" width="200" height="200" fill="#1E293B"/>
+  <rect x="350" y="350" width="250" height="250" fill="#1E293B"/>
+  <rect x="650" y="300" width="300" height="300" fill="#1E293B"/>
+  <rect x="1000" y="380" width="220" height="220" fill="#1E293B"/>
+  <rect x="1300" y="320" width="280" height="280" fill="#1E293B"/>
+  <rect x="1650" y="450" width="200" height="150" fill="#1E293B"/>
+  
+  <!-- Smokestacks -->
+  <rect x="170" y="250" width="30" height="150" fill="#334155"/>
+  <rect x="470" y="200" width="40" height="150" fill="#334155"/>
+  <rect x="800" y="150" width="35" height="150" fill="#334155"/>
+  <rect x="1140" y="220" width="30" height="160" fill="#334155"/>
+  <rect x="1520" y="180" width="45" height="140" fill="#334155"/>
+  
+  <!-- Industrial pipes and equipment -->
+  <circle cx="200" cy="650" r="40" fill="#64748B"/>
+  <circle cx="500" cy="680" r="35" fill="#64748B"/>
+  <circle cx="800" cy="650" r="45" fill="#64748B"/>
+  <circle cx="1200" cy="670" r="38" fill="#64748B"/>
+  <circle cx="1500" cy="660" r="42" fill="#64748B"/>
+  
+  <!-- Connecting pipes -->
+  <rect x="240" y="645" width="220" height="10" fill="#94A3B8"/>
+  <rect x="535" y="675" width="225" height="10" fill="#94A3B8"/>
+  <rect x="845" y="645" width="315" height="10" fill="#94A3B8"/>
+  <rect x="1238" y="665" width="222" height="10" fill="#94A3B8"/>
+  
+  <!-- Windows with lights -->
+  <rect x="130" y="450" width="20" height="30" fill="#F59E0B"/>
+  <rect x="170" y="450" width="20" height="30" fill="#F59E0B"/>
+  <rect x="210" y="450" width="20" height="30" fill="#F59E0B"/>
+  <rect x="380" y="400" width="25" height="35" fill="#F59E0B"/>
+  <rect x="420" y="400" width="25" height="35" fill="#F59E0B"/>
+  <rect x="460" y="400" width="25" height="35" fill="#F59E0B"/>
+  <rect x="700" y="350" width="30" height="40" fill="#F59E0B"/>
+  <rect x="750" y="350" width="30" height="40" fill="#F59E0B"/>
+  <rect x="800" y="350" width="30" height="40" fill="#F59E0B"/>
+  
+  <!-- Dark overlay -->
+  <rect width="1920" height="800" fill="url(#overlayGradient1)"/>
+</svg>
