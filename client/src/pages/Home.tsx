@@ -5,6 +5,7 @@ import OurProductLines from "@/components/sections/OurProductLines";
 import QualityAssurance from "@/components/sections/QualityAssurance";
 import TrustedClients from "@/components/sections/TrustedClients";
 import ClientTestimonials from "@/components/sections/ClientTestimonials";
+import ProductPortfolio from "@/components/sections/ProductPortfolio";
 import CompanyOverview from "@/components/sections/CompanyOverview";
 import ProductsSection from "@/components/sections/ProductsSection";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <QualityAssurance />
       <TrustedClients />
       <ClientTestimonials />
+      <ProductPortfolio />
       <CompanyOverview />
       <ProductsSection />
     </div>
