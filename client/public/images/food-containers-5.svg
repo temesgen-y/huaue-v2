@@ -1,0 +1,15 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F0FDF4"/>
+  <!-- Food grade containers -->
+  <rect x="150" y="200" width="120" height="180" rx="10" fill="#FFFFFF" stroke="#10B981" stroke-width="3"/>
+  <rect x="340" y="180" width="120" height="200" rx="10" fill="#FFFFFF" stroke="#10B981" stroke-width="3"/>
+  <rect x="530" y="160" width="120" height="220" rx="10" fill="#FFFFFF" stroke="#10B981" stroke-width="3"/>
+  <!-- FDA approval symbol -->
+  <circle cx="400" cy="120" r="30" fill="#10B981"/>
+  <text x="400" y="127" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">FDA</text>
+  <!-- Food safety icons -->
+  <polygon points="180,220 190,240 210,235 200,220" fill="#10B981"/>
+  <polygon points="370,200 380,220 400,215 390,200" fill="#10B981"/>
+  <polygon points="560,180 570,200 590,195 580,180" fill="#10B981"/>
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Food Grade Containers</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F8FAFC"/>
+  <!-- Aerospace parts -->
+  <polygon points="400,150 350,250 450,250" fill="#64748B"/>
+  <rect x="370" y="250" width="60" height="120" fill="#64748B"/>
+  <polygon points="350,370 450,370 430,400 370,400" fill="#64748B"/>
+  <!-- Wings -->
+  <polygon points="200,280 350,270 350,330 200,320" fill="#94A3B8"/>
+  <polygon points="450,270 600,280 600,320 450,330" fill="#94A3B8"/>
+  <!-- Star for aerospace -->
+  <polygon points="400,100 410,130 440,130 418,148 428,178 400,160 372,178 382,148 360,130 390,130" fill="#F59E0B"/>
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Aerospace Parts</text>
+</svg>

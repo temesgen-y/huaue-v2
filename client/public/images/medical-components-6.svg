@@ -1,0 +1,14 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#FEF7F0"/>
+  <!-- Medical components -->
+  <rect x="200" y="200" width="100" height="150" rx="15" fill="#FFFFFF" stroke="#DC2626" stroke-width="2"/>
+  <rect x="350" y="180" width="100" height="170" rx="15" fill="#FFFFFF" stroke="#DC2626" stroke-width="2"/>
+  <rect x="500" y="160" width="100" height="190" rx="15" fill="#FFFFFF" stroke="#DC2626" stroke-width="2"/>
+  <!-- Medical cross -->
+  <rect x="240" y="260" width="20" height="60" fill="#DC2626"/>
+  <rect x="225" y="275" width="50" height="20" fill="#DC2626"/>
+  <!-- Biocompatible symbol -->
+  <circle cx="400" cy="120" r="25" fill="#059669"/>
+  <text x="400" y="127" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="white">BIO</text>
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Medical Components</text>
+</svg>

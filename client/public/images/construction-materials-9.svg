@@ -1,0 +1,11 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#FEF2F2"/>
+  <!-- Construction materials -->
+  <polygon points="200,350 300,200 400,350" fill="#EF4444" stroke="#B91C1C" stroke-width="3"/>
+  <polygon points="350,350 450,200 550,350" fill="#EF4444" stroke="#B91C1C" stroke-width="3"/>
+  <rect x="150" y="350" width="450" height="50" fill="#7C2D12"/>
+  <!-- Weather resistance icon -->
+  <circle cx="400" cy="120" r="25" fill="#3B82F6"/>
+  <polygon points="390,110 400,100 410,110 405,120 395,120" fill="white"/>
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Construction Materials</text>
+</svg>

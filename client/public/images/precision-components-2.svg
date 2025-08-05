@@ -1,0 +1,13 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F9FAFB"/>
+  <!-- Precision components -->
+  <polygon points="200,150 300,150 280,250 220,250" fill="#E5E7EB" stroke="#6B7280" stroke-width="2"/>
+  <polygon points="400,120 520,120 500,280 420,280" fill="#E5E7EB" stroke="#6B7280" stroke-width="2"/>
+  <rect x="300" y="300" width="80" height="120" fill="#E5E7EB" stroke="#6B7280" stroke-width="2"/>
+  <circle cx="150" cy="350" r="40" fill="#E5E7EB" stroke="#6B7280" stroke-width="2"/>
+  <circle cx="600" cy="200" r="35" fill="#E5E7EB" stroke="#6B7280" stroke-width="2"/>
+  <!-- Measurement lines -->
+  <line x1="180" y1="140" x2="320" y2="140" stroke="#DC2626" stroke-width="2"/>
+  <text x="250" y="135" text-anchor="middle" font-family="Arial" font-size="12" fill="#DC2626">±0.01mm</text>
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Precision Components</text>
+</svg>

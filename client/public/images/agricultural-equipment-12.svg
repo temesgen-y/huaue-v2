@@ -1,0 +1,14 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F7FEE7"/>
+  <!-- Agricultural equipment -->
+  <rect x="200" y="250" width="400" height="80" rx="40" fill="#65A30D"/>
+  <circle cx="250" cy="350" r="40" fill="#374151"/>
+  <circle cx="550" cy="350" r="40" fill="#374151"/>
+  <rect x="300" y="200" width="200" height="50" rx="25" fill="#84CC16"/>
+  <!-- Crops/plants -->
+  <polygon points="150,400 160,350 170,400" fill="#22C55E"/>
+  <polygon points="170,400 180,350 190,400" fill="#22C55E"/>
+  <polygon points="610,400 620,350 630,400" fill="#22C55E"/>
+  <polygon points="630,400 640,350 650,400" fill="#22C55E"/>
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Agricultural Equipment</text>
+</svg>

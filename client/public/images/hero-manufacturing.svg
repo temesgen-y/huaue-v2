@@ -1,0 +1,25 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#374151"/>
+  <!-- Manufacturing facility background -->
+  <rect x="0" y="400" width="800" height="200" fill="#1F2937"/>
+  <!-- Factory buildings -->
+  <rect x="50" y="250" width="120" height="150" fill="#4B5563"/>
+  <rect x="200" y="200" width="150" height="200" fill="#4B5563"/>
+  <rect x="380" y="230" width="130" height="170" fill="#4B5563"/>
+  <rect x="540" y="180" width="140" height="220" fill="#4B5563"/>
+  <!-- Smokestacks -->
+  <rect x="90" y="150" width="20" height="100" fill="#6B7280"/>
+  <rect x="270" y="120" width="25" height="80" fill="#6B7280"/>
+  <rect x="620" y="100" width="30" height="80" fill="#6B7280"/>
+  <!-- Windows -->
+  <rect x="70" y="280" width="15" height="20" fill="#F59E0B"/>
+  <rect x="100" y="280" width="15" height="20" fill="#F59E0B"/>
+  <rect x="220" y="230" width="20" height="25" fill="#F59E0B"/>
+  <rect x="250" y="230" width="20" height="25" fill="#F59E0B"/>
+  <rect x="280" y="230" width="20" height="25" fill="#F59E0B"/>
+  <!-- Manufacturing equipment silhouettes -->
+  <circle cx="150" cy="450" r="30" fill="#9CA3AF"/>
+  <circle cx="300" cy="480" r="25" fill="#9CA3AF"/>
+  <circle cx="500" cy="460" r="35" fill="#9CA3AF"/>
+  <rect x="400" y="420" width="60" height="80" fill="#9CA3AF"/>
+</svg>

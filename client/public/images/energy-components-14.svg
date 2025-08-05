@@ -1,0 +1,17 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#FFFBEB"/>
+  <!-- Energy components -->
+  <rect x="150" y="200" width="20" height="150" fill="#059669"/>
+  <polygon points="160,150 140,200 180,200" fill="#059669"/>
+  <!-- Wind turbine -->
+  <circle cx="400" cy="250" r="15" fill="#374151"/>
+  <polygon points="400,235 380,180 420,180" fill="#E5E7EB"/>
+  <polygon points="415,250 470,270 470,230" fill="#E5E7EB"/>
+  <polygon points="385,250 330,270 330,230" fill="#E5E7EB"/>
+  <!-- Solar panel -->
+  <rect x="550" y="200" width="100" height="60" fill="#1E40AF"/>
+  <line x1="560" y1="210" x2="640" y2="210" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="560" y1="220" x2="640" y2="220" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="560" y1="230" x2="640" y2="230" stroke="#3B82F6" stroke-width="2"/>
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Energy Components</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F3F4F6"/>
+  <!-- Custom molding -->
+  <rect x="200" y="200" width="400" height="200" rx="20" fill="#6B7280" stroke="#374151" stroke-width="3"/>
+  <rect x="220" y="220" width="360" height="160" rx="15" fill="#E5E7EB"/>
+  <!-- Molding process -->
+  <circle cx="300" cy="300" r="30" fill="#EF4444"/>
+  <circle cx="400" cy="300" r="30" fill="#F59E0B"/>
+  <circle cx="500" cy="300" r="30" fill="#10B981"/>
+  <!-- Custom shape example -->
+  <polygon points="350,150 450,150 475,175 450,200 350,200 325,175" fill="#8B5CF6"/>
+  <!-- Gear/settings symbol -->
+  <circle cx="400" cy="450" r="25" fill="#374151"/>
+  <polygon points="400,430 410,440 410,460 400,470 390,460 390,440" fill="#6B7280"/>
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Custom Molding</text>
+</svg>
