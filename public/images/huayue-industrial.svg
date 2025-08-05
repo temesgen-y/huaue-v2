@@ -1,0 +1,91 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="metalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDC3C7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#95A5A6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7F8C8D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="industrialBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498DB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980B9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="#ECF0F1"/>
+  
+  <!-- Large Industrial Component -->
+  <rect x="50" y="80" width="200" height="150" fill="url(#industrialBlue)" stroke="#2C3E50" stroke-width="3" rx="10"/>
+  <rect x="70" y="100" width="30" height="30" fill="#E74C3C" rx="5"/>
+  <rect x="120" y="100" width="30" height="30" fill="#F39C12" rx="5"/>
+  <rect x="170" y="100" width="30" height="30" fill="#27AE60" rx="5"/>
+  <rect x="220" y="100" width="30" height="30" fill="#9B59B6" rx="5"/>
+  
+  <!-- Industrial Pipes -->
+  <rect x="80" y="140" width="150" height="15" fill="url(#metalGradient)" stroke="#34495E" stroke-width="2" rx="7"/>
+  <rect x="80" y="165" width="150" height="15" fill="url(#metalGradient)" stroke="#34495E" stroke-width="2" rx="7"/>
+  <rect x="80" y="190" width="150" height="15" fill="url(#metalGradient)" stroke="#34495E" stroke-width="2" rx="7"/>
+  
+  <!-- Injection Molding Machine -->
+  <rect x="300" y="120" width="180" height="120" fill="url(#metalGradient)" stroke="#2C3E50" stroke-width="3" rx="8"/>
+  <rect x="320" y="140" width="140" height="20" fill="#34495E" rx="10"/>
+  <rect x="320" y="170" width="140" height="20" fill="#34495E" rx="10"/>
+  <rect x="320" y="200" width="140" height="20" fill="#34495E" rx="10"/>
+  
+  <!-- Control Panel -->
+  <rect x="490" y="130" width="60" height="80" fill="#2C3E50" stroke="#1A252F" stroke-width="2" rx="5"/>
+  <circle cx="510" cy="150" r="8" fill="#E74C3C"/>
+  <circle cx="530" cy="150" r="8" fill="#27AE60"/>
+  <rect x="500" y="170" width="40" height="8" fill="#3498DB" rx="4"/>
+  <rect x="500" y="185" width="40" height="8" fill="#F39C12" rx="4"/>
+  <rect x="500" y="200" width="40" height="8" fill="#9B59B6" rx="4"/>
+  
+  <!-- Precision Parts -->
+  <circle cx="600" cy="100" r="35" fill="url(#industrialBlue)" stroke="#2C3E50" stroke-width="2"/>
+  <circle cx="600" cy="100" r="20" fill="#ECF0F1" stroke="#34495E" stroke-width="1"/>
+  <circle cx="600" cy="100" r="8" fill="#2C3E50"/>
+  
+  <rect x="680" y="70" width="60" height="60" fill="url(#metalGradient)" stroke="#2C3E50" stroke-width="2" rx="5"/>
+  <circle cx="710" cy="100" r="15" fill="#34495E"/>
+  <rect x="703" y="93" width="14" height="14" fill="#E74C3C" rx="2"/>
+  
+  <!-- Industrial Gears -->
+  <g transform="translate(120, 300)">
+    <circle cx="0" cy="0" r="40" fill="url(#metalGradient)" stroke="#2C3E50" stroke-width="3"/>
+    <circle cx="0" cy="0" r="25" fill="#34495E"/>
+    <circle cx="0" cy="0" r="10" fill="#2C3E50"/>
+    <!-- Gear teeth -->
+    <rect x="-5" y="-45" width="10" height="10" fill="url(#metalGradient)"/>
+    <rect x="-5" y="35" width="10" height="10" fill="url(#metalGradient)"/>
+    <rect x="-45" y="-5" width="10" height="10" fill="url(#metalGradient)"/>
+    <rect x="35" y="-5" width="10" height="10" fill="url(#metalGradient)"/>
+  </g>
+  
+  <g transform="translate(220, 320)">
+    <circle cx="0" cy="0" r="30" fill="url(#metalGradient)" stroke="#2C3E50" stroke-width="2"/>
+    <circle cx="0" cy="0" r="18" fill="#34495E"/>
+    <circle cx="0" cy="0" r="8" fill="#2C3E50"/>
+    <!-- Gear teeth -->
+    <rect x="-4" y="-34" width="8" height="8" fill="url(#metalGradient)"/>
+    <rect x="-4" y="26" width="8" height="8" fill="url(#metalGradient)"/>
+    <rect x="-34" y="-4" width="8" height="8" fill="url(#metalGradient)"/>
+    <rect x="26" y="-4" width="8" height="8" fill="url(#metalGradient)"/>
+  </g>
+  
+  <!-- Industrial Valves -->
+  <rect x="350" y="280" width="40" height="60" fill="url(#metalGradient)" stroke="#2C3E50" stroke-width="2" rx="5"/>
+  <circle cx="370" cy="310" r="12" fill="#E74C3C" stroke="#C0392B" stroke-width="2"/>
+  <rect x="365" y="300" width="10" height="20" fill="#34495E"/>
+  
+  <rect x="420" y="290" width="40" height="50" fill="url(#metalGradient)" stroke="#2C3E50" stroke-width="2" rx="5"/>
+  <circle cx="440" cy="315" r="10" fill="#27AE60" stroke="#229954" stroke-width="2"/>
+  <rect x="437" y="307" width="6" height="16" fill="#34495E"/>
+  
+  <!-- Quality Standards Text -->
+  <text x="500" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2C3E50">HUAYUE INDUSTRIAL COMPONENTS</text>
+  <text x="500" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7F8C8D">ISO 9001 Certified • High Precision • Industrial Grade</text>
+  
+  <!-- Connection Lines -->
+  <line x1="250" y1="155" x2="300" y2="180" stroke="#7F8C8D" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="480" y1="180" x2="565" y2="100" stroke="#7F8C8D" stroke-width="2" stroke-dasharray="5,5"/>
+</svg>

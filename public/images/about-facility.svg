@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F8FAFC"/>
+  
+  <!-- Sky -->
+  <rect width="800" height="200" fill="#3B82F6"/>
+  
+  <!-- Main factory building -->
+  <rect x="100" y="200" width="300" height="250" fill="#64748B" stroke="#334155" stroke-width="2"/>
+  <rect x="120" y="220" width="60" height="80" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+  <rect x="200" y="220" width="60" height="80" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+  <rect x="280" y="220" width="60" height="80" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+  
+  <!-- Secondary building -->
+  <rect x="450" y="250" width="200" height="200" fill="#64748B" stroke="#334155" stroke-width="2"/>
+  <rect x="470" y="270" width="50" height="60" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+  <rect x="540" y="270" width="50" height="60" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+  <rect x="610" y="270" width="50" height="60" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+  
+  <!-- Smokestacks -->
+  <rect x="180" y="120" width="20" height="80" fill="#475569"/>
+  <rect x="220" y="100" width="25" height="100" fill="#475569"/>
+  <rect x="520" y="130" width="20" height="70" fill="#475569"/>
+  
+  <!-- Smoke -->
+  <ellipse cx="190" cy="100" rx="15" ry="8" fill="#E2E8F0" opacity="0.8"/>
+  <ellipse cx="205" cy="85" rx="12" ry="6" fill="#E2E8F0" opacity="0.6"/>
+  <ellipse cx="232" cy="80" rx="18" ry="10" fill="#E2E8F0" opacity="0.8"/>
+  <ellipse cx="250" cy="65" rx="14" ry="7" fill="#E2E8F0" opacity="0.6"/>
+  <ellipse cx="530" cy="110" rx="12" ry="6" fill="#E2E8F0" opacity="0.8"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="450" width="800" height="150" fill="#059669"/>
+  
+  <!-- Road -->
+  <rect x="0" y="420" width="800" height="30" fill="#374151"/>
+  <rect x="50" y="432" width="80" height="6" fill="#FEF3C7"/>
+  <rect x="180" y="432" width="80" height="6" fill="#FEF3C7"/>
+  <rect x="310" y="432" width="80" height="6" fill="#FEF3C7"/>
+  <rect x="440" y="432" width="80" height="6" fill="#FEF3C7"/>
+  <rect x="570" y="432" width="80" height="6" fill="#FEF3C7"/>
+  <rect x="700" y="432" width="80" height="6" fill="#FEF3C7"/>
+  
+  <!-- Title overlay -->
+  <rect x="0" y="0" width="800" height="600" fill="rgba(30, 64, 175, 0.3)"/>
+  <text x="400" y="300" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="36" font-weight="bold">
+    HUAYUE MANUFACTURING
+  </text>
+  <text x="400" y="340" text-anchor="middle" fill="#E5E7EB" font-family="Arial, sans-serif" font-size="20">
+    State-of-the-Art Production Facility
+  </text>
+  <text x="400" y="380" text-anchor="middle" fill="#E5E7EB" font-family="Arial, sans-serif" font-size="16">
+    Shanghai, China • Established 1999
+  </text>
+</svg>

@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { telegramBot } from "../../../telegram/telegramBot";
 
 interface ContactForm {
   firstName: string;
@@ -42,9 +43,9 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
     try {
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      // Send notification via Telegram bot
+      await telegramBot.sendContactFormNotification(formData);
       
       toast({
         title: "Message Sent Successfully",
@@ -62,6 +63,7 @@ export default function Contact() {
         message: ""
       });
     } catch (error) {
+      console.error('Contact form submission error:', error);
       toast({
         title: "Error",
         description: "There was an error sending your message. Please try again.",

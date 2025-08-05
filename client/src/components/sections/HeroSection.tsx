@@ -3,8 +3,15 @@ import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
   return (
-    <section className="relative bg-gradient-to-r from-blue-800 to-blue-600 text-white">
-      <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+    <section className="relative bg-gradient-to-r from-blue-800 to-blue-600 text-white overflow-hidden">
+      <div className="absolute inset-0">
+        <img 
+          src="/images/hero-manufacturing.svg" 
+          alt="Huayue Plastics Manufacturing" 
+          className="w-full h-full object-cover opacity-30"
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+      </div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
         <div className="max-w-3xl">
           <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">

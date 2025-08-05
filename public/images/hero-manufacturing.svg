@@ -1,0 +1,74 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="factoryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E5C8A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="smokeGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#E8E8E8;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="#F0F4F8"/>
+  
+  <!-- Factory Buildings -->
+  <rect x="50" y="180" width="120" height="150" fill="url(#factoryGradient)" stroke="#2E5C8A" stroke-width="2"/>
+  <rect x="200" y="160" width="100" height="170" fill="url(#factoryGradient)" stroke="#2E5C8A" stroke-width="2"/>
+  <rect x="330" y="190" width="90" height="140" fill="url(#factoryGradient)" stroke="#2E5C8A" stroke-width="2"/>
+  <rect x="450" y="170" width="110" height="160" fill="url(#factoryGradient)" stroke="#2E5C8A" stroke-width="2"/>
+  
+  <!-- Chimneys -->
+  <rect x="80" y="120" width="15" height="60" fill="#555" stroke="#333" stroke-width="1"/>
+  <rect x="120" y="100" width="15" height="80" fill="#555" stroke="#333" stroke-width="1"/>
+  <rect x="230" y="110" width="15" height="50" fill="#555" stroke="#333" stroke-width="1"/>
+  <rect x="480" y="130" width="15" height="40" fill="#555" stroke="#333" stroke-width="1"/>
+  
+  <!-- Smoke -->
+  <ellipse cx="87" cy="110" rx="8" ry="15" fill="url(#smokeGradient)"/>
+  <ellipse cx="84" cy="95" rx="12" ry="20" fill="url(#smokeGradient)"/>
+  <ellipse cx="127" cy="90" rx="10" ry="18" fill="url(#smokeGradient)"/>
+  <ellipse cx="125" cy="70" rx="15" ry="25" fill="url(#smokeGradient)"/>
+  <ellipse cx="237" cy="100" rx="7" ry="12" fill="url(#smokeGradient)"/>
+  <ellipse cx="487" cy="120" rx="6" ry="10" fill="url(#smokeGradient)"/>
+  
+  <!-- Windows -->
+  <rect x="70" y="200" width="20" height="25" fill="#FFE066" stroke="#FFA500" stroke-width="1"/>
+  <rect x="100" y="200" width="20" height="25" fill="#FFE066" stroke="#FFA500" stroke-width="1"/>
+  <rect x="70" y="240" width="20" height="25" fill="#FFE066" stroke="#FFA500" stroke-width="1"/>
+  <rect x="100" y="240" width="20" height="25" fill="#FFE066" stroke="#FFA500" stroke-width="1"/>
+  
+  <rect x="220" y="180" width="20" height="25" fill="#FFE066" stroke="#FFA500" stroke-width="1"/>
+  <rect x="250" y="180" width="20" height="25" fill="#FFE066" stroke="#FFA500" stroke-width="1"/>
+  <rect x="220" y="220" width="20" height="25" fill="#FFE066" stroke="#FFA500" stroke-width="1"/>
+  <rect x="250" y="220" width="20" height="25" fill="#FFE066" stroke="#FFA500" stroke-width="1"/>
+  
+  <!-- Conveyor Belt -->
+  <rect x="600" y="280" width="150" height="8" fill="#666" stroke="#333" stroke-width="1"/>
+  <circle cx="610" cy="284" r="6" fill="#333"/>
+  <circle cx="630" cy="284" r="6" fill="#333"/>
+  <circle cx="650" cy="284" r="6" fill="#333"/>
+  <circle cx="670" cy="284" r="6" fill="#333"/>
+  <circle cx="690" cy="284" r="6" fill="#333"/>
+  <circle cx="710" cy="284" r="6" fill="#333"/>
+  <circle cx="730" cy="284" r="6" fill="#333"/>
+  
+  <!-- Plastic Products -->
+  <rect x="620" y="270" width="12" height="10" fill="#4A90E2" rx="2"/>
+  <rect x="640" y="270" width="12" height="10" fill="#50C878" rx="2"/>
+  <rect x="660" y="270" width="12" height="10" fill="#FFB84D" rx="2"/>
+  <rect x="680" y="270" width="12" height="10" fill="#E74C3C" rx="2"/>
+  
+  <!-- Trees for Environmental Balance -->
+  <circle cx="600" cy="320" r="25" fill="#228B22"/>
+  <rect x="595" y="320" width="10" height="20" fill="#8B4513"/>
+  <circle cx="720" cy="310" r="30" fill="#228B22"/>
+  <rect x="715" y="310" width="10" height="25" fill="#8B4513"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="330" width="800" height="70" fill="#90EE90" opacity="0.7"/>
+  
+  <!-- Title Text (subtle) -->
+  <text x="400" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2E5C8A" opacity="0.8">HUAYUE PLASTICS MANUFACTURING</text>
+</svg>

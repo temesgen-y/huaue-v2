@@ -1,0 +1,88 @@
+Create a modern, responsive website for Huayue Plastics Industry using React + Vite + Tailwind CSS + TypeScript, with the following folder structure and features. The project should be fully functional on Replit and ready for deployment.
+
+📁 Folder Structure:
+pgsql
+Copy
+Edit
+HuayuePlastics/ 
+├── .git/
+├── node_modules/
+├── public/
+│   └── images/          # Store all local images here
+├── src/
+│   └── components/      # Reusable React components
+│   └── pages/           # Page components for routing
+│   └── telegram/        # Telegram bot logic using TypeScript
+├── .gitignore
+├── components.json
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+🌐 Website Pages:
+Home
+
+Products (dropdown menu with: Huayue, Edier)
+
+About Us
+
+Agency Policy
+
+News
+
+Contact Us
+
+Each page should:
+
+Be fully responsive across all devices.
+
+Use Tailwind CSS for styling.
+
+Load images from the /public/images/ folder.
+
+📸 Images:
+Use local images (not external URLs) stored in public/images/.
+
+Each section/page should have appropriate product or banner images to match the brand style of Huayue Plastics Industry.
+
+Make sure images are responsive and optimized.
+
+🤖 Telegram Bot Integration:
+Add a TypeScript-based Telegram bot to the src/telegram/ directory.
+
+Use the Telegram Bot API with the provided BOT_TOKEN and CHAT_ID.
+
+When a user submits the Contact Us form:
+
+Send the form details (name, email, phone number, message) to a specified Telegram channel or group via the bot.
+
+Validate input before submission.
+
+Show a success/failure message to the user after submission.
+
+Example environment variables (to be stored securely in .env):
+
+env
+Copy
+Edit
+VITE_TELEGRAM_BOT_TOKEN=7588540195:AAFvF4phJg8agz1xcVEmkGxbLXvldOZAXh8
+VITE_TELEGRAM_CHAT_ID=-1002686029268
+✅ Tech Stack & Features:
+React (Vite) + TypeScript
+
+Tailwind CSS for modern UI design
+
+React Router DOM for page navigation
+
+Telegram Bot API integration
+
+Responsive design across devices
+
+Clean and maintainable code structure

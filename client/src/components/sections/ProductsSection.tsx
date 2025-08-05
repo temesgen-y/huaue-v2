@@ -6,7 +6,7 @@ const products = [
   {
     title: "Huayue Products",
     description: "Premium quality plastic components for industrial applications, including injection molded parts, custom solutions, and specialized materials.",
-    image: "https://images.unsplash.com/photo-1581092921461-eab62e97a780?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    image: "/images/huayue-industrial.svg",
     tags: ["Industrial Grade", "Custom Solutions", "High Durability"],
     buttonColor: "bg-corporate-blue hover:bg-blue-700",
     tagColor: "bg-blue-100 text-blue-800",
@@ -15,7 +15,7 @@ const products = [
   {
     title: "Edier Products",
     description: "Consumer-focused plastic products including packaging solutions, household items, and innovative designs for everyday use.",
-    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    image: "/images/edier-consumer.svg",
     tags: ["Consumer Grade", "Eco-Friendly", "Innovative Design"],
     buttonColor: "bg-success-green hover:bg-green-700",
     tagColor: "bg-green-100 text-green-800",
