@@ -81,25 +81,7 @@ export default function TrustedClients() {
           </div>
         </div>
 
-        {/* Client Stats */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-          <div>
-            <div className="text-3xl font-bold text-brand-accent mb-2">500+</div>
-            <div className="text-sm text-gray-600">Global Clients</div>
-          </div>
-          <div>
-            <div className="text-3xl font-bold text-brand-accent mb-2">50+</div>
-            <div className="text-sm text-gray-600">Countries</div>
-          </div>
-          <div>
-            <div className="text-3xl font-bold text-brand-accent mb-2">25+</div>
-            <div className="text-sm text-gray-600">Years Experience</div>
-          </div>
-          <div>
-            <div className="text-3xl font-bold text-brand-accent mb-2">99.8%</div>
-            <div className="text-sm text-gray-600">Client Satisfaction</div>
-          </div>
-        </div>
+
       </div>
     </section>
   );
