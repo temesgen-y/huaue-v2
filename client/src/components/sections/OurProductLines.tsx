@@ -25,8 +25,13 @@ export default function OurProductLines() {
             {/* Header */}
             <div className="text-center mb-6">
               <div className="text-sm text-gray-500 mb-2">HUAYUE PPR Pipes and Fittings</div>
-              <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
-                <div className="text-2xl font-bold text-black">HUAYUE</div>
+              <div className="w-full h-48 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 shadow-sm overflow-hidden">
+                <img 
+                  src="/images/huayue-product-image.svg" 
+                  alt="HUAYUE Industrial PPR Products" 
+                  className="w-full h-full object-cover"
+                  data-testid="img-huayue-products"
+                />
               </div>
             </div>
 
@@ -67,9 +72,13 @@ export default function OurProductLines() {
             {/* Header */}
             <div className="text-center mb-6">
               <div className="text-sm text-gray-500 mb-2">EDIER PPR Piping Systems</div>
-              <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
-                <div className="text-lg font-bold text-black">EDIER</div>
-                <div className="text-xs text-gray-500 ml-1">Brand Logo</div>
+              <div className="w-full h-48 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 shadow-sm overflow-hidden">
+                <img 
+                  src="/images/edier-product-image.svg" 
+                  alt="EDIER Consumer PPR Products" 
+                  className="w-full h-full object-cover"
+                  data-testid="img-edier-products"
+                />
               </div>
             </div>
 

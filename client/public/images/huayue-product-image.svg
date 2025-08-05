@@ -1,0 +1,52 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Industrial pipe products display -->
+  <g>
+    <!-- Main product showcase -->
+    <rect x="50" y="50" width="300" height="200" fill="#ffffff" stroke="#28a745" stroke-width="3" rx="10"/>
+    
+    <!-- Large pipe section -->
+    <rect x="80" y="80" width="240" height="40" fill="#28a745" stroke="#1e7e34" stroke-width="2" rx="20"/>
+    <rect x="80" y="140" width="240" height="30" fill="#28a745" stroke="#1e7e34" stroke-width="2" rx="15"/>
+    <rect x="80" y="185" width="240" height="25" fill="#28a745" stroke="#1e7e34" stroke-width="2" rx="12"/>
+    
+    <!-- Pipe joints and connectors -->
+    <circle cx="120" cy="100" r="15" fill="#1e7e34" stroke="#000" stroke-width="1"/>
+    <circle cx="200" cy="100" r="15" fill="#1e7e34" stroke="#000" stroke-width="1"/>
+    <circle cx="280" cy="100" r="15" fill="#1e7e34" stroke="#000" stroke-width="1"/>
+    
+    <!-- Smaller connecting fittings -->
+    <circle cx="140" cy="155" r="10" fill="#1e7e34"/>
+    <circle cx="220" cy="155" r="10" fill="#1e7e34"/>
+    <circle cx="260" cy="155" r="10" fill="#1e7e34"/>
+    
+    <!-- T-joint fittings -->
+    <rect x="110" y="190" width="20" height="10" fill="#1e7e34" rx="5"/>
+    <rect x="180" y="190" width="20" height="10" fill="#1e7e34" rx="5"/>
+    <rect x="250" y="190" width="20" height="10" fill="#1e7e34" rx="5"/>
+    
+    <!-- Valve indicators -->
+    <rect x="115" y="85" width="10" height="8" fill="#000" rx="2"/>
+    <rect x="195" y="85" width="10" height="8" fill="#000" rx="2"/>
+    <rect x="275" y="85" width="10" height="8" fill="#000" rx="2"/>
+    
+    <!-- Product label overlay -->
+    <rect x="70" y="220" width="100" height="25" fill="#28a745" stroke="#1e7e34" stroke-width="1"/>
+    <text x="120" y="237" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">HUAYUE PPR</text>
+    
+    <!-- Technical specs -->
+    <text x="180" y="230" font-family="Arial, sans-serif" font-size="10" fill="#000">PN16-PN20</text>
+    <text x="180" y="242" font-family="Arial, sans-serif" font-size="10" fill="#000">20-50mm</text>
+    
+    <!-- Quality badge -->
+    <circle cx="350" cy="70" r="20" fill="#28a745" stroke="#fff" stroke-width="2"/>
+    <text x="350" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">ISO</text>
+    <text x="350" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">13874</text>
+    
+    <!-- Industrial grade indicator -->
+    <rect x="280" y="220" width="80" height="15" fill="#000" rx="3"/>
+    <text x="320" y="231" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">INDUSTRIAL</text>
+  </g>
+</svg>
