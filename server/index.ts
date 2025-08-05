@@ -6,7 +6,12 @@ async function startServer() {
       server: {
         host: '0.0.0.0',
         port: 5000,
-        allowedHosts: ['all'],
+        allowedHosts: [
+          'localhost',
+          '0.0.0.0',
+          '.replit.dev',
+          'dce6c4be-50f2-4599-9d8a-f2047860e79a-00-1g1ojlsnbsq95.spock.replit.dev'
+        ],
       }
     });
     
