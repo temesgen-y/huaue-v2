@@ -7,6 +7,7 @@ import TrustedClients from "@/components/sections/TrustedClients";
 import ClientTestimonials from "@/components/sections/ClientTestimonials";
 import ProductPortfolio from "@/components/sections/ProductPortfolio";
 import CompanyOverview from "@/components/sections/CompanyOverview";
+import PartnershipCTA from "@/components/sections/PartnershipCTA";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <ClientTestimonials />
       <ProductPortfolio />
       <CompanyOverview />
+      <PartnershipCTA />
     </div>
   );
 }
