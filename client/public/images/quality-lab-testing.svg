@@ -1,0 +1,98 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Quality Laboratory Scene -->
+  <g>
+    <!-- Laboratory table/workbench -->
+    <rect x="50" y="180" width="300" height="100" fill="#e9ecef" stroke="#666" stroke-width="2"/>
+    <rect x="60" y="170" width="280" height="15" fill="#ddd" stroke="#999" stroke-width="1"/>
+    
+    <!-- Testing equipment -->
+    <!-- Microscope -->
+    <rect x="80" y="140" width="30" height="40" fill="#333" stroke="#000" stroke-width="1"/>
+    <circle cx="95" cy="130" r="8" fill="#000"/>
+    <rect x="92" y="120" width="6" height="15" fill="#666"/>
+    <circle cx="95" cy="115" r="4" fill="#28a745"/>
+    
+    <!-- Computer/Digital display -->
+    <rect x="150" y="140" width="50" height="35" fill="#000" stroke="#333" stroke-width="1"/>
+    <rect x="155" y="145" width="40" height="25" fill="#28a745"/>
+    <text x="175" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">TEST</text>
+    <text x="175" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="white">PASS</text>
+    
+    <!-- Measuring instruments -->
+    <circle cx="250" cy="150" r="20" fill="#fff" stroke="#000" stroke-width="2"/>
+    <circle cx="250" cy="150" r="15" fill="none" stroke="#28a745" stroke-width="1"/>
+    <line x1="245" y1="150" x2="255" y2="140" stroke="#28a745" stroke-width="2"/>
+    <text x="250" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#000">Pressure</text>
+    <text x="250" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#000">Gauge</text>
+    
+    <!-- Test samples -->
+    <rect x="290" y="150" width="15" height="25" fill="#28a745" rx="2"/>
+    <rect x="310" y="155" width="12" height="20" fill="#28a745" rx="2"/>
+    <rect x="325" y="160" width="10" height="15" fill="#28a745" rx="2"/>
+    
+    <!-- Testing results charts -->
+    <rect x="80" y="200" width="80" height="60" fill="#fff" stroke="#28a745" stroke-width="1"/>
+    <text x="120" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#000">Test Results</text>
+    
+    <!-- Chart bars -->
+    <rect x="90" y="235" width="8" height="20" fill="#28a745"/>
+    <rect x="105" y="230" width="8" height="25" fill="#28a745"/>
+    <rect x="120" y="225" width="8" height="30" fill="#28a745"/>
+    <rect x="135" y="240" width="8" height="15" fill="#28a745"/>
+    
+    <!-- Quality metrics -->
+    <rect x="180" y="200" width="80" height="60" fill="#fff" stroke="#28a745" stroke-width="1"/>
+    <text x="220" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#000">Quality Metrics</text>
+    <text x="220" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#28a745">99.8%</text>
+    <text x="220" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#666">Pass Rate</text>
+    <text x="220" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#666">This Month</text>
+    
+    <!-- Certification documents -->
+    <rect x="280" y="200" width="60" height="60" fill="#fff" stroke="#28a745" stroke-width="1"/>
+    <text x="310" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#000">ISO 13874</text>
+    
+    <!-- Certificate icon -->
+    <circle cx="310" cy="235" r="12" fill="#28a745"/>
+    <text x="310" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">✓</text>
+    <text x="310" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#666">Certified</text>
+    
+    <!-- Laboratory personnel silhouette -->
+    <circle cx="120" cy="100" r="15" fill="#666"/>
+    <rect x="110" y="115" width="20" height="30" fill="#28a745"/>
+    <rect x="115" y="125" width="10" height="20" fill="#fff"/>
+    
+    <!-- Lab coat and safety equipment -->
+    <rect x="105" y="118" width="30" height="25" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <circle cx="110" cy="105" r="3" fill="#28a745"/> <!-- Safety goggles -->
+    <circle cx="130" cy="105" r="3" fill="#28a745"/>
+    
+    <!-- Quality control steps indicators -->
+    <circle cx="60" cy="60" r="12" fill="#28a745"/>
+    <text x="60" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">1</text>
+    <text x="60" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#000">Inspect</text>
+    
+    <circle cx="140" cy="60" r="12" fill="#28a745"/>
+    <text x="140" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">2</text>
+    <text x="140" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#000">Test</text>
+    
+    <circle cx="220" cy="60" r="12" fill="#28a745"/>
+    <text x="220" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">3</text>
+    <text x="220" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#000">Verify</text>
+    
+    <circle cx="300" cy="60" r="12" fill="#28a745"/>
+    <text x="300" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">4</text>
+    <text x="300" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#000">Document</text>
+    
+    <!-- Connecting arrows -->
+    <polygon points="80,60 110,60 105,55 115,60 105,65" fill="#666"/>
+    <polygon points="160,60 190,60 185,55 195,60 185,65" fill="#666"/>
+    <polygon points="240,60 270,60 265,55 275,60 265,65" fill="#666"/>
+    
+    <!-- Title -->
+    <text x="200" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000">Quality Control Laboratory</text>
+    <text x="200" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Advanced Testing • Precision Measurement • Quality Assurance</text>
+  </g>
+</svg>

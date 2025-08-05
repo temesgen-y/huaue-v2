@@ -41,6 +41,15 @@ export default function QualityAssurance() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Side - Process Steps */}
           <div className="space-y-6">
+            {/* Quality Lab Image */}
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
+              <img 
+                src="/images/quality-lab-testing.svg" 
+                alt="Quality Control Laboratory" 
+                className="w-full h-64 object-cover"
+                data-testid="img-quality-lab"
+              />
+            </div>
             {qualitySteps.map((step, index) => (
               <div 
                 key={index}
