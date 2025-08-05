@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#f8f9fa"/>
+  
+  <text x="300" y="30" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#000">Quality Assurance Manufacturing Process</text>
+  
+  <rect x="80" y="80" width="80" height="50" fill="#28a745" stroke="#000" stroke-width="1" rx="5"/>
+  <text x="120" y="100" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Raw Material</text>
+  <text x="120" y="115" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Inspection</text>
+  
+  <polygon points="170,105 200,105 195,100 205,105 195,110" fill="#28a745"/>
+  
+  <rect x="220" y="80" width="80" height="50" fill="#28a745" stroke="#000" stroke-width="1" rx="5"/>
+  <text x="260" y="100" text-anchor="middle" font-family="Arial" font-size="9" fill="white">In-Process</text>
+  <text x="260" y="115" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Quality Control</text>
+  
+  <polygon points="310,105 340,105 335,100 345,105 335,110" fill="#28a745"/>
+  
+  <rect x="360" y="80" width="80" height="50" fill="#28a745" stroke="#000" stroke-width="1" rx="5"/>
+  <text x="400" y="100" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Final Product</text>
+  <text x="400" y="115" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Testing</text>
+  
+  <polygon points="400,140 400,170 395,165 405,165" fill="#28a745"/>
+  
+  <rect x="360" y="180" width="80" height="50" fill="#28a745" stroke="#000" stroke-width="1" rx="5"/>
+  <text x="400" y="200" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Documentation</text>
+  <text x="400" y="215" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Traceability</text>
+  
+  <rect x="80" y="280" width="120" height="60" fill="#ffffff" stroke="#28a745" stroke-width="2" rx="5"/>
+  <text x="140" y="300" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#000">Quality Metrics</text>
+  <text x="90" y="315" font-family="Arial" font-size="8" fill="#000">Pass Rate: 99.8%</text>
+  <text x="90" y="330" font-family="Arial" font-size="8" fill="#000">Monitoring: 24/7</text>
+  
+  <circle cx="350" cy="310" r="25" fill="#28a745" stroke="#fff" stroke-width="2"/>
+  <text x="350" y="305" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">ISO</text>
+  <text x="350" y="318" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">13874</text>
+  
+  <circle cx="120" cy="150" r="5" fill="#1e7e34"/>
+  <circle cx="260" cy="150" r="5" fill="#1e7e34"/>
+  <circle cx="400" cy="150" r="5" fill="#1e7e34"/>
+</svg>

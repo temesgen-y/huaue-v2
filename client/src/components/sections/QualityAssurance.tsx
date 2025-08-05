@@ -98,20 +98,30 @@ export default function QualityAssurance() {
 
           {/* Right Side - Manufacturing Process Image */}
           <div className="relative">
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-              <img 
-                src="/images/manufacturing-process-flow.svg" 
-                alt="Quality Assurance Manufacturing Process" 
-                className="w-full h-96 object-contain"
-                data-testid="img-quality-process"
-              />
-              <div className="absolute bottom-4 right-4 bg-brand-accent text-white px-3 py-2 rounded shadow-lg">
+            <div className="bg-white rounded-xl shadow-lg p-6">
+              <div className="w-full h-80 flex items-center justify-center bg-gray-50 rounded-lg mb-4">
+                <img 
+                  src="/images/quality-flow.svg" 
+                  alt="Quality Assurance Manufacturing Process" 
+                  className="max-w-full max-h-full"
+                  data-testid="img-quality-process"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                    const parent = target.parentElement;
+                    if (parent) {
+                      parent.innerHTML = '<div class="text-center p-8"><div class="text-lg font-bold text-gray-800 mb-2">Quality Assurance Process</div><div class="grid grid-cols-2 gap-4 text-sm"><div class="bg-green-500 text-white p-3 rounded">1. Raw Material Inspection</div><div class="bg-green-500 text-white p-3 rounded">2. In-Process Quality Control</div><div class="bg-green-500 text-white p-3 rounded">3. Final Product Testing</div><div class="bg-green-500 text-white p-3 rounded">4. Documentation & Traceability</div></div></div>';
+                    }
+                  }}
+                />
+              </div>
+              <div className="flex justify-center">
                 <Button 
                   size="sm"
-                  className="bg-transparent hover:bg-white hover:text-brand-accent text-white border border-white text-xs"
+                  className="bg-brand-accent hover:bg-brand-accent-dark text-white px-4 py-2 text-xs"
                   data-testid="button-iso-certified"
                 >
-                  ISO Certified
+                  ISO 13874 Certified
                 </Button>
               </div>
             </div>
