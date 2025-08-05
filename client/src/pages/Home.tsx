@@ -1,6 +1,7 @@
 import HeroSlider from "@/components/HeroSlider";
 import HuayueOverview from "@/components/sections/HuayueOverview";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
+import OurProductLines from "@/components/sections/OurProductLines";
 import CompanyOverview from "@/components/sections/CompanyOverview";
 import ProductsSection from "@/components/sections/ProductsSection";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSlider />
       <HuayueOverview />
       <WhyChooseUs />
+      <OurProductLines />
       <CompanyOverview />
       <ProductsSection />
     </div>
