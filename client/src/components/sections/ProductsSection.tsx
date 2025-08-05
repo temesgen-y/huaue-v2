@@ -8,8 +8,8 @@ const products = [
     description: "Premium quality plastic components for industrial applications, including injection molded parts, custom solutions, and specialized materials.",
     image: "/images/huayue-industrial.svg",
     tags: ["Industrial Grade", "Custom Solutions", "High Durability"],
-    buttonColor: "bg-corporate-blue hover:bg-blue-700",
-    tagColor: "bg-blue-100 text-blue-800",
+    buttonColor: "bg-brand-accent hover:bg-brand-accent-dark",
+    tagColor: "bg-gray-100 text-black",
     link: "/products/huayue",
   },
   {
@@ -17,8 +17,8 @@ const products = [
     description: "Consumer-focused plastic products including packaging solutions, household items, and innovative designs for everyday use.",
     image: "/images/edier-consumer.svg",
     tags: ["Consumer Grade", "Eco-Friendly", "Innovative Design"],
-    buttonColor: "bg-success-green hover:bg-green-700",
-    tagColor: "bg-green-100 text-green-800",
+    buttonColor: "bg-brand-accent hover:bg-brand-accent-dark",
+    tagColor: "bg-gray-100 text-black",
     link: "/products/edier",
   },
 ];
@@ -28,10 +28,10 @@ export default function ProductsSection() {
     <section className="py-16 lg:py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl lg:text-4xl font-bold text-black mb-4">
             Our Product Lines
           </h2>
-          <p className="text-xl corporate-gray max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Discover our comprehensive range of high-quality plastic products designed to meet diverse industry needs.
           </p>
         </div>
@@ -45,10 +45,10 @@ export default function ProductsSection() {
                 className="w-full h-64 object-cover"
               />
               <div className="p-8">
-                <h3 className="text-2xl font-bold mb-4 corporate-blue">
+                <h3 className="text-2xl font-bold mb-4 text-black">
                   {product.title}
                 </h3>
-                <p className="corporate-gray mb-6">
+                <p className="text-gray-600 mb-6">
                   {product.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6">

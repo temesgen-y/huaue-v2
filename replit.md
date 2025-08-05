@@ -6,7 +6,9 @@ This is a modern corporate website for Huayue Plastics Industry, a plastics manu
 
 ## User Preferences
 
-Preferred communication style: Simple, everyday language.
+- Preferred communication style: Simple, everyday language
+- Brand color scheme: White (#ffffff), Green (#28a745), Black (#000000)
+- Consistent color theme across all components, fonts, buttons, headers, links, and hover states
 
 ## System Architecture
 
@@ -56,6 +58,7 @@ Preferred communication style: Simple, everyday language.
 ### UI and Styling
 - **Component Library**: shadcn/ui with Radix UI primitives
 - **Styling**: Tailwind CSS with PostCSS and Autoprefixer
+- **Brand Colors**: White (#ffffff), Green (#28a745), Black (#000000) with CSS custom properties
 - **Icons**: Lucide React for consistent iconography
 - **Animations**: CSS-based animations and transitions
 
@@ -75,3 +78,13 @@ Preferred communication style: Simple, everyday language.
 - **Error Handling**: Centralized error handling with proper HTTP status codes
 - **Security**: CORS configuration and input validation
 - **Performance**: Optimized builds with code splitting and lazy loading
+
+## Recent Changes
+
+### Brand Color Implementation (August 2025)
+- Updated Tailwind configuration with brand color utilities
+- Implemented CSS custom properties for consistent color scheme
+- Updated all components to use white, green (#28a745), and black color palette
+- Applied brand colors to header navigation, hero slider, buttons, and sections
+- Created utility classes for brand colors (bg-brand-accent, text-brand-accent, etc.)
+- Established consistent hover states and focus rings using green accent color

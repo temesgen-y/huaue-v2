@@ -252,7 +252,7 @@ export default function HeroSlider({
                   <Button
                     asChild
                     size="lg"
-                    className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200"
+                    className="bg-brand-accent hover:bg-brand-accent-dark text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200"
                     data-testid="hero-cta-button"
                   >
                     <a href={currentSlideData.ctaLink}>

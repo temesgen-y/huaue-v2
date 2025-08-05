@@ -11,6 +11,26 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       colors: {
+        // Brand colors - White, Green, Black theme
+        brand: {
+          primary: "#ffffff",
+          accent: "#28a745",
+          text: "#000000",
+          "accent-dark": "#1e7e34",
+          "accent-light": "#34ce57",
+          gray: {
+            50: "#f8f9fa",
+            100: "#e9ecef",
+            200: "#dee2e6",
+            300: "#ced4da",
+            400: "#adb5bd",
+            500: "#6c757d",
+            600: "#495057",
+            700: "#343a40",
+            800: "#212529",
+            900: "#000000"
+          }
+        },
         background: "var(--background)",
         foreground: "var(--foreground)",
         card: {

@@ -25,15 +25,15 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-white shadow-lg sticky top-0 z-50">
+    <header className="bg-white shadow-lg sticky top-0 z-50 border-b border-gray-200">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3" data-testid="link-home-logo">
-            <div className="w-10 h-10 bg-corporate-blue rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-brand-accent rounded-lg flex items-center justify-center">
               <Building2 className="text-white" size={20} />
             </div>
-            <span className="text-xl font-bold corporate-blue">Huayue Plastics</span>
+            <span className="text-xl font-bold text-black">Huayue Plastics</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -43,8 +43,8 @@ export default function Header() {
               href="/"
               className={`font-medium transition-colors duration-200 ${
                 isActiveLink("/")
-                  ? "corporate-blue"
-                  : "corporate-gray hover:text-blue-600"
+                  ? "text-brand-accent font-semibold"
+                  : "text-black hover:text-brand-accent"
               }`}
               data-testid="link-nav-home"
             >
@@ -56,8 +56,8 @@ export default function Header() {
               <DropdownMenuTrigger 
                 className={`font-medium transition-colors duration-200 flex items-center ${
                   location.startsWith("/products")
-                    ? "corporate-blue"
-                    : "corporate-gray hover:text-blue-600"
+                    ? "text-brand-accent font-semibold"
+                    : "text-black hover:text-brand-accent"
                 }`}
                 data-testid="button-products-dropdown"
               >
@@ -84,8 +84,8 @@ export default function Header() {
                 href={item.path}
                 className={`font-medium transition-colors duration-200 ${
                   isActiveLink(item.path)
-                    ? "corporate-blue"
-                    : "corporate-gray hover:text-blue-600"
+                    ? "text-brand-accent font-semibold"
+                    : "text-black hover:text-brand-accent"
                 }`}
                 data-testid={`link-nav-${item.label.toLowerCase().replace(/\s+/g, '-')}`}
               >
@@ -109,8 +109,8 @@ export default function Header() {
                   onClick={() => setMobileMenuOpen(false)}
                   className={`block px-3 py-2 text-lg ${
                     isActiveLink("/")
-                      ? "corporate-blue font-semibold"
-                      : "corporate-gray"
+                      ? "text-brand-accent font-semibold"
+                      : "text-black"
                   }`}
                   data-testid="link-mobile-home"
                 >
@@ -119,15 +119,15 @@ export default function Header() {
                 
                 {/* Products Section */}
                 <div className="px-3 py-2">
-                  <span className="text-lg font-semibold corporate-gray">Products</span>
+                  <span className="text-lg font-semibold text-black">Products</span>
                   <div className="ml-4 mt-2 space-y-2">
                     <Link
                       href="/products/huayue"
                       onClick={() => setMobileMenuOpen(false)}
                       className={`block px-3 py-2 text-base ${
                         isActiveLink("/products/huayue")
-                          ? "corporate-blue font-semibold"
-                          : "corporate-gray"
+                          ? "text-brand-accent font-semibold"
+                          : "text-black"
                       }`}
                       data-testid="link-mobile-huayue-products"
                     >
@@ -138,8 +138,8 @@ export default function Header() {
                       onClick={() => setMobileMenuOpen(false)}
                       className={`block px-3 py-2 text-base ${
                         isActiveLink("/products/edier")
-                          ? "corporate-blue font-semibold"
-                          : "corporate-gray"
+                          ? "text-brand-accent font-semibold"
+                          : "text-black"
                       }`}
                       data-testid="link-mobile-edier-products"
                     >
@@ -156,8 +156,8 @@ export default function Header() {
                     onClick={() => setMobileMenuOpen(false)}
                     className={`block px-3 py-2 text-lg ${
                       isActiveLink(item.path)
-                        ? "corporate-blue font-semibold"
-                        : "corporate-gray"
+                        ? "text-brand-accent font-semibold"
+                        : "text-black"
                     }`}
                     data-testid={`link-mobile-${item.label.toLowerCase().replace(/\s+/g, '-')}`}
                   >

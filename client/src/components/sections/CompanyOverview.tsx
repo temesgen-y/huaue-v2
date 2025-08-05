@@ -12,19 +12,19 @@ const features = [
     icon: Settings,
     title: "Advanced Manufacturing",
     description: "State-of-the-art equipment and processes ensure consistent quality and precision in every product we manufacture.",
-    bgColor: "bg-corporate-blue",
+    bgColor: "bg-brand-accent",
   },
   {
     icon: Leaf,
     title: "Sustainable Practices",
     description: "Committed to environmental responsibility through eco-friendly materials and sustainable manufacturing processes.",
-    bgColor: "bg-success-green",
+    bgColor: "bg-brand-accent",
   },
   {
     icon: Award,
     title: "Quality Assurance",
     description: "Rigorous quality control standards and ISO certifications guarantee the highest quality in all our products.",
-    bgColor: "bg-warning-orange",
+    bgColor: "bg-brand-accent",
   },
 ];
 
@@ -36,10 +36,10 @@ export default function CompanyOverview() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-4xl font-bold corporate-blue mb-2" data-testid={`stat-${stat.label.toLowerCase().replace(/\s+/g, '-')}`}>
+              <div className="text-4xl font-bold text-brand-accent mb-2" data-testid={`stat-${stat.label.toLowerCase().replace(/\s+/g, '-')}`}>
                 {stat.value}
               </div>
-              <div className="corporate-gray">{stat.label}</div>
+              <div className="text-black">{stat.label}</div>
             </div>
           ))}
         </div>
@@ -51,8 +51,8 @@ export default function CompanyOverview() {
               <div className={`w-12 h-12 ${feature.bgColor} rounded-lg flex items-center justify-center mb-4`}>
                 <feature.icon className="text-white" size={24} />
               </div>
-              <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
-              <p className="corporate-gray">{feature.description}</p>
+              <h3 className="text-xl font-semibold mb-3 text-black">{feature.title}</h3>
+              <p className="text-gray-600">{feature.description}</p>
             </div>
           ))}
         </div>
