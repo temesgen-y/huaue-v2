@@ -100,7 +100,7 @@ export default function QualityAssurance() {
           <div className="relative">
             <div className="bg-white rounded-xl shadow-lg overflow-hidden">
               <img 
-                src="/images/quality-assurance-process.svg" 
+                src="/images/quality-process-simple.svg" 
                 alt="Quality Assurance Manufacturing Process" 
                 className="w-full h-96 object-cover"
                 data-testid="img-quality-process"
