@@ -4,18 +4,18 @@ import { CheckCircle, Users, Target, Award, X } from "lucide-react";
 import { useState } from "react";
 // Certificate images
 const certImages = {
-  cert1: "/attached_assets/CERTIFICATE-For shop_1754664220967.jpg",
-  cert2: "/attached_assets/certficate4_1754664161945.PNG", 
-  cert3: "/attached_assets/certificate5_1754664207088.PNG",
-  cert4: "/attached_assets/ECAE_1754664242692.jpg",
-  cert5: "/attached_assets/ECAE2_1754664255315.jpg",
-  cert6: "/attached_assets/certifacte3_1754664176661.PNG",
-  cert7: "/attached_assets/certificate2_1754664187539.PNG",
-  cert8: "/attached_assets/Standard_1754664332477.jpg",
-  cert9: "/attached_assets/Mizena_1754664268983.jpg",
-  cert10: "/attached_assets/Product certificate1_1754664283183.PNG",
-  cert11: "/attached_assets/Test Report 2_1754664341807.jpg",
-  cert12: "/attached_assets/Test Report 3_1754664352465.jpg"
+  cert1: "/certificates/cert1.jpg",
+  cert2: "/certificates/cert2.png", 
+  cert3: "/certificates/cert3.png",
+  cert4: "/certificates/cert4.jpg",
+  cert5: "/certificates/cert5.jpg",
+  cert6: "/certificates/cert6.png",
+  cert7: "/certificates/cert7.png",
+  cert8: "/certificates/cert8.jpg",
+  cert9: "/certificates/cert9.jpg",
+  cert10: "/certificates/cert10.png",
+  cert11: "/certificates/cert11.jpg",
+  cert12: "/certificates/cert12.jpg"
 };
 
 const achievements = [
