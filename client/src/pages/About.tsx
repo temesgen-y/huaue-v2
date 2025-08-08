@@ -74,6 +74,44 @@ export default function About() {
           </div>
         </div>
 
+        {/* Mission, Vision & Values */}
+        <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Mission */}
+            <div className="text-center">
+              <div className="w-16 h-16 bg-brand-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                <Target className="text-white" size={24} />
+              </div>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">Mission</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                To deliver innovative, high-quality industrial pipe solutions that enable our customers to build safe, efficient, and sustainable infrastructure for global markets.
+              </p>
+            </div>
+
+            {/* Vision */}
+            <div className="text-center">
+              <div className="w-16 h-16 bg-brand-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="text-white" size={24} />
+              </div>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">Vision</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                To be the leading industrial pipe manufacturer globally, recognized for innovation, sustainability, and unwavering commitment to customer success. Look forward to the future.
+              </p>
+            </div>
+
+            {/* Values */}
+            <div className="text-center">
+              <div className="w-16 h-16 bg-brand-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                <Award className="text-white" size={24} />
+              </div>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">Values</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Quality, integrity, innovation, and customer-centricity guide everything we do. We believe in building lasting partnerships.
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Company Values */}
         <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
           <h2 className="text-3xl font-bold text-center mb-12">Our Core Values</h2>
