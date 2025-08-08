@@ -1,11 +1,11 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { CheckCircle, Users, Target, Award, X } from "lucide-react";
+import { CheckCircle, Users, Target, Award, X, Shield } from "lucide-react";
 import { useState } from "react";
-// Certificate images
-const certImages = {
+// Certificate images from public directory
+const certificateImages = {
   cert1: "/certificates/cert1.jpg",
-  cert2: "/certificates/cert2.png", 
+  cert2: "/certificates/cert2.png",
   cert3: "/certificates/cert3.png",
   cert4: "/certificates/cert4.jpg",
   cert5: "/certificates/cert5.jpg",
@@ -50,73 +50,73 @@ const certifications = [
     id: 1,
     title: "Sole Authorized Distributor",
     subtitle: "WHEM Trading PLC Certificate",
-    image: certImages.cert1
+    image: certificateImages.cert1
   },
   {
     id: 2,
-    title: "Authorized Distributor",
+    title: "Authorized Distributor", 
     subtitle: "HUAYUE Certificate",
-    image: certImages.cert2
+    image: certificateImages.cert2
   },
   {
     id: 3,
     title: "50 Year Warranty",
     subtitle: "PP-R Built to Last, Guaranteed",
-    image: certImages.cert3
+    image: certificateImages.cert3
   },
   {
     id: 4,
     title: "ECAE Test Report - 63mm",
-    subtitle: "PPR Pipe Testing Results",
-    image: certImages.cert4
+    subtitle: "PPR Pipe Testing Results", 
+    image: certificateImages.cert4
   },
   {
     id: 5,
     title: "ECAE Test Report - 32mm",
     subtitle: "PPR Pipe Testing Results",
-    image: certImages.cert5
+    image: certificateImages.cert5
   },
   {
     id: 6,
     title: "Ethiopian Conformity Assessment",
     subtitle: "Enterprise Standards License",
-    image: certImages.cert6
+    image: certificateImages.cert6
   },
   {
     id: 7,
     title: "Ethiopian Conformity Assessment",
     subtitle: "Enterprise Certificate",
-    image: certImages.cert7
+    image: certificateImages.cert7
   },
   {
     id: 8,
     title: "Ethiopian Standard License",
-    subtitle: "PPR Pipe Standards Mark",
-    image: certImages.cert8
+    subtitle: "PPR Pipe Standards Mark", 
+    image: certificateImages.cert8
   },
   {
     id: 9,
     title: "ECAE Conformity License",
     subtitle: "PPR Pipe Manufacturing",
-    image: certImages.cert9
+    image: certificateImages.cert9
   },
   {
     id: 10,
     title: "Product Test Report",
     subtitle: "HUAYUE Plastic Pipe Fittings",
-    image: certImages.cert10
+    image: certificateImages.cert10
   },
   {
     id: 11,
     title: "ECAE Test Report - 25mm",
     subtitle: "PPR Pipe Testing Results",
-    image: certImages.cert11
+    image: certificateImages.cert11
   },
   {
     id: 12,
     title: "ECAE Test Report - 50mm",
     subtitle: "PPR Pipe Testing Results",
-    image: certImages.cert12
+    image: certificateImages.cert12
   }
 ];
 
