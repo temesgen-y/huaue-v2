@@ -2,6 +2,21 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { CheckCircle, Users, Target, Award, X } from "lucide-react";
 import { useState } from "react";
+// Certificate images
+const certImages = {
+  cert1: "/attached_assets/CERTIFICATE-For shop_1754664220967.jpg",
+  cert2: "/attached_assets/certficate4_1754664161945.PNG", 
+  cert3: "/attached_assets/certificate5_1754664207088.PNG",
+  cert4: "/attached_assets/ECAE_1754664242692.jpg",
+  cert5: "/attached_assets/ECAE2_1754664255315.jpg",
+  cert6: "/attached_assets/certifacte3_1754664176661.PNG",
+  cert7: "/attached_assets/certificate2_1754664187539.PNG",
+  cert8: "/attached_assets/Standard_1754664332477.jpg",
+  cert9: "/attached_assets/Mizena_1754664268983.jpg",
+  cert10: "/attached_assets/Product certificate1_1754664283183.PNG",
+  cert11: "/attached_assets/Test Report 2_1754664341807.jpg",
+  cert12: "/attached_assets/Test Report 3_1754664352465.jpg"
+};
 
 const achievements = [
   "ISO 9001:2015 Quality Management Certified",
@@ -33,51 +48,75 @@ const values = [
 const certifications = [
   {
     id: 1,
-    title: "50 Year Warranty",
-    subtitle: "PP-R Built to Last, Guaranteed",
-    image: "/images/cert-50-year-warranty.svg"
+    title: "Sole Authorized Distributor",
+    subtitle: "WHEM Trading PLC Certificate",
+    image: certImages.cert1
   },
   {
     id: 2,
-    title: "Sole Authorized Distributor",
-    subtitle: "WHEM Trading PLC Certificate",
-    image: "/images/cert-authorized-distributor.svg"
+    title: "Authorized Distributor",
+    subtitle: "HUAYUE Certificate",
+    image: certImages.cert2
   },
   {
     id: 3,
-    title: "Alternative Distributor Certificate",
-    subtitle: "Huayue Plastics Industry Certificate",
-    image: "/images/cert-alternative-distributor.svg"
+    title: "50 Year Warranty",
+    subtitle: "PP-R Built to Last, Guaranteed",
+    image: certImages.cert3
   },
   {
     id: 4,
     title: "ECAE Test Report - 63mm",
     subtitle: "PPR Pipe Testing Results",
-    image: "/images/cert-ecae-test-63mm.svg"
+    image: certImages.cert4
   },
   {
     id: 5,
     title: "ECAE Test Report - 32mm",
     subtitle: "PPR Pipe Testing Results",
-    image: "/images/cert-ecae-test-32mm.svg"
+    image: certImages.cert5
   },
   {
     id: 6,
     title: "Ethiopian Conformity Assessment",
     subtitle: "Enterprise Standards License",
-    image: "/images/cert-ethiopian-conformity-1.svg"
+    image: certImages.cert6
   },
   {
     id: 7,
     title: "Ethiopian Conformity Assessment",
     subtitle: "Enterprise Certificate",
-    image: "/images/cert-ethiopian-conformity-2.svg"
+    image: certImages.cert7
   },
   {
     id: 8,
-    title: "Alternative Ethiopian Conformity",
-    subtitle: "Assessment Certificate",
-    image: "/images/cert-ethiopian-alt-conformity.svg"
+    title: "Ethiopian Standard License",
+    subtitle: "PPR Pipe Standards Mark",
+    image: certImages.cert8
+  },
+  {
+    id: 9,
+    title: "ECAE Conformity License",
+    subtitle: "PPR Pipe Manufacturing",
+    image: certImages.cert9
+  },
+  {
+    id: 10,
+    title: "Product Test Report",
+    subtitle: "HUAYUE Plastic Pipe Fittings",
+    image: certImages.cert10
+  },
+  {
+    id: 11,
+    title: "ECAE Test Report - 25mm",
+    subtitle: "PPR Pipe Testing Results",
+    image: certImages.cert11
+  },
+  {
+    id: 12,
+    title: "ECAE Test Report - 50mm",
+    subtitle: "PPR Pipe Testing Results",
+    image: certImages.cert12
   }
 ];
 
