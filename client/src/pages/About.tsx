@@ -1,206 +1,141 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { CheckCircle, Users, Target, Award, X, Shield } from "lucide-react";
+import { CheckCircle, Users, Target, Award, X } from "lucide-react";
 import { useState } from "react";
-// Certificate images from public directory
-const certificateImages = {
-  cert1: "/certificates/cert1.jpg",
-  cert2: "/certificates/cert2.png",
-  cert3: "/certificates/cert3.png",
-  cert4: "/certificates/cert4.jpg",
-  cert5: "/certificates/cert5.jpg",
-  cert6: "/certificates/cert6.png",
-  cert7: "/certificates/cert7.png",
-  cert8: "/certificates/cert8.jpg",
-  cert9: "/certificates/cert9.jpg",
-  cert10: "/certificates/cert10.png",
-  cert11: "/certificates/cert11.jpg",
-  cert12: "/certificates/cert12.jpg"
-};
-
-const achievements = [
-  "ISO 9001:2015 Quality Management Certified",
-  "Environmentally Responsible Manufacturing",
-  "24/7 Customer Support and Service",
-  "Global Supply Chain Network",
-  "R&D Investment of 15% Annual Revenue",
-  "Zero-Defect Quality Guarantee"
-];
-
-const values = [
-  {
-    icon: Target,
-    title: "Innovation",
-    description: "Continuously pushing the boundaries of plastic manufacturing technology and sustainable practices."
-  },
-  {
-    icon: Users,
-    title: "Customer Focus",
-    description: "Building long-term partnerships through exceptional service and tailored solutions."
-  },
-  {
-    icon: Award,
-    title: "Quality Excellence",
-    description: "Maintaining the highest standards in every aspect of our manufacturing and service delivery."
-  }
-];
 
 const certifications = [
   {
     id: 1,
     title: "Sole Authorized Distributor",
     subtitle: "WHEM Trading PLC Certificate",
-    image: certificateImages.cert1
+    image: "/certificates/cert1.jpg"
   },
   {
     id: 2,
-    title: "Authorized Distributor", 
+    title: "Authorized Distributor",
     subtitle: "HUAYUE Certificate",
-    image: certificateImages.cert2
+    image: "/certificates/cert2.png"
   },
   {
     id: 3,
     title: "50 Year Warranty",
     subtitle: "PP-R Built to Last, Guaranteed",
-    image: certificateImages.cert3
+    image: "/certificates/cert3.png"
   },
   {
     id: 4,
     title: "ECAE Test Report - 63mm",
-    subtitle: "PPR Pipe Testing Results", 
-    image: certificateImages.cert4
+    subtitle: "PPR Pipe Testing Results",
+    image: "/certificates/cert4.jpg"
   },
   {
     id: 5,
     title: "ECAE Test Report - 32mm",
     subtitle: "PPR Pipe Testing Results",
-    image: certificateImages.cert5
+    image: "/certificates/cert5.jpg"
   },
   {
     id: 6,
     title: "Ethiopian Conformity Assessment",
     subtitle: "Enterprise Standards License",
-    image: certificateImages.cert6
+    image: "/certificates/cert6.png"
   },
   {
     id: 7,
     title: "Ethiopian Conformity Assessment",
     subtitle: "Enterprise Certificate",
-    image: certificateImages.cert7
+    image: "/certificates/cert7.png"
   },
   {
     id: 8,
     title: "Ethiopian Standard License",
-    subtitle: "PPR Pipe Standards Mark", 
-    image: certificateImages.cert8
+    subtitle: "PPR Pipe Standards Mark",
+    image: "/certificates/cert8.jpg"
   },
   {
     id: 9,
     title: "ECAE Conformity License",
     subtitle: "PPR Pipe Manufacturing",
-    image: certificateImages.cert9
+    image: "/certificates/cert9.jpg"
   },
   {
     id: 10,
     title: "Product Test Report",
     subtitle: "HUAYUE Plastic Pipe Fittings",
-    image: certificateImages.cert10
+    image: "/certificates/cert10.png"
   },
   {
     id: 11,
     title: "ECAE Test Report - 25mm",
     subtitle: "PPR Pipe Testing Results",
-    image: certificateImages.cert11
+    image: "/certificates/cert11.jpg"
   },
   {
     id: 12,
     title: "ECAE Test Report - 50mm",
     subtitle: "PPR Pipe Testing Results",
-    image: certificateImages.cert12
+    image: "/certificates/cert12.jpg"
   }
 ];
 
 export default function About() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
   return (
     <div className="py-16 lg:py-24 bg-gray-50 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
+        
+        {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
             About Huayue Plastics Industry
           </h1>
-          <p className="text-xl corporate-gray max-w-3xl mx-auto">
-            Leading the plastics industry with innovation, quality, and sustainability for over two decades.
+          <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            Leading the industry in innovative plastic manufacturing solutions with over two decades of excellence, 
+            delivering quality products under our HUAYUE industrial and EDIER consumer brands.
           </p>
         </div>
 
-        {/* Main Content */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-          <div>
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-              Our Story & Mission
-            </h2>
-            <p className="text-lg corporate-gray mb-6">
-              Founded with a vision to revolutionize the plastics industry, Huayue Plastics Industry has been at the forefront of innovation for over two decades. We combine traditional craftsmanship with cutting-edge technology to deliver superior products that meet the evolving needs of our global customers.
-            </p>
-            <p className="text-lg corporate-gray mb-8">
-              Our commitment to quality, sustainability, and customer satisfaction has made us a trusted partner for businesses worldwide. We continuously invest in research and development to stay ahead of industry trends and deliver solutions that drive our customers' success.
-            </p>
-            
-            <div className="space-y-4">
-              {achievements.map((achievement, index) => (
-                <div key={index} className="flex items-center">
-                  <CheckCircle className="text-green-600 mr-3 flex-shrink-0" size={20} />
-                  <span className="text-gray-700">{achievement}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div>
-            <img 
-              src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-              alt="Huayue Plastics manufacturing facility" 
-              className="rounded-xl shadow-lg w-full h-auto"
-            />
-          </div>
-        </div>
-
         {/* Mission, Vision & Values */}
-        <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Mission */}
-            <div className="text-center">
-              <div className="w-16 h-16 bg-brand-accent rounded-full flex items-center justify-center mx-auto mb-4">
-                <Target className="text-white" size={24} />
-              </div>
-              <h3 className="text-xl font-semibold mb-4 text-gray-900">Mission</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                To deliver innovative, high-quality industrial pipe solutions that enable our customers to build safe, efficient, and sustainable infrastructure for global markets.
-              </p>
+        <div className="grid lg:grid-cols-3 gap-8 mb-16">
+          {/* Mission */}
+          <div className="bg-white rounded-xl shadow-lg p-8 text-center">
+            <div className="w-16 h-16 bg-brand-accent rounded-full flex items-center justify-center mx-auto mb-6">
+              <Target className="text-white" size={32} />
             </div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h2>
+            <p className="text-gray-600 leading-relaxed">
+              To revolutionize the plastics industry through innovative manufacturing processes, sustainable practices, 
+              and exceptional customer service that exceeds expectations.
+            </p>
+          </div>
 
-            {/* Vision */}
-            <div className="text-center">
-              <div className="w-16 h-16 bg-brand-accent rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="text-white" size={24} />
-              </div>
-              <h3 className="text-xl font-semibold mb-4 text-gray-900">Vision</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                To be the leading industrial pipe manufacturer globally, recognized for innovation, sustainability, and unwavering commitment to customer success. Look forward to the future.
-              </p>
+          {/* Vision */}
+          <div className="bg-white rounded-xl shadow-lg p-8 text-center">
+            <div className="w-16 h-16 bg-brand-accent rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg width="32" height="32" viewBox="0 0 24 24" className="text-white">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" fill="none" stroke="currentColor" strokeWidth="2"/>
+                <circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" strokeWidth="2"/>
+              </svg>
             </div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h2>
+            <p className="text-gray-600 leading-relaxed">
+              To become the global leader in sustainable plastic solutions, setting industry standards for quality, 
+              innovation, and environmental responsibility worldwide.
+            </p>
+          </div>
 
-            {/* Values */}
-            <div className="text-center">
-              <div className="w-16 h-16 bg-brand-accent rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="text-white" size={24} />
-              </div>
-              <h3 className="text-xl font-semibold mb-4 text-gray-900">Values</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Quality, integrity, innovation, and customer-centricity guide everything we do. We believe in building lasting partnerships.
-              </p>
+          {/* Values */}
+          <div className="bg-white rounded-xl shadow-lg p-8 text-center">
+            <div className="w-16 h-16 bg-brand-accent rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg width="32" height="32" viewBox="0 0 24 24" className="text-white">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" fill="currentColor"/>
+              </svg>
             </div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Values</h2>
+            <p className="text-gray-600 leading-relaxed">
+              Quality, integrity, innovation, and customer-centricity guide everything we do. We believe in building lasting partnerships.
+            </p>
           </div>
         </div>
 
@@ -373,23 +308,21 @@ export default function About() {
           </div>
         </div>
 
-
-
         {/* Leadership & Team */}
         <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
           <h2 className="text-3xl font-bold text-center mb-8">Leadership & Expertise</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4 corporate-blue">Executive Leadership</h3>
-              <p className="corporate-gray mb-4">
+              <h3 className="text-xl font-semibold mb-4 text-brand-accent">Executive Leadership</h3>
+              <p className="text-gray-600 mb-4">
                 Our leadership team brings decades of combined experience in plastics manufacturing, 
                 engineering, and business development. They guide our strategic vision and ensure 
                 operational excellence across all divisions.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-4 corporate-blue">Technical Expertise</h3>
-              <p className="corporate-gray mb-4">
+              <h3 className="text-xl font-semibold mb-4 text-brand-accent">Technical Expertise</h3>
+              <p className="text-gray-600 mb-4">
                 Our engineering and technical teams consist of industry experts with advanced degrees 
                 in materials science, chemical engineering, and manufacturing technology. This expertise 
                 drives innovation and quality in every product we create.
@@ -458,14 +391,14 @@ export default function About() {
         <div className="text-center">
           <div className="bg-gray-100 rounded-xl p-12">
             <h2 className="text-3xl font-bold mb-6">Ready to Partner With Us?</h2>
-            <p className="text-xl corporate-gray mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               Discover how Huayue Plastics Industry can help you achieve your manufacturing goals 
               with our innovative solutions and exceptional service.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 asChild
-                className="bg-corporate-blue hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200"
+                className="bg-brand-accent hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200"
                 data-testid="button-start-partnership"
               >
                 <Link href="/contact">Start a Partnership</Link>
