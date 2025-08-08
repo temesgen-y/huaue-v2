@@ -3,6 +3,15 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Leaf, Users, Lightbulb, Home } from "lucide-react";
+import packagingImg from "@assets/image_1754401332605.png";
+import householdImg from "@assets/image_1754403817255.png";
+import innovativeImg from "@assets/image_1754404815990.png";
+import foodStorageImg from "@assets/image_1754405877464.png";
+import outdoorImg from "@assets/image_1754405982047.png";
+import smartHomeImg from "@assets/image_1754406300299.png";
+import healthBeautyImg from "@assets/image_1754406571640.png";
+import childrenImg from "@assets/image_1754407047025.png";
+import automotiveImg from "@assets/image_1754407543384.png";
 
 const productCategories = [
   // First Row
@@ -10,57 +19,57 @@ const productCategories = [
     title: "Packaging Solutions",
     description: "Sustainable and innovative packaging materials for food, retail, and e-commerce applications.",
     features: ["Food Safe", "Biodegradable Options", "Tamper Evident", "Custom Printing"],
-    image: "/images/packaging-solutions.svg",
+    image: packagingImg,
   },
   {
     title: "Household Items",
     description: "Durable and stylish plastic products designed for everyday home use and organization.",
     features: ["BPA Free", "Dishwasher Safe", "Ergonomic Design", "Color Varieties"],
-    image: "/images/household-items.svg",
+    image: householdImg,
   },
   {
     title: "Innovative Designs",
     description: "Cutting-edge consumer products that combine functionality with aesthetic appeal.",
     features: ["Modern Design", "Multi-Functional", "Easy Maintenance", "Space Saving"],
-    image: "/images/innovative-designs.svg",
+    image: innovativeImg,
   },
   // Second Row
   {
     title: "Food Storage Solutions",
     description: "Premium food-grade containers and storage systems for commercial and domestic use.",
     features: ["Airtight Seal", "Microwave Safe", "Stackable Design", "Clear Visibility"],
-    image: "/images/food-storage.svg",
+    image: foodStorageImg,
   },
   {
     title: "Outdoor & Garden",
     description: "Weather-resistant plastic products designed for outdoor environments and gardening.",
     features: ["UV Resistant", "Weather Proof", "Durable Materials", "Easy Clean"],
-    image: "/images/outdoor-garden.svg",
+    image: outdoorImg,
   },
   {
     title: "Smart Home Integration",
     description: "Modern plastic components designed for smart home systems and IoT applications.",
     features: ["Tech Compatible", "Wireless Ready", "Sleek Design", "Easy Install"],
-    image: "/images/smart-home.svg",
+    image: smartHomeImg,
   },
   // Third Row
   {
     title: "Health & Beauty",
     description: "Safe and elegant plastic products for personal care and beauty applications.",
     features: ["Medical Grade", "Anti-Bacterial", "Ergonomic", "Premium Finish"],
-    image: "/images/health-beauty.svg",
+    image: healthBeautyImg,
   },
   {
     title: "Children's Products",
     description: "Safe, colorful, and educational plastic products designed specifically for children.",
     features: ["Child Safe", "Non-Toxic", "Bright Colors", "Educational"],
-    image: "/images/children-products.svg",
+    image: childrenImg,
   },
   {
     title: "Automotive Accessories",
     description: "Durable automotive plastic components and accessories for vehicle enhancement.",
     features: ["Heat Resistant", "Impact Proof", "Custom Fit", "Long Lasting"],
-    image: "/images/automotive-accessories.svg",
+    image: automotiveImg,
   },
 ];
 
@@ -123,11 +132,11 @@ export default function EdierProducts() {
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           {productCategories.map((category, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-200">
-              <div className="h-48 overflow-hidden bg-gray-50 flex items-center justify-center">
+              <div className="h-48 overflow-hidden">
                 <img 
                   src={category.image} 
                   alt={category.title}
-                  className="w-full h-full object-contain hover:scale-105 transition-transform duration-200"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-200"
                 />
               </div>
               <CardHeader>
