@@ -444,6 +444,163 @@ export default function AgencyPolicy() {
           </div>
         </div>
 
+        {/* Partnership Levels Section */}
+        <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Partnership Levels</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Choose the partnership level that best fits your business goals and market presence.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Regional Distributor */}
+            <div className="bg-gray-50 rounded-xl p-8 text-center relative">
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Regional Distributor</h3>
+              <div className="text-3xl font-bold text-gray-900 mb-2">$50K+</div>
+              <p className="text-gray-600 mb-6">Annual commitment</p>
+              
+              <div className="space-y-3 text-left">
+                <div className="flex items-center">
+                  <div className="w-4 h-4 bg-green-500 rounded-full flex items-center justify-center mr-3">
+                    <svg width="8" height="8" viewBox="0 0 8 8" className="text-white">
+                      <path d="M6.5 2L3 5.5 1.5 4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-sm">Exclusive regional territory</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 bg-green-500 rounded-full flex items-center justify-center mr-3">
+                    <svg width="8" height="8" viewBox="0 0 8 8" className="text-white">
+                      <path d="M6.5 2L3 5.5 1.5 4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-sm">10-15% volume discount</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 bg-green-500 rounded-full flex items-center justify-center mr-3">
+                    <svg width="8" height="8" viewBox="0 0 8 8" className="text-white">
+                      <path d="M6.5 2L3 5.5 1.5 4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-sm">Marketing support</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 bg-green-500 rounded-full flex items-center justify-center mr-3">
+                    <svg width="8" height="8" viewBox="0 0 8 8" className="text-white">
+                      <path d="M6.5 2L3 5.5 1.5 4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-sm">Technical training</span>
+                </div>
+              </div>
+            </div>
+
+            {/* National Partner - Popular */}
+            <div className="bg-brand-accent rounded-xl p-8 text-center relative">
+              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                <span className="bg-white text-brand-accent px-4 py-1 rounded-full text-sm font-semibold">POPULAR</span>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-2">National Partner</h3>
+              <div className="text-3xl font-bold text-white mb-2">$200K+</div>
+              <p className="text-green-100 mb-6">Annual commitment</p>
+              
+              <div className="space-y-3 text-left">
+                <div className="flex items-center">
+                  <div className="w-4 h-4 bg-white rounded-full flex items-center justify-center mr-3">
+                    <svg width="8" height="8" viewBox="0 0 8 8" className="text-brand-accent">
+                      <path d="M6.5 2L3 5.5 1.5 4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <span className="text-white text-sm">Exclusive country territory</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 bg-white rounded-full flex items-center justify-center mr-3">
+                    <svg width="8" height="8" viewBox="0 0 8 8" className="text-brand-accent">
+                      <path d="M6.5 2L3 5.5 1.5 4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <span className="text-white text-sm">15-25% volume discount</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 bg-white rounded-full flex items-center justify-center mr-3">
+                    <svg width="8" height="8" viewBox="0 0 8 8" className="text-brand-accent">
+                      <path d="M6.5 2L3 5.5 1.5 4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <span className="text-white text-sm">Co-marketing programs</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 bg-white rounded-full flex items-center justify-center mr-3">
+                    <svg width="8" height="8" viewBox="0 0 8 8" className="text-brand-accent">
+                      <path d="M6.5 2L3 5.5 1.5 4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <span className="text-white text-sm">Dedicated account manager</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 bg-white rounded-full flex items-center justify-center mr-3">
+                    <svg width="8" height="8" viewBox="0 0 8 8" className="text-brand-accent">
+                      <path d="M6.5 2L3 5.5 1.5 4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <span className="text-white text-sm">Custom product development</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Strategic Alliance */}
+            <div className="bg-gray-50 rounded-xl p-8 text-center relative">
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Strategic Alliance</h3>
+              <div className="text-3xl font-bold text-gray-900 mb-2">$500K+</div>
+              <p className="text-gray-600 mb-6">Annual commitment</p>
+              
+              <div className="space-y-3 text-left">
+                <div className="flex items-center">
+                  <div className="w-4 h-4 bg-green-500 rounded-full flex items-center justify-center mr-3">
+                    <svg width="8" height="8" viewBox="0 0 8 8" className="text-white">
+                      <path d="M6.5 2L3 5.5 1.5 4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-sm">Multi-country territories</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 bg-green-500 rounded-full flex items-center justify-center mr-3">
+                    <svg width="8" height="8" viewBox="0 0 8 8" className="text-white">
+                      <path d="M6.5 2L3 5.5 1.5 4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-sm">25%+ volume discount</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 bg-green-500 rounded-full flex items-center justify-center mr-3">
+                    <svg width="8" height="8" viewBox="0 0 8 8" className="text-white">
+                      <path d="M6.5 2L3 5.5 1.5 4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-sm">Joint venture opportunities</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 bg-green-500 rounded-full flex items-center justify-center mr-3">
+                    <svg width="8" height="8" viewBox="0 0 8 8" className="text-white">
+                      <path d="M6.5 2L3 5.5 1.5 4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-sm">Priority production scheduling</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 bg-green-500 rounded-full flex items-center justify-center mr-3">
+                    <svg width="8" height="8" viewBox="0 0 8 8" className="text-white">
+                      <path d="M6.5 2L3 5.5 1.5 4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-sm">Strategic planning support</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Contact for Policy Questions */}
         <div className="text-center">
           <div className="bg-white rounded-xl shadow-lg p-12">
