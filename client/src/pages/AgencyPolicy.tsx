@@ -281,6 +281,169 @@ export default function AgencyPolicy() {
           </div>
         </div>
 
+        {/* Partnership Requirements & Application Process Section */}
+        <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* Left Column - Partnership Requirements */}
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-8">Partnership Requirements</h2>
+              
+              <div className="space-y-6">
+                {/* Minimum Annual Purchase Commitment */}
+                <div className="flex items-start">
+                  <div className="w-6 h-6 bg-brand-accent rounded-full flex items-center justify-center mt-1 mr-4 flex-shrink-0">
+                    <svg width="12" height="12" viewBox="0 0 12 12" className="text-white">
+                      <path d="M10 3L4.5 8.5 2 6" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Minimum Annual Purchase Commitment</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">
+                      Established minimum order quantities to ensure mutual business growth and 
+                      market development.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Established Distribution Network */}
+                <div className="flex items-start">
+                  <div className="w-6 h-6 bg-brand-accent rounded-full flex items-center justify-center mt-1 mr-4 flex-shrink-0">
+                    <svg width="12" height="12" viewBox="0 0 12 12" className="text-white">
+                      <path d="M10 3L4.5 8.5 2 6" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Established Distribution Network</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">
+                      Proven distribution channels and customer base in the target market with 
+                      logistics capabilities.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Local Market Expertise */}
+                <div className="flex items-start">
+                  <div className="w-6 h-6 bg-brand-accent rounded-full flex items-center justify-center mt-1 mr-4 flex-shrink-0">
+                    <svg width="12" height="12" viewBox="0 0 12 12" className="text-white">
+                      <path d="M10 3L4.5 8.5 2 6" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Local Market Expertise</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">
+                      Deep understanding of local market conditions, regulations, and customer 
+                      preferences.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Financial Stability */}
+                <div className="flex items-start">
+                  <div className="w-6 h-6 bg-brand-accent rounded-full flex items-center justify-center mt-1 mr-4 flex-shrink-0">
+                    <svg width="12" height="12" viewBox="0 0 12 12" className="text-white">
+                      <path d="M10 3L4.5 8.5 2 6" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Financial Stability</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">
+                      Demonstrated financial stability and creditworthiness to support ongoing 
+                      business operations.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Brand Standards Commitment */}
+                <div className="flex items-start">
+                  <div className="w-6 h-6 bg-brand-accent rounded-full flex items-center justify-center mt-1 mr-4 flex-shrink-0">
+                    <svg width="12" height="12" viewBox="0 0 12 12" className="text-white">
+                      <path d="M10 3L4.5 8.5 2 6" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Brand Standards Commitment</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">
+                      Commitment to maintaining Huayue brand standards and quality reputation 
+                      in the market.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Column - Application Process */}
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-8">Application Process</h2>
+              
+              <div className="space-y-6">
+                {/* Step 1 - Initial Application */}
+                <div className="flex items-start">
+                  <div className="w-8 h-8 bg-gray-900 text-white rounded-full flex items-center justify-center mr-4 flex-shrink-0 font-semibold text-sm">
+                    1
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Initial Application</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">
+                      Submit partnership application with company information and market 
+                      analysis.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Step 2 - Qualification Review */}
+                <div className="flex items-start">
+                  <div className="w-8 h-8 bg-gray-900 text-white rounded-full flex items-center justify-center mr-4 flex-shrink-0 font-semibold text-sm">
+                    2
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Qualification Review</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">
+                      Our team reviews your application and conducts financial and market 
+                      assessment.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Step 3 - Partnership Meeting */}
+                <div className="flex items-start">
+                  <div className="w-8 h-8 bg-brand-accent text-white rounded-full flex items-center justify-center mr-4 flex-shrink-0 font-semibold text-sm">
+                    3
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Partnership Meeting</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">
+                      Face-to-face or virtual meeting to discuss terms, territory, and expectations.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Step 4 - Agreement Signing */}
+                <div className="flex items-start">
+                  <div className="w-8 h-8 bg-gray-900 text-white rounded-full flex items-center justify-center mr-4 flex-shrink-0 font-semibold text-sm">
+                    4
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Agreement Signing</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">
+                      Finalize partnership agreement and begin onboarding process.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Apply for Partnership Button */}
+              <div className="mt-8">
+                <button 
+                  className="w-full bg-gray-900 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors"
+                  data-testid="apply-partnership-button"
+                >
+                  Apply for Partnership
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Contact for Policy Questions */}
         <div className="text-center">
           <div className="bg-white rounded-xl shadow-lg p-12">
