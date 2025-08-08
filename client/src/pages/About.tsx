@@ -218,17 +218,66 @@ export default function About() {
 
         {/* Company Values */}
         <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Core Values</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {values.map((value, index) => (
-              <div key={index} className="text-center">
-                <div className="w-16 h-16 bg-corporate-blue rounded-full flex items-center justify-center mx-auto mb-4">
-                  <value.icon className="text-white" size={24} />
-                </div>
-                <h3 className="text-xl font-semibold mb-3">{value.title}</h3>
-                <p className="corporate-gray">{value.description}</p>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Core Values</h2>
+            <p className="text-lg text-gray-600">
+              The principles that guide our operations and decisions
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-4 gap-8">
+            {/* Excellence */}
+            <div className="text-center">
+              <div className="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <svg width="24" height="24" viewBox="0 0 24 24" className="text-brand-accent">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/>
+                </svg>
               </div>
-            ))}
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Excellence</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                We strive for excellence in everything we do, from product quality to customer service.
+              </p>
+            </div>
+
+            {/* Innovation */}
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <svg width="24" height="24" viewBox="0 0 24 24" className="text-blue-600">
+                  <path d="M9 21c0 .5.4 1 1 1h4c.6 0 1-.5 1-1v-1H9v1zm3-19C8.1 2 5 5.1 5 9c0 2.4 1.2 4.5 3 5.7V17c0 .5.4 1 1 1h6c.6 0 1-.5 1-1v-2.3c1.8-1.3 3-3.4 3-5.7 0-3.9-3.1-7-7-7z" fill="currentColor"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Innovation</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                We continuously seek new ways to improve our products and processes.
+              </p>
+            </div>
+
+            {/* Integrity */}
+            <div className="text-center">
+              <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <svg width="24" height="24" viewBox="0 0 24 24" className="text-purple-600">
+                  <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" fill="currentColor"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Integrity</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                We conduct business ethically and transparently, building trust with all stakeholders.
+              </p>
+            </div>
+
+            {/* Sustainability */}
+            <div className="text-center">
+              <div className="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <svg width="24" height="24" viewBox="0 0 24 24" className="text-green-600">
+                  <path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.99.66C7.92 16.88 9.4 12.87 15 11.22c5.6-1.65 7.08-5.66 9.19-10.88l-1.99-.66C20.1 7.83 18 2 17 8z" fill="currentColor"/>
+                  <ellipse cx="4.5" cy="9.5" rx="2.5" ry="4.5"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Sustainability</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                We are committed to environmentally responsible manufacturing and operations.
+              </p>
+            </div>
           </div>
         </div>
 
