@@ -29,11 +29,12 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3" data-testid="link-home-logo">
-            <div className="w-10 h-10 bg-brand-accent rounded-lg flex items-center justify-center">
-              <Building2 className="text-white" size={20} />
-            </div>
-            <span className="text-xl font-bold text-black">Huayue Plastics</span>
+          <Link href="/" className="flex items-center" data-testid="link-home-logo">
+            <img 
+              src="/images/huayue-logo.png" 
+              alt="Huayue Plastics - Look forward to the future" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
