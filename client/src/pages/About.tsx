@@ -112,6 +112,110 @@ export default function About() {
           </div>
         </div>
 
+        {/* Our Product Lines */}
+        <div className="mb-16">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Our Product Lines</h2>
+            <p className="text-lg text-gray-600 max-w-4xl mx-auto">
+              Discover our comprehensive range of industrial piping solutions designed for various applications and industries.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-8">
+            {/* HUAYUE Product Line */}
+            <div className="bg-white rounded-xl shadow-lg p-8">
+              <div className="mb-6">
+                <img 
+                  src="/images/huayue-industrial.svg" 
+                  alt="HUAYUE Heavy-duty Steel Pipes" 
+                  className="w-full h-48 object-contain mb-6 bg-gray-50 rounded-lg"
+                />
+                <div className="flex items-center mb-4">
+                  <CheckCircle className="text-brand-accent mr-3" size={24} />
+                  <h3 className="text-2xl font-bold text-gray-900">HUAYUE</h3>
+                </div>
+                <p className="text-gray-600 mb-6">
+                  Heavy-duty steel pipes and fittings designed for extreme industrial conditions.
+                </p>
+              </div>
+
+              <div className="space-y-3 mb-6">
+                <div className="flex items-center">
+                  <span className="w-2 h-2 bg-brand-accent rounded-full mr-3"></span>
+                  <span className="text-gray-700">High-pressure applications</span>
+                </div>
+                <div className="flex items-center">
+                  <span className="w-2 h-2 bg-brand-accent rounded-full mr-3"></span>
+                  <span className="text-gray-700">Corrosion resistant coating</span>
+                </div>
+                <div className="flex items-center">
+                  <span className="w-2 h-2 bg-brand-accent rounded-full mr-3"></span>
+                  <span className="text-gray-700">20-300mm diameter range</span>
+                </div>
+                <div className="flex items-center">
+                  <span className="w-2 h-2 bg-brand-accent rounded-full mr-3"></span>
+                  <span className="text-gray-700">PN16 & PN20 pressure ratings</span>
+                </div>
+              </div>
+
+              <Button 
+                asChild
+                className="w-full bg-brand-accent hover:bg-green-700 text-white"
+                data-testid="button-view-huayue-products"
+              >
+                <Link href="/products/huayue">View HUAYUE Products →</Link>
+              </Button>
+            </div>
+
+            {/* EDIER Product Line */}
+            <div className="bg-white rounded-xl shadow-lg p-8">
+              <div className="mb-6">
+                <img 
+                  src="/images/edier-consumer.svg" 
+                  alt="EDIER Precision Piping Systems" 
+                  className="w-full h-48 object-contain mb-6 bg-gray-50 rounded-lg"
+                />
+                <div className="flex items-center mb-4">
+                  <svg width="24" height="24" viewBox="0 0 24 24" className="text-brand-accent mr-3">
+                    <path d="M8 5v14l11-7z" fill="currentColor"/>
+                  </svg>
+                  <h3 className="text-2xl font-bold text-gray-900">EDIER</h3>
+                </div>
+                <p className="text-gray-600 mb-6">
+                  Precision-engineered piping systems for pharmaceutical and clean energy industries.
+                </p>
+              </div>
+
+              <div className="space-y-3 mb-6">
+                <div className="flex items-center">
+                  <span className="w-2 h-2 bg-brand-accent rounded-full mr-3"></span>
+                  <span className="text-gray-700">Pharmaceutical-grade materials</span>
+                </div>
+                <div className="flex items-center">
+                  <span className="w-2 h-2 bg-brand-accent rounded-full mr-3"></span>
+                  <span className="text-gray-700">Food-safe coatings</span>
+                </div>
+                <div className="flex items-center">
+                  <span className="w-2 h-2 bg-brand-accent rounded-full mr-3"></span>
+                  <span className="text-gray-700">FDA approved components</span>
+                </div>
+                <div className="flex items-center">
+                  <span className="w-2 h-2 bg-brand-accent rounded-full mr-3"></span>
+                  <span className="text-gray-700">Clean room certified</span>
+                </div>
+              </div>
+
+              <Button 
+                asChild
+                className="w-full bg-brand-accent hover:bg-green-700 text-white"
+                data-testid="button-view-edier-products"
+              >
+                <Link href="/products/edier">View EDIER Products →</Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+
         {/* Company Values */}
         <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
           <h2 className="text-3xl font-bold text-center mb-12">Our Core Values</h2>
