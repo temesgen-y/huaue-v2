@@ -258,24 +258,7 @@ export default function HuayueProducts() {
           </div>
         </div>
 
-        {/* Applications */}
-        <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">Industrial Applications</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <h3 className="text-xl font-semibold mb-4 corporate-blue">Automotive Industry</h3>
-              <p className="corporate-gray">Interior components, under-hood parts, electrical housings, and structural elements.</p>
-            </div>
-            <div className="text-center">
-              <h3 className="text-xl font-semibold mb-4 corporate-blue">Aerospace & Defense</h3>
-              <p className="corporate-gray">Lightweight components, insulation materials, and precision-engineered parts.</p>
-            </div>
-            <div className="text-center">
-              <h3 className="text-xl font-semibold mb-4 corporate-blue">Heavy Machinery</h3>
-              <p className="corporate-gray">Wear-resistant parts, protective housings, and custom industrial components.</p>
-            </div>
-          </div>
-        </div>
+
 
         {/* Call to Action */}
         <div className="text-center">
