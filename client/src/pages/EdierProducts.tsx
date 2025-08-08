@@ -56,9 +56,9 @@ export default function EdierProducts() {
         <div className="text-center mb-16">
           <div className="mb-8">
             <img 
-              src="/images/edier-brand-logo.png" 
+              src="/images/edier-simple-logo.svg" 
               alt="Edier Consumer Products Logo" 
-              className="h-24 w-auto mx-auto"
+              className="h-20 w-auto mx-auto"
             />
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
