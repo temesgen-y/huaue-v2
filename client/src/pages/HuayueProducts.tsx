@@ -75,33 +75,7 @@ export default function HuayueProducts() {
           </div>
         </div>
 
-        {/* Product Categories */}
-        <div className="grid lg:grid-cols-3 gap-8 mb-16">
-          {productCategories.map((category, index) => (
-            <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-200">
-              <div className="h-48 overflow-hidden">
-                <img 
-                  src={category.image} 
-                  alt={category.title}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-200"
-                />
-              </div>
-              <CardHeader>
-                <CardTitle className="corporate-blue">{category.title}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="corporate-gray mb-4">{category.description}</p>
-                <div className="flex flex-wrap gap-2">
-                  {category.features.map((feature, featureIndex) => (
-                    <Badge key={featureIndex} variant="outline" className="text-xs">
-                      {feature}
-                    </Badge>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
+
 
         {/* Product Range Section */}
         <div className="mb-16">
