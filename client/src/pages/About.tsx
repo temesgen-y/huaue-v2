@@ -411,6 +411,67 @@ export default function About() {
           </div>
         </div>
 
+        {/* Sustainability Commitment Section */}
+        <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left side - Content */}
+            <div>
+              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Sustainability Commitment</h2>
+              <p className="text-gray-600 mb-8 leading-relaxed">
+                Environmental responsibility is central to our business philosophy. We are 
+                committed to developing sustainable packaging solutions that minimize 
+                environmental impact while maintaining the highest quality standards.
+              </p>
+
+              <div className="space-y-6">
+                {/* Biodegradable Materials */}
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Biodegradable Materials</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    Our Edier brand specializes in PLA+PBAT+corn starch/calcium powder materials 
+                    that are fully compostable and environmentally friendly.
+                  </p>
+                </div>
+
+                {/* Waste Reduction */}
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Waste Reduction</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    Advanced manufacturing processes minimize waste and maximize material 
+                    efficiency throughout our production cycle.
+                  </p>
+                </div>
+
+                {/* Green Manufacturing */}
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Green Manufacturing</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    Energy-efficient facilities and sustainable practices reduce our carbon footprint 
+                    while maintaining production excellence.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Right side - Image placeholder */}
+            <div className="lg:order-last">
+              <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-8 h-80 flex items-center justify-center">
+                <div className="text-center">
+                  <svg width="120" height="120" viewBox="0 0 120 120" className="text-brand-accent mx-auto mb-4">
+                    <circle cx="60" cy="60" r="50" fill="currentColor" opacity="0.1"/>
+                    <path d="M40 60 L60 40 L80 60 L60 80 Z" fill="currentColor" opacity="0.3"/>
+                    <circle cx="60" cy="60" r="25" fill="currentColor" opacity="0.6"/>
+                    <path d="M50 60 Q60 45 70 60 Q60 75 50 60" fill="white"/>
+                  </svg>
+                  <p className="text-brand-accent font-medium text-sm">
+                    Sustainable packaging and environmental responsibility
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Modal for Certificate Images */}
         {selectedImage && (
           <div 
