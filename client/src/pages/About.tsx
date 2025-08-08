@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { CheckCircle, Users, Target, Award } from "lucide-react";
+import { CheckCircle, Users, Target, Award, X } from "lucide-react";
+import { useState } from "react";
 
 const achievements = [
   "ISO 9001:2015 Quality Management Certified",
@@ -29,7 +30,59 @@ const values = [
   }
 ];
 
+const certifications = [
+  {
+    id: 1,
+    title: "50 Year Warranty",
+    subtitle: "PP-R Built to Last, Guaranteed",
+    image: "/images/cert-50-year-warranty.svg"
+  },
+  {
+    id: 2,
+    title: "Sole Authorized Distributor",
+    subtitle: "WHEM Trading PLC Certificate",
+    image: "/images/cert-authorized-distributor.svg"
+  },
+  {
+    id: 3,
+    title: "Alternative Distributor Certificate",
+    subtitle: "Huayue Plastics Industry Certificate",
+    image: "/images/cert-alternative-distributor.svg"
+  },
+  {
+    id: 4,
+    title: "ECAE Test Report - 63mm",
+    subtitle: "PPR Pipe Testing Results",
+    image: "/images/cert-ecae-test-63mm.svg"
+  },
+  {
+    id: 5,
+    title: "ECAE Test Report - 32mm",
+    subtitle: "PPR Pipe Testing Results",
+    image: "/images/cert-ecae-test-32mm.svg"
+  },
+  {
+    id: 6,
+    title: "Ethiopian Conformity Assessment",
+    subtitle: "Enterprise Standards License",
+    image: "/images/cert-ethiopian-conformity-1.svg"
+  },
+  {
+    id: 7,
+    title: "Ethiopian Conformity Assessment",
+    subtitle: "Enterprise Certificate",
+    image: "/images/cert-ethiopian-conformity-2.svg"
+  },
+  {
+    id: 8,
+    title: "Alternative Ethiopian Conformity",
+    subtitle: "Assessment Certificate",
+    image: "/images/cert-ethiopian-alt-conformity.svg"
+  }
+];
+
 export default function About() {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
   return (
     <div className="py-16 lg:py-24 bg-gray-50 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -305,6 +358,62 @@ export default function About() {
             </div>
           </div>
         </div>
+
+        {/* Our Certifications */}
+        <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Our Certifications</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Trusted quality, proven performance.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {certifications.map((cert) => (
+              <div
+                key={cert.id}
+                className="bg-gray-50 rounded-lg p-6 cursor-pointer hover:shadow-lg transition-all duration-300 hover:scale-105"
+                onClick={() => setSelectedImage(cert.image)}
+                data-testid={`cert-card-${cert.id}`}
+              >
+                <div className="aspect-square bg-white rounded-lg mb-4 flex items-center justify-center p-4">
+                  <img
+                    src={cert.image}
+                    alt={cert.title}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="font-semibold text-gray-900 text-sm mb-1">{cert.title}</h3>
+                <p className="text-gray-600 text-xs leading-relaxed">{cert.subtitle}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Modal for Certificate Images */}
+        {selectedImage && (
+          <div 
+            className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
+            onClick={() => setSelectedImage(null)}
+            data-testid="modal-overlay"
+          >
+            <div className="relative max-w-4xl max-h-full bg-white rounded-lg p-4">
+              <button
+                onClick={() => setSelectedImage(null)}
+                className="absolute top-2 right-2 text-gray-500 hover:text-gray-700 bg-white rounded-full p-2 shadow-lg"
+                data-testid="button-close-modal"
+              >
+                <X size={24} />
+              </button>
+              <img
+                src={selectedImage}
+                alt="Certificate"
+                className="w-full h-auto max-h-[80vh] object-contain rounded"
+                data-testid="modal-image"
+              />
+            </div>
+          </div>
+        )}
 
         {/* Call to Action */}
         <div className="text-center">
