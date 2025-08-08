@@ -103,6 +103,93 @@ export default function HuayueProducts() {
           ))}
         </div>
 
+        {/* Product Range Section */}
+        <div className="mb-16">
+          {/* Section Header */}
+          <div className="text-center mb-12">
+            <p className="text-gray-600 mb-4 max-w-4xl mx-auto">
+              Committed to quality and reliability, EDIER and HUAYUE PP-R products comply with ISO 13874 standards and are 
+              manufactured using high-quality Korean-origin PP-R resin, ensuring superior strength, durability, and safety for 
+              both hot and cold water applications.
+            </p>
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+              Our Product Range
+            </h2>
+            <p className="text-lg text-gray-600">
+              Explore our comprehensive range of industrial piping solutions
+            </p>
+          </div>
+
+          {/* Product Grid */}
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                title: "Industrial Plastic Pipes",
+                description: "High-grade HUAYUE PP-R pipes and fittings for industrial applications",
+                image: "/images/industrial-plastic-pipes.svg"
+              },
+              {
+                title: "Specialized Fittings", 
+                description: "Custom fittings for complex industrial systems",
+                image: "/images/specialized-fittings.svg"
+              },
+              {
+                title: "High-Pressure Systems",
+                description: "Pipes designed for extreme pressure environments", 
+                image: "/images/high-pressure-systems.svg"
+              },
+              {
+                title: "Heavy-Duty Flanges",
+                description: "Robust flanges for secure pipe connections",
+                image: "/images/heavy-duty-flanges.svg"
+              },
+              {
+                title: "Welded Plastic Tubes",
+                description: "Seamlessly welded tubes for continuous flow systems",
+                image: "/images/welded-plastic-tubes.svg"
+              },
+              {
+                title: "Carbon Plastic Assemblies", 
+                description: "Advanced carbon-reinforced plastic components",
+                image: "/images/carbon-plastic-assemblies.svg"
+              },
+              {
+                title: "Thermal Insulation Pipes",
+                description: "Temperature-controlled piping with advanced insulation",
+                image: "/images/thermal-insulation-pipes.svg"
+              },
+              {
+                title: "Chemical Resistant Tubing",
+                description: "Corrosion-resistant tubes for harsh chemical environments", 
+                image: "/images/chemical-resistant-tubing.svg"
+              },
+              {
+                title: "Precision Molded Components",
+                description: "High-precision molded parts with tight tolerances",
+                image: "/images/precision-molded-components.svg"
+              }
+            ].map((product, index) => (
+              <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <div className="h-48 p-4 bg-gray-50 flex items-center justify-center">
+                  <img 
+                    src={product.image} 
+                    alt={product.title}
+                    className="max-w-full max-h-full object-contain"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-lg font-bold text-gray-900 mb-3">
+                    {product.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm">
+                    {product.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* Specifications */}
         <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
           <h2 className="text-3xl font-bold text-center mb-12">Product Specifications & Standards</h2>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <rect width="300" height="200" fill="#f8f9fa"/>
+  
+  <!-- Welded tubes -->
+  <rect x="60" y="70" width="80" height="15" fill="#28a745" rx="7"/>
+  <rect x="160" y="70" width="80" height="15" fill="#34ce57" rx="7"/>
+  
+  <!-- Weld joint -->
+  <rect x="135" y="68" width="30" height="19" fill="#1e7e34" rx="9"/>
+  <path d="M 140 77 L 160 77 L 155 72 L 165 77 L 155 82" stroke="#fff" stroke-width="2" fill="none"/>
+  
+  <!-- Support brackets -->
+  <rect x="80" y="85" width="4" height="20" fill="#666"/>
+  <rect x="100" y="85" width="4" height="20" fill="#666"/>
+  <rect x="196" y="85" width="4" height="20" fill="#666"/>
+  <rect x="216" y="85" width="4" height="20" fill="#666"/>
+  
+  <!-- Title -->
+  <text x="150" y="25" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#000">Welded Plastic Tubes</text>
+  <text x="150" y="170" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Seamlessly welded tubes for continuous flow systems</text>
+</svg>

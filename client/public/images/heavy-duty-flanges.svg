@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <rect width="300" height="200" fill="#f8f9fa"/>
+  
+  <!-- Flange 1 -->
+  <circle cx="120" cy="90" r="30" fill="#28a745"/>
+  <circle cx="120" cy="90" r="15" fill="#fff"/>
+  <circle cx="110" cy="80" r="3" fill="#1e7e34"/>
+  <circle cx="130" cy="80" r="3" fill="#1e7e34"/>
+  <circle cx="110" cy="100" r="3" fill="#1e7e34"/>
+  <circle cx="130" cy="100" r="3" fill="#1e7e34"/>
+  
+  <!-- Flange 2 -->
+  <circle cx="180" cy="90" r="30" fill="#34ce57"/>
+  <circle cx="180" cy="90" r="15" fill="#fff"/>
+  <circle cx="170" cy="80" r="3" fill="#1e7e34"/>
+  <circle cx="190" cy="80" r="3" fill="#1e7e34"/>
+  <circle cx="170" cy="100" r="3" fill="#1e7e34"/>
+  <circle cx="190" cy="100" r="3" fill="#1e7e34"/>
+  
+  <!-- Title -->
+  <text x="150" y="25" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#000">Heavy-Duty Flanges</text>
+  <text x="150" y="170" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Robust flanges for secure pipe connections</text>
+</svg>

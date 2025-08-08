@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <rect width="300" height="200" fill="#f8f9fa"/>
+  
+  <!-- Chemical container -->
+  <rect x="80" y="60" width="40" height="60" fill="#28a745" rx="5"/>
+  <rect x="85" y="65" width="30" height="50" fill="#34ce57" rx="3"/>
+  
+  <!-- Tube connection -->
+  <rect x="120" y="85" width="60" height="10" fill="#28a745" rx="5"/>
+  
+  <!-- Chemical drops -->
+  <circle cx="95" cy="75" r="3" fill="#ffdd44"/>
+  <circle cx="105" cy="85" r="3" fill="#ff6644"/>
+  <circle cx="95" cy="95" r="3" fill="#44ddff"/>
+  
+  <!-- Destination container -->
+  <rect x="180" y="60" width="40" height="60" fill="#28a745" rx="5"/>
+  <rect x="185" y="65" width="30" height="50" fill="#34ce57" rx="3"/>
+  
+  <!-- Chemical resistance symbol -->
+  <circle cx="150" cy="70" r="12" fill="#fff" stroke="#28a745" stroke-width="2"/>
+  <text x="150" y="75" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#28a745">CR</text>
+  
+  <!-- Title -->
+  <text x="150" y="25" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#000">Chemical Resistant Tubing</text>
+  <text x="150" y="170" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Corrosion-resistant tubes for harsh chemical environments</text>
+</svg>

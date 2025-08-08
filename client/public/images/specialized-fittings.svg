@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <rect width="300" height="200" fill="#f8f9fa"/>
+  
+  <!-- T-fitting -->
+  <rect x="120" y="80" width="60" height="15" fill="#28a745" rx="7"/>
+  <rect x="142" y="60" width="15" height="60" fill="#28a745" rx="7"/>
+  
+  <!-- Elbow fitting -->
+  <path d="M 80 100 Q 80 80 100 80 L 120 80" stroke="#34ce57" stroke-width="15" fill="none" stroke-linecap="round"/>
+  
+  <!-- Reducer fitting -->
+  <rect x="200" y="85" width="40" height="10" fill="#28a745" rx="5"/>
+  <rect x="210" y="80" width="20" height="20" fill="#34ce57" rx="10"/>
+  
+  <!-- Title -->
+  <text x="150" y="25" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#000">Specialized Fittings</text>
+  <text x="150" y="170" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Custom fittings for complex industrial systems</text>
+</svg>

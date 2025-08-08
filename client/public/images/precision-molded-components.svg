@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <rect width="300" height="200" fill="#f8f9fa"/>
+  
+  <!-- Molded components -->
+  <rect x="70" y="80" width="30" height="40" fill="#28a745" rx="5"/>
+  <circle cx="130" cy="100" r="20" fill="#34ce57"/>
+  <polygon points="170,80 190,80 200,100 190,120 170,120 160,100" fill="#28a745"/>
+  <rect x="220" y="85" width="25" height="30" fill="#34ce57" rx="12"/>
+  
+  <!-- Precision marks -->
+  <line x1="85" y1="70" x2="85" y2="130" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="130" y1="70" x2="130" y2="130" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="180" y1="70" x2="180" y2="130" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="232" y1="70" x2="232" y2="130" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Measurement indicators -->
+  <text x="85" y="65" text-anchor="middle" font-family="Arial" font-size="8" fill="#666">±0.1mm</text>
+  <text x="130" y="65" text-anchor="middle" font-family="Arial" font-size="8" fill="#666">±0.05mm</text>
+  <text x="180" y="65" text-anchor="middle" font-family="Arial" font-size="8" fill="#666">±0.1mm</text>
+  <text x="232" y="65" text-anchor="middle" font-family="Arial" font-size="8" fill="#666">±0.05mm</text>
+  
+  <!-- Title -->
+  <text x="150" y="25" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#000">Precision Molded Components</text>
+  <text x="150" y="170" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">High-precision molded parts with tight tolerances</text>
+</svg>
