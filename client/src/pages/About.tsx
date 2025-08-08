@@ -3,78 +3,79 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle, Users, Target, Award, X } from "lucide-react";
 import { useState } from "react";
 
+// Certificate data with direct image URLs
 const certifications = [
   {
     id: 1,
-    title: "Sole Authorized Distributor",
-    subtitle: "WHEM Trading PLC Certificate",
-    image: "/certificates/cert1.jpg"
+    title: "Authorized Distributor Certificate",
+    subtitle: "WHEM Trading PLC Official Certificate",
+    image: "/cert1.jpg"
   },
   {
     id: 2,
-    title: "Authorized Distributor",
-    subtitle: "HUAYUE Certificate",
-    image: "/certificates/cert2.png"
+    title: "Product Quality Certificate",
+    subtitle: "HUAYUE Product Certificate",
+    image: "/cert2.png"
   },
   {
     id: 3,
     title: "50 Year Warranty",
-    subtitle: "PP-R Built to Last, Guaranteed",
-    image: "/certificates/cert3.png"
+    subtitle: "PP-R Product Warranty Certificate",
+    image: "/cert3.png"
   },
   {
     id: 4,
     title: "ECAE Test Report - 63mm",
     subtitle: "PPR Pipe Testing Results",
-    image: "/certificates/cert4.jpg"
+    image: "/cert4.jpg"
   },
   {
     id: 5,
-    title: "ECAE Test Report - 32mm",
+    title: "ECAE Test Report - 32mm", 
     subtitle: "PPR Pipe Testing Results",
-    image: "/certificates/cert5.jpg"
+    image: "/cert5.jpg"
   },
   {
     id: 6,
     title: "Ethiopian Conformity Assessment",
     subtitle: "Enterprise Standards License",
-    image: "/certificates/cert6.png"
+    image: "/cert6.png"
   },
   {
     id: 7,
     title: "Ethiopian Conformity Assessment",
     subtitle: "Enterprise Certificate",
-    image: "/certificates/cert7.png"
+    image: "/cert7.png"
   },
   {
     id: 8,
     title: "Ethiopian Standard License",
     subtitle: "PPR Pipe Standards Mark",
-    image: "/certificates/cert8.jpg"
+    image: "/cert8.jpg"
   },
   {
     id: 9,
-    title: "ECAE Conformity License",
-    subtitle: "PPR Pipe Manufacturing",
-    image: "/certificates/cert9.jpg"
+    title: "Mizena Product Certificate",
+    subtitle: "Product Quality Certification",
+    image: "/cert9.jpg"
   },
   {
     id: 10,
     title: "Product Test Report",
     subtitle: "HUAYUE Plastic Pipe Fittings",
-    image: "/certificates/cert10.png"
+    image: "/cert10.png"
   },
   {
     id: 11,
     title: "ECAE Test Report - 25mm",
-    subtitle: "PPR Pipe Testing Results",
-    image: "/certificates/cert11.jpg"
+    subtitle: "PPR Pipe Testing Results", 
+    image: "/cert11.jpg"
   },
   {
     id: 12,
     title: "ECAE Test Report - 50mm",
     subtitle: "PPR Pipe Testing Results",
-    image: "/certificates/cert12.jpg"
+    image: "/cert12.jpg"
   }
 ];
 
@@ -152,11 +153,14 @@ export default function About() {
             {/* HUAYUE Product Line */}
             <div className="bg-white rounded-xl shadow-lg p-8">
               <div className="mb-6">
-                <img 
-                  src="/images/huayue-industrial.svg" 
-                  alt="HUAYUE Heavy-duty Steel Pipes" 
-                  className="w-full h-48 object-contain mb-6 bg-gray-50 rounded-lg"
-                />
+                <div className="w-full h-48 bg-gray-50 rounded-lg mb-6 flex items-center justify-center">
+                  <svg width="120" height="80" viewBox="0 0 120 80" className="text-brand-accent">
+                    <rect x="10" y="30" width="100" height="20" fill="currentColor" rx="10"/>
+                    <rect x="20" y="20" width="80" height="40" fill="none" stroke="currentColor" strokeWidth="2" rx="20"/>
+                    <circle cx="30" cy="40" r="8" fill="currentColor"/>
+                    <circle cx="90" cy="40" r="8" fill="currentColor"/>
+                  </svg>
+                </div>
                 <div className="flex items-center mb-4">
                   <CheckCircle className="text-brand-accent mr-3" size={24} />
                   <h3 className="text-2xl font-bold text-gray-900">HUAYUE</h3>
@@ -197,11 +201,15 @@ export default function About() {
             {/* EDIER Product Line */}
             <div className="bg-white rounded-xl shadow-lg p-8">
               <div className="mb-6">
-                <img 
-                  src="/images/edier-consumer.svg" 
-                  alt="EDIER Precision Piping Systems" 
-                  className="w-full h-48 object-contain mb-6 bg-gray-50 rounded-lg"
-                />
+                <div className="w-full h-48 bg-gray-50 rounded-lg mb-6 flex items-center justify-center">
+                  <svg width="120" height="80" viewBox="0 0 120 80" className="text-brand-accent">
+                    <path d="M20 40 L50 20 L80 40 L100 25" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round"/>
+                    <circle cx="20" cy="40" r="6" fill="currentColor"/>
+                    <circle cx="50" cy="20" r="6" fill="currentColor"/>
+                    <circle cx="80" cy="40" r="6" fill="currentColor"/>
+                    <circle cx="100" cy="25" r="6" fill="currentColor"/>
+                  </svg>
+                </div>
                 <div className="flex items-center mb-4">
                   <svg width="24" height="24" viewBox="0 0 24 24" className="text-brand-accent mr-3">
                     <path d="M8 5v14l11-7z" fill="currentColor"/>
@@ -336,7 +344,7 @@ export default function About() {
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Our Certifications</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Trusted quality, proven performance.
+              Trusted quality, proven performance. View our comprehensive certification portfolio.
             </p>
           </div>
 
@@ -353,6 +361,9 @@ export default function About() {
                     src={cert.image}
                     alt={cert.title}
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      e.currentTarget.src = "https://via.placeholder.com/300x400/28a745/ffffff?text=Certificate+" + cert.id;
+                    }}
                   />
                 </div>
                 <h3 className="font-semibold text-gray-900 text-sm mb-1">{cert.title}</h3>
