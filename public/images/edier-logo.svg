@@ -1,0 +1,28 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- EDIER Text -->
+  <text x="10" y="45" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000000">EDIER</text>
+  
+  <!-- Duck/Bird Silhouette -->
+  <g transform="translate(85, 10)">
+    <!-- Bird body -->
+    <path d="M10 50 Q5 45 5 35 Q5 25 15 20 Q25 15 35 20 Q45 25 55 30 Q65 35 75 40 Q85 45 90 50 Q85 55 75 58 Q65 60 55 58 Q45 55 35 52 Q25 50 15 52 Q10 52 10 50 Z" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="2"/>
+    
+    <!-- Bird head -->
+    <circle cx="15" cy="30" r="8" fill="none" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Bird beak -->
+    <path d="M7 30 Q2 28 2 30 Q2 32 7 30" fill="none" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Bird neck -->
+    <path d="M15 22 Q20 15 30 12 Q40 10 45 15" fill="none" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Wing detail -->
+    <path d="M25 35 Q35 30 45 35 Q55 40 65 45" fill="none" stroke="#000000" stroke-width="1.5"/>
+    
+    <!-- Tail -->
+    <path d="M90 50 Q95 48 100 50 Q95 52 90 50" fill="none" stroke="#000000" stroke-width="2"/>
+  </g>
+</svg>
