@@ -54,12 +54,17 @@ export default function EdierProducts() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="mb-8">
-            <img 
-              src="/images/edier-final-logo.png" 
-              alt="Edier Consumer Products Logo" 
-              className="h-20 w-auto mx-auto"
-            />
+          <div className="mb-8 flex justify-center">
+            <svg width="140" height="60" viewBox="0 0 140 60" className="h-20 w-auto">
+              <text x="8" y="35" fontFamily="Arial Black, Arial, sans-serif" fontSize="22" fontWeight="900" fill="#000000" letterSpacing="1px">EDIER</text>
+              <g transform="translate(90, 8)">
+                <ellipse cx="20" cy="25" rx="22" ry="12" fill="none" stroke="#000000" strokeWidth="2.5"/>
+                <circle cx="8" cy="20" r="9" fill="none" stroke="#000000" strokeWidth="2.5"/>
+                <path d="M0 20 L-6 18 L-6 22 Z" fill="#000000"/>
+                <path d="M15 20 Q25 15 35 20 Q30 25 20 28" fill="none" stroke="#000000" strokeWidth="1.8"/>
+                <path d="M40 25 L48 20 L48 30 Z" fill="#000000"/>
+              </g>
+            </svg>
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Edier Consumer Products
