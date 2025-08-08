@@ -81,6 +81,14 @@ This is a modern corporate website for Huayue Plastics Industry, a plastics manu
 
 ## Recent Changes
 
+### About Page Certificate Integration (August 2025)
+- Successfully integrated 12 real certificate images from user-provided attached_assets
+- Resolved static file serving issues by configuring proper client/public directory structure
+- Implemented certificate modal popup functionality for detailed certificate viewing
+- Added comprehensive About page sections: Mission/Vision, Product Lines, Core Values, Leadership
+- Fixed all JSX syntax errors and image loading issues that were preventing page functionality
+- Certificate images now properly served with correct MIME types via Vite development server
+
 ### Brand Color Implementation (August 2025)
 - Updated Tailwind configuration with brand color utilities
 - Implemented CSS custom properties for consistent color scheme
