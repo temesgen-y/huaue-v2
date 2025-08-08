@@ -4,7 +4,13 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { telegramBot } from "../../../telegram/telegramBot";
@@ -27,15 +33,15 @@ export default function Contact() {
     email: "",
     phone: "",
     subject: "",
-    message: ""
+    message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
   const handleInputChange = (field: keyof ContactForm, value: string) => {
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [field]: value
+      [field]: value,
     }));
   };
 
@@ -46,10 +52,11 @@ export default function Contact() {
     try {
       // Send notification via Telegram bot
       await telegramBot.sendContactFormNotification(formData);
-      
+
       toast({
         title: "Message Sent Successfully",
-        description: "Thank you for contacting us. We'll get back to you within 24 hours.",
+        description:
+          "Thank you for contacting us. We'll get back to you within 24 hours.",
       });
 
       // Reset form
@@ -60,13 +67,14 @@ export default function Contact() {
         email: "",
         phone: "",
         subject: "",
-        message: ""
+        message: "",
       });
     } catch (error) {
-      console.error('Contact form submission error:', error);
+      console.error("Contact form submission error:", error);
       toast({
         title: "Error",
-        description: "There was an error sending your message. Please try again.",
+        description:
+          "There was an error sending your message. Please try again.",
         variant: "destructive",
       });
     } finally {
@@ -78,23 +86,30 @@ export default function Contact() {
     {
       icon: MapPin,
       title: "Address",
-      details: ["123 Industrial Park Avenue", "Manufacturing District", "Shanghai, China 200000"]
+      details: [
+        "Industrial Zone",
+        "Kombolcha",
+        "Ethiopia",
+      ],
     },
     {
       icon: Phone,
       title: "Phone",
-      details: ["+86-21-1234-5678", "Fax: +86-21-1234-5679"]
+      details: ["+86-21-1234-5678", "Fax: +86-21-1234-5679"],
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["info@huayueplastics.com", "sales@huayueplastics.com"]
+      details: ["info@huayueplastics.com", "sales@huayueplastics.com"],
     },
     {
       icon: Clock,
       title: "Business Hours",
-      details: ["Monday - Friday: 8:00 AM - 6:00 PM", "Saturday: 9:00 AM - 2:00 PM"]
-    }
+      details: [
+        "Monday - Friday: 8:00 AM - 6:00 PM",
+        "Saturday: 9:00 AM - 2:00 PM",
+      ],
+    },
   ];
 
   return (
@@ -106,7 +121,8 @@ export default function Contact() {
             Contact Us
           </h1>
           <p className="text-xl corporate-gray max-w-3xl mx-auto">
-            Get in touch with our team for inquiries, quotes, or partnership opportunities.
+            Get in touch with our team for inquiries, quotes, or partnership
+            opportunities.
           </p>
         </div>
 
@@ -114,7 +130,7 @@ export default function Contact() {
           {/* Contact Information */}
           <div>
             <h2 className="text-3xl font-semibold mb-8">Get In Touch</h2>
-            
+
             <div className="space-y-6">
               {contactInfo.map((info, index) => (
                 <div key={index} className="flex items-start">
@@ -136,8 +152,18 @@ export default function Contact() {
             {/* Map Placeholder */}
             <div className="mt-8">
               <h3 className="text-xl font-semibold mb-4">Our Location</h3>
-              <div className="bg-gray-200 rounded-lg h-64 flex items-center justify-center">
-                <p className="corporate-gray">Interactive map would be displayed here</p>
+              <div className="rounded-lg overflow-hidden shadow-lg">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15658.796794516847!2d39.7299197!3d11.080794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x16477602dbf9ad9b%3A0xcfbc25bc4fad07eb!2sKombolcha%2C%20Ethiopia!5e0!3m2!1sen!2s!4v1625097600000!5m2!1sen!2s"
+                  width="100%"
+                  height="400"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Huayue Plastics Location - Kombolcha, Ethiopia"
+                  data-testid="location-map"
+                ></iframe>
               </div>
             </div>
           </div>
@@ -152,24 +178,28 @@ export default function Contact() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <Label htmlFor="firstName">First Name *</Label>
-                    <Input 
+                    <Input
                       id="firstName"
                       type="text"
                       required
                       value={formData.firstName}
-                      onChange={(e) => handleInputChange("firstName", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("firstName", e.target.value)
+                      }
                       className="mt-2"
                       data-testid="input-first-name"
                     />
                   </div>
                   <div>
                     <Label htmlFor="lastName">Last Name *</Label>
-                    <Input 
+                    <Input
                       id="lastName"
                       type="text"
                       required
                       value={formData.lastName}
-                      onChange={(e) => handleInputChange("lastName", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("lastName", e.target.value)
+                      }
                       className="mt-2"
                       data-testid="input-last-name"
                     />
@@ -178,11 +208,13 @@ export default function Contact() {
 
                 <div>
                   <Label htmlFor="company">Company</Label>
-                  <Input 
+                  <Input
                     id="company"
                     type="text"
                     value={formData.company}
-                    onChange={(e) => handleInputChange("company", e.target.value)}
+                    onChange={(e) =>
+                      handleInputChange("company", e.target.value)
+                    }
                     className="mt-2"
                     data-testid="input-company"
                   />
@@ -190,7 +222,7 @@ export default function Contact() {
 
                 <div>
                   <Label htmlFor="email">Email *</Label>
-                  <Input 
+                  <Input
                     id="email"
                     type="email"
                     required
@@ -203,7 +235,7 @@ export default function Contact() {
 
                 <div>
                   <Label htmlFor="phone">Phone</Label>
-                  <Input 
+                  <Input
                     id="phone"
                     type="tel"
                     value={formData.phone}
@@ -215,15 +247,27 @@ export default function Contact() {
 
                 <div>
                   <Label htmlFor="subject">Subject *</Label>
-                  <Select value={formData.subject} onValueChange={(value) => handleInputChange("subject", value)}>
-                    <SelectTrigger className="mt-2" data-testid="select-subject">
+                  <Select
+                    value={formData.subject}
+                    onValueChange={(value) =>
+                      handleInputChange("subject", value)
+                    }
+                  >
+                    <SelectTrigger
+                      className="mt-2"
+                      data-testid="select-subject"
+                    >
                       <SelectValue placeholder="Select a subject" />
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="general">General Inquiry</SelectItem>
                       <SelectItem value="quote">Request Quote</SelectItem>
-                      <SelectItem value="products">Product Information</SelectItem>
-                      <SelectItem value="partnership">Partnership Opportunity</SelectItem>
+                      <SelectItem value="products">
+                        Product Information
+                      </SelectItem>
+                      <SelectItem value="partnership">
+                        Partnership Opportunity
+                      </SelectItem>
                       <SelectItem value="support">Technical Support</SelectItem>
                     </SelectContent>
                   </Select>
@@ -231,20 +275,22 @@ export default function Contact() {
 
                 <div>
                   <Label htmlFor="message">Message *</Label>
-                  <Textarea 
+                  <Textarea
                     id="message"
                     required
                     rows={4}
                     placeholder="Please describe your inquiry in detail..."
                     value={formData.message}
-                    onChange={(e) => handleInputChange("message", e.target.value)}
+                    onChange={(e) =>
+                      handleInputChange("message", e.target.value)
+                    }
                     className="mt-2"
                     data-testid="textarea-message"
                   />
                 </div>
 
-                <Button 
-                  type="submit" 
+                <Button
+                  type="submit"
                   className="w-full bg-corporate-blue hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-semibold transition-colors duration-200"
                   disabled={isSubmitting}
                   data-testid="button-send-message"
@@ -259,24 +305,36 @@ export default function Contact() {
         {/* Additional Contact Options */}
         <div className="mt-16 grid md:grid-cols-3 gap-8">
           <Card className="text-center p-6">
-            <h3 className="text-xl font-semibold mb-4 corporate-blue">Sales Inquiries</h3>
-            <p className="corporate-gray mb-4">For product information and pricing</p>
+            <h3 className="text-xl font-semibold mb-4 corporate-blue">
+              Sales Inquiries
+            </h3>
+            <p className="corporate-gray mb-4">
+              For product information and pricing
+            </p>
             <p className="font-semibold">sales@huayueplastics.com</p>
-            <p className="corporate-gray">+86-21-1234-5681</p>
+            <p className="corporate-gray">+251 933 551 2345</p>
           </Card>
-          
+
           <Card className="text-center p-6">
-            <h3 className="text-xl font-semibold mb-4 corporate-blue">Technical Support</h3>
-            <p className="corporate-gray mb-4">For technical assistance and guidance</p>
+            <h3 className="text-xl font-semibold mb-4 corporate-blue">
+              Technical Support
+            </h3>
+            <p className="corporate-gray mb-4">
+              For technical assistance and guidance
+            </p>
             <p className="font-semibold">support@huayueplastics.com</p>
-            <p className="corporate-gray">+86-21-1234-5682</p>
+            <p className="corporate-gray">+251 91 123 4567</p>
           </Card>
-          
+
           <Card className="text-center p-6">
-            <h3 className="text-xl font-semibold mb-4 corporate-blue">Partnership</h3>
-            <p className="corporate-gray mb-4">For business partnerships and collaborations</p>
+            <h3 className="text-xl font-semibold mb-4 corporate-blue">
+              Partnership
+            </h3>
+            <p className="corporate-gray mb-4">
+              For business partnerships and collaborations
+            </p>
             <p className="font-semibold">partners@huayueplastics.com</p>
-            <p className="corporate-gray">+86-21-1234-5683</p>
+            <p className="corporate-gray">+251 933 551 2345</p>
           </Card>
         </div>
       </div>
