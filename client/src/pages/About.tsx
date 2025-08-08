@@ -453,20 +453,15 @@ export default function About() {
               </div>
             </div>
 
-            {/* Right side - Image placeholder */}
+            {/* Right side - Sustainability Image */}
             <div className="lg:order-last">
-              <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-8 h-80 flex items-center justify-center">
-                <div className="text-center">
-                  <svg width="120" height="120" viewBox="0 0 120 120" className="text-brand-accent mx-auto mb-4">
-                    <circle cx="60" cy="60" r="50" fill="currentColor" opacity="0.1"/>
-                    <path d="M40 60 L60 40 L80 60 L60 80 Z" fill="currentColor" opacity="0.3"/>
-                    <circle cx="60" cy="60" r="25" fill="currentColor" opacity="0.6"/>
-                    <path d="M50 60 Q60 45 70 60 Q60 75 50 60" fill="white"/>
-                  </svg>
-                  <p className="text-brand-accent font-medium text-sm">
-                    Sustainable packaging and environmental responsibility
-                  </p>
-                </div>
+              <div className="rounded-lg overflow-hidden">
+                <img
+                  src="/sustainability-image.png"
+                  alt="Sustainable packaging and environmental responsibility"
+                  className="w-full h-auto object-cover rounded-lg"
+                  data-testid="sustainability-image"
+                />
               </div>
             </div>
           </div>
