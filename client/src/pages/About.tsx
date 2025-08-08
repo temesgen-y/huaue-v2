@@ -316,29 +316,6 @@ export default function About() {
           </div>
         </div>
 
-        {/* Leadership & Team */}
-        <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">Leadership & Expertise</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-xl font-semibold mb-4 text-brand-accent">Executive Leadership</h3>
-              <p className="text-gray-600 mb-4">
-                Our leadership team brings decades of combined experience in plastics manufacturing, 
-                engineering, and business development. They guide our strategic vision and ensure 
-                operational excellence across all divisions.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-4 text-brand-accent">Technical Expertise</h3>
-              <p className="text-gray-600 mb-4">
-                Our engineering and technical teams consist of industry experts with advanced degrees 
-                in materials science, chemical engineering, and manufacturing technology. This expertise 
-                drives innovation and quality in every product we create.
-              </p>
-            </div>
-          </div>
-        </div>
-
         {/* Our Certifications */}
         <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
           <div className="text-center mb-12">
@@ -370,6 +347,67 @@ export default function About() {
                 <p className="text-gray-600 text-xs leading-relaxed">{cert.subtitle}</p>
               </div>
             ))}
+          </div>
+        </div>
+
+        {/* Leadership Team Section */}
+        <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Leadership Team</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Meet the experienced leaders driving our company's vision and success.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Alemayehu Tadesse - CEO */}
+            <div className="text-center">
+              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-6 flex items-center justify-center">
+                <div className="text-center">
+                  <div className="text-sm text-gray-600 mb-1">Alemayehu</div>
+                  <div className="text-sm text-gray-600 mb-1">Tadesse - Chief</div>
+                  <div className="text-sm text-gray-600">Executive Officer</div>
+                </div>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Alemayehu Tadesse</h3>
+              <p className="text-brand-accent font-semibold mb-4">Chief Executive Officer</p>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                25+ years in industrial manufacturing and global business development.
+              </p>
+            </div>
+
+            {/* Meron Habtamu - CTO */}
+            <div className="text-center">
+              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-6 flex items-center justify-center">
+                <div className="text-center">
+                  <div className="text-sm text-gray-600 mb-1">Meron</div>
+                  <div className="text-sm text-gray-600 mb-1">Habtamu - Chief</div>
+                  <div className="text-sm text-gray-600 mb-1">Technology</div>
+                  <div className="text-sm text-gray-600">Officer</div>
+                </div>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Meron Habtamu</h3>
+              <p className="text-brand-accent font-semibold mb-4">Chief Technology Officer</p>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Expert in materials engineering and product innovation with 20+ years experience.
+              </p>
+            </div>
+
+            {/* Dawit Kebede - COO */}
+            <div className="text-center">
+              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-6 flex items-center justify-center">
+                <div className="text-center">
+                  <div className="text-sm text-gray-600 mb-1">Dawit Kebede</div>
+                  <div className="text-sm text-gray-600 mb-1">Chief Operations</div>
+                  <div className="text-sm text-gray-600">Officer</div>
+                </div>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Dawit Kebede</h3>
+              <p className="text-brand-accent font-semibold mb-4">Chief Operations Officer</p>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Operations excellence and supply chain optimization specialist with global expertise.
+              </p>
+            </div>
           </div>
         </div>
 
