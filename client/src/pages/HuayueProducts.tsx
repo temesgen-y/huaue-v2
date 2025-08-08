@@ -164,6 +164,84 @@ export default function HuayueProducts() {
           </div>
         </div>
 
+        {/* Materials and Certifications Section */}
+        <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* Materials We Work With */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Materials We Work With</h3>
+              <div className="space-y-4">
+                <div className="flex items-start space-x-3">
+                  <div className="w-3 h-3 bg-brand-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <div>
+                    <span className="font-semibold text-gray-900">HDPE</span>
+                    <span className="text-gray-600 ml-2">- High-density polyethylene for durability</span>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-3 h-3 bg-brand-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <div>
+                    <span className="font-semibold text-gray-900">LDPE</span>
+                    <span className="text-gray-600 ml-2">- Low-density polyethylene for flexibility</span>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-3 h-3 bg-brand-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <div>
+                    <span className="font-semibold text-gray-900">PP</span>
+                    <span className="text-gray-600 ml-2">- Polypropylene for strength</span>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-3 h-3 bg-brand-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <div>
+                    <span className="font-semibold text-gray-900">PLA</span>
+                    <span className="text-gray-600 ml-2">- Biodegradable corn-based plastic</span>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-3 h-3 bg-brand-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <div>
+                    <span className="font-semibold text-gray-900">PBAT</span>
+                    <span className="text-gray-600 ml-2">- Biodegradable synthetic polymer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Quality Certifications */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Quality Certifications</h3>
+              <div className="grid grid-cols-2 gap-6">
+                <div className="text-center p-4 bg-gray-50 rounded-lg">
+                  <div className="font-bold text-brand-accent text-lg mb-1">ISO 9001</div>
+                  <div className="text-sm text-gray-600">Quality Management</div>
+                </div>
+                <div className="text-center p-4 bg-gray-50 rounded-lg">
+                  <div className="font-bold text-brand-accent text-lg mb-1">ISO 14001</div>
+                  <div className="text-sm text-gray-600">Environmental Management</div>
+                </div>
+                <div className="text-center p-4 bg-gray-50 rounded-lg">
+                  <div className="font-bold text-brand-accent text-lg mb-1">ISO 13485</div>
+                  <div className="text-sm text-gray-600">Medical Devices</div>
+                </div>
+                <div className="text-center p-4 bg-gray-50 rounded-lg">
+                  <div className="font-bold text-brand-accent text-lg mb-1">GMP</div>
+                  <div className="text-sm text-gray-600">Good Manufacturing Practice</div>
+                </div>
+                <div className="text-center p-4 bg-gray-50 rounded-lg">
+                  <div className="font-bold text-brand-accent text-lg mb-1">BRC</div>
+                  <div className="text-sm text-gray-600">British Retail Consortium</div>
+                </div>
+                <div className="text-center p-4 bg-gray-50 rounded-lg">
+                  <div className="font-bold text-brand-accent text-lg mb-1">GSV/C-TPAT</div>
+                  <div className="text-sm text-gray-600">Security Standards</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Specifications */}
         <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
           <h2 className="text-3xl font-bold text-center mb-12">Product Specifications & Standards</h2>
