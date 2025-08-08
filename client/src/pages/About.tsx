@@ -232,28 +232,7 @@ export default function About() {
           </div>
         </div>
 
-        {/* Statistics */}
-        <div className="bg-gradient-to-r from-blue-800 to-blue-600 text-white rounded-xl p-12 mb-16">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Impact</h2>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="text-4xl font-bold mb-2">25+</div>
-              <div className="text-blue-200">Years in Business</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold mb-2">10K+</div>
-              <div className="text-blue-200">Products Manufactured</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold mb-2">500+</div>
-              <div className="text-blue-200">Satisfied Clients</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold mb-2">15+</div>
-              <div className="text-blue-200">Countries Served</div>
-            </div>
-          </div>
-        </div>
+
 
         {/* Leadership & Team */}
         <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
