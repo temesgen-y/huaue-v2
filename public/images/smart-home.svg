@@ -1,0 +1,29 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" fill="#f8f9fa"/>
+  
+  <!-- Smart device -->
+  <rect x="80" y="70" width="50" height="40" rx="8" fill="none" stroke="#28a745" stroke-width="3"/>
+  <circle cx="105" cy="90" r="8" fill="#e8f5e9"/>
+  <circle cx="105" cy="90" r="4" fill="#28a745"/>
+  
+  <!-- WiFi signals -->
+  <path d="M150 85 Q155 80 160 85" stroke="#28a745" stroke-width="2" fill="none"/>
+  <path d="M145 90 Q155 75 165 90" stroke="#28a745" stroke-width="2" fill="none"/>
+  <path d="M140 95 Q155 70 170 95" stroke="#28a745" stroke-width="2" fill="none"/>
+  
+  <!-- Home outline -->
+  <path d="M200 80 L230 50 L260 80 L260 120 L200 120 Z" fill="none" stroke="#28a745" stroke-width="3"/>
+  <rect x="220" y="100" width="20" height="20" fill="none" stroke="#28a745" stroke-width="2"/>
+  
+  <!-- Smart sensors -->
+  <circle cx="210" cy="70" r="4" fill="#28a745"/>
+  <circle cx="250" cy="70" r="4" fill="#28a745"/>
+  <circle cx="230" cy="60" r="4" fill="#28a745"/>
+  
+  <!-- Control panel -->
+  <rect x="290" y="75" width="40" height="30" rx="5" fill="none" stroke="#28a745" stroke-width="3"/>
+  <rect x="295" y="80" width="10" height="6" rx="1" fill="#28a745"/>
+  <rect x="310" y="80" width="10" height="6" rx="1" fill="#28a745"/>
+  <rect x="295" y="90" width="25" height="4" rx="1" fill="#e8f5e9"/>
+  <rect x="295" y="96" width="25" height="4" rx="1" fill="#e8f5e9"/>
+</svg>

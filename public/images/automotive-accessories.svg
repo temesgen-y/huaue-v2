@@ -1,0 +1,30 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" fill="#f8f9fa"/>
+  
+  <!-- Car outline -->
+  <path d="M70 110 L120 110 L130 90 L180 90 L190 110 L220 110 L220 130 L70 130 Z" fill="none" stroke="#28a745" stroke-width="3"/>
+  
+  <!-- Wheels -->
+  <circle cx="90" cy="130" r="12" fill="none" stroke="#28a745" stroke-width="3"/>
+  <circle cx="200" cy="130" r="12" fill="none" stroke="#28a745" stroke-width="3"/>
+  
+  <!-- Car accessories -->
+  <rect x="135" y="95" width="15" height="10" fill="#e8f5e9" stroke="#28a745" stroke-width="2"/>
+  <rect x="155" y="95" width="15" height="10" fill="#e8f5e9" stroke="#28a745" stroke-width="2"/>
+  
+  <!-- Phone holder -->
+  <rect x="260" y="85" width="20" height="30" rx="5" fill="none" stroke="#28a745" stroke-width="3"/>
+  <rect x="265" y="90" width="10" height="20" rx="2" fill="#e8f5e9"/>
+  <line x1="275" y1="120" x2="275" y2="130" stroke="#28a745" stroke-width="3"/>
+  
+  <!-- Cup holder -->
+  <circle cx="320" cy="100" r="15" fill="none" stroke="#28a745" stroke-width="3"/>
+  <circle cx="320" cy="100" r="8" fill="#e8f5e9"/>
+  <rect x="315" y="120" width="10" height="8" rx="2" fill="#28a745"/>
+  
+  <!-- Dashboard element -->
+  <rect x="70" y="150" width="60" height="15" rx="3" fill="none" stroke="#28a745" stroke-width="2"/>
+  <circle cx="80" cy="157" r="3" fill="#28a745"/>
+  <circle cx="90" cy="157" r="3" fill="#28a745"/>
+  <circle cx="100" cy="157" r="3" fill="#28a745"/>
+</svg>

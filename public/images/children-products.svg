@@ -1,0 +1,31 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" fill="#f8f9fa"/>
+  
+  <!-- Toy building blocks -->
+  <rect x="70" y="90" width="25" height="25" fill="#e8f5e9" stroke="#28a745" stroke-width="3"/>
+  <rect x="100" y="90" width="25" height="25" fill="#e8f5e9" stroke="#28a745" stroke-width="3"/>
+  <rect x="85" y="65" width="25" height="25" fill="#e8f5e9" stroke="#28a745" stroke-width="3"/>
+  
+  <!-- Child's cup -->
+  <rect x="160" y="85" width="30" height="25" rx="5" fill="none" stroke="#28a745" stroke-width="3"/>
+  <rect x="190" y="90" width="8" height="15" rx="4" fill="none" stroke="#28a745" stroke-width="2"/>
+  <circle cx="175" cy="97" r="3" fill="#28a745"/>
+  
+  <!-- Ball -->
+  <circle cx="240" cy="95" r="20" fill="none" stroke="#28a745" stroke-width="3"/>
+  <path d="M220 95 Q240 75 260 95" stroke="#28a745" stroke-width="2" fill="none"/>
+  <path d="M240 75 Q260 95 240 115" stroke="#28a745" stroke-width="2" fill="none"/>
+  
+  <!-- Educational toy -->
+  <rect x="300" y="80" width="40" height="30" rx="5" fill="none" stroke="#28a745" stroke-width="3"/>
+  <circle cx="310" cy="90" r="4" fill="#28a745"/>
+  <rect x="315" y="87" width="6" height="6" fill="#28a745"/>
+  <polygon points="325,87 331,87 328,93" fill="#28a745"/>
+  <circle cx="310" cy="100" r="4" fill="#28a745"/>
+  <rect x="315" y="97" width="6" height="6" fill="#28a745"/>
+  <polygon points="325,97 331,97 328,103" fill="#28a745"/>
+  
+  <!-- Stars for fun -->
+  <polygon points="80,130 82,136 88,136 83,140 85,146 80,142 75,146 77,140 72,136 78,136" fill="#28a745"/>
+  <polygon points="320,120 322,126 328,126 323,130 325,136 320,132 315,136 317,130 312,126 318,126" fill="#28a745"/>
+</svg>

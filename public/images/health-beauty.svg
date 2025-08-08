@@ -1,0 +1,25 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" fill="#f8f9fa"/>
+  
+  <!-- Cosmetic bottles -->
+  <ellipse cx="90" cy="100" rx="15" ry="25" fill="none" stroke="#28a745" stroke-width="3"/>
+  <rect x="85" y="70" width="10" height="8" rx="2" fill="#28a745"/>
+  <circle cx="90" cy="85" r="3" fill="#28a745"/>
+  
+  <rect x="130" y="80" width="20" height="35" rx="10" fill="none" stroke="#28a745" stroke-width="3"/>
+  <ellipse cx="140" cy="75" rx="8" ry="3" fill="#28a745"/>
+  
+  <!-- Medical cross -->
+  <rect x="195" y="75" width="30" height="30" rx="5" fill="none" stroke="#28a745" stroke-width="3"/>
+  <line x1="210" y1="80" x2="210" y2="100" stroke="#28a745" stroke-width="3"/>
+  <line x1="200" y1="90" x2="220" y2="90" stroke="#28a745" stroke-width="3"/>
+  
+  <!-- Beauty brush -->
+  <line x1="270" y1="110" x2="270" y2="80" stroke="#28a745" stroke-width="4"/>
+  <ellipse cx="270" cy="75" rx="6" ry="8" fill="#e8f5e9" stroke="#28a745" stroke-width="2"/>
+  
+  <!-- Spa element -->
+  <circle cx="330" cy="90" r="20" fill="none" stroke="#28a745" stroke-width="3"/>
+  <path d="M320 80 Q330 70 340 80" stroke="#28a745" stroke-width="2" fill="none"/>
+  <path d="M320 100 Q330 110 340 100" stroke="#28a745" stroke-width="2" fill="none"/>
+</svg>

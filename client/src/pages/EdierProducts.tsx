@@ -5,23 +5,62 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Leaf, Users, Lightbulb, Home } from "lucide-react";
 
 const productCategories = [
+  // First Row
   {
     title: "Packaging Solutions",
     description: "Sustainable and innovative packaging materials for food, retail, and e-commerce applications.",
     features: ["Food Safe", "Biodegradable Options", "Tamper Evident", "Custom Printing"],
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+    image: "/images/packaging-solutions.svg",
   },
   {
     title: "Household Items",
     description: "Durable and stylish plastic products designed for everyday home use and organization.",
     features: ["BPA Free", "Dishwasher Safe", "Ergonomic Design", "Color Varieties"],
-    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+    image: "/images/household-items.svg",
   },
   {
     title: "Innovative Designs",
     description: "Cutting-edge consumer products that combine functionality with aesthetic appeal.",
     features: ["Modern Design", "Multi-Functional", "Easy Maintenance", "Space Saving"],
-    image: "https://images.unsplash.com/photo-1558618022-fcd25c85cd6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+    image: "/images/innovative-designs.svg",
+  },
+  // Second Row
+  {
+    title: "Food Storage Solutions",
+    description: "Premium food-grade containers and storage systems for commercial and domestic use.",
+    features: ["Airtight Seal", "Microwave Safe", "Stackable Design", "Clear Visibility"],
+    image: "/images/food-storage.svg",
+  },
+  {
+    title: "Outdoor & Garden",
+    description: "Weather-resistant plastic products designed for outdoor environments and gardening.",
+    features: ["UV Resistant", "Weather Proof", "Durable Materials", "Easy Clean"],
+    image: "/images/outdoor-garden.svg",
+  },
+  {
+    title: "Smart Home Integration",
+    description: "Modern plastic components designed for smart home systems and IoT applications.",
+    features: ["Tech Compatible", "Wireless Ready", "Sleek Design", "Easy Install"],
+    image: "/images/smart-home.svg",
+  },
+  // Third Row
+  {
+    title: "Health & Beauty",
+    description: "Safe and elegant plastic products for personal care and beauty applications.",
+    features: ["Medical Grade", "Anti-Bacterial", "Ergonomic", "Premium Finish"],
+    image: "/images/health-beauty.svg",
+  },
+  {
+    title: "Children's Products",
+    description: "Safe, colorful, and educational plastic products designed specifically for children.",
+    features: ["Child Safe", "Non-Toxic", "Bright Colors", "Educational"],
+    image: "/images/children-products.svg",
+  },
+  {
+    title: "Automotive Accessories",
+    description: "Durable automotive plastic components and accessories for vehicle enhancement.",
+    features: ["Heat Resistant", "Impact Proof", "Custom Fit", "Long Lasting"],
+    image: "/images/automotive-accessories.svg",
   },
 ];
 

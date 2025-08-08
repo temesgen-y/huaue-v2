@@ -1,0 +1,27 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" fill="#f8f9fa"/>
+  
+  <!-- Food containers -->
+  <rect x="80" y="70" width="40" height="35" rx="5" fill="none" stroke="#28a745" stroke-width="3"/>
+  <rect x="85" y="60" width="30" height="10" rx="3" fill="#28a745"/>
+  
+  <rect x="140" y="80" width="35" height="30" rx="5" fill="none" stroke="#28a745" stroke-width="3"/>
+  <rect x="145" y="70" width="25" height="10" rx="3" fill="#28a745"/>
+  
+  <rect x="190" y="75" width="45" height="40" rx="5" fill="none" stroke="#28a745" stroke-width="3"/>
+  <rect x="195" y="65" width="35" height="10" rx="3" fill="#28a745"/>
+  
+  <!-- Airtight seal indicators -->
+  <circle cx="100" cy="65" r="3" fill="#28a745"/>
+  <circle cx="157" cy="75" r="3" fill="#28a745"/>
+  <circle cx="212" cy="70" r="3" fill="#28a745"/>
+  
+  <!-- Fresh food symbols -->
+  <path d="M270 85 Q275 75 280 85 Q285 95 280 105 Q275 115 270 105 Q265 95 270 85" fill="#e8f5e9" stroke="#28a745" stroke-width="2"/>
+  <circle cx="275" cy="90" r="2" fill="#28a745"/>
+  
+  <!-- Stack indicator -->
+  <rect x="320" y="90" width="30" height="8" rx="2" fill="#28a745" opacity="0.7"/>
+  <rect x="322" y="100" width="26" height="8" rx="2" fill="#28a745" opacity="0.5"/>
+  <rect x="324" y="110" width="22" height="8" rx="2" fill="#28a745" opacity="0.3"/>
+</svg>

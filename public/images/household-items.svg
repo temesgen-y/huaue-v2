@@ -1,0 +1,28 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" fill="#f8f9fa"/>
+  
+  <!-- Storage container -->
+  <rect x="60" y="70" width="50" height="40" rx="5" fill="none" stroke="#28a745" stroke-width="3"/>
+  <rect x="80" y="60" width="10" height="15" rx="3" fill="#28a745"/>
+  <circle cx="85" cy="85" r="8" fill="#e8f5e9"/>
+  
+  <!-- Kitchen utensil holder -->
+  <ellipse cx="150" cy="110" rx="20" ry="30" fill="none" stroke="#28a745" stroke-width="3"/>
+  <line x1="145" y1="85" x2="145" y2="95" stroke="#28a745" stroke-width="2"/>
+  <line x1="150" y1="80" x2="150" y2="100" stroke="#28a745" stroke-width="2"/>
+  <line x1="155" y1="85" x2="155" y2="95" stroke="#28a745" stroke-width="2"/>
+  
+  <!-- Basket/organizer -->
+  <path d="M200 120 L240 120 L235 90 L205 90 Z" fill="none" stroke="#28a745" stroke-width="3"/>
+  <line x1="210" y1="120" x2="210" y2="90" stroke="#28a745" stroke-width="1"/>
+  <line x1="220" y1="120" x2="220" y2="90" stroke="#28a745" stroke-width="1"/>
+  <line x1="230" y1="120" x2="230" y2="90" stroke="#28a745" stroke-width="1"/>
+  
+  <!-- Cleaning tool -->
+  <rect x="270" y="95" width="8" height="40" fill="#28a745"/>
+  <ellipse cx="274" cy="85" rx="15" ry="8" fill="none" stroke="#28a745" stroke-width="3"/>
+  
+  <!-- Home icon -->
+  <path d="M320 90 L340 70 L360 90 L360 120 L320 120 Z" fill="none" stroke="#28a745" stroke-width="3"/>
+  <rect x="335" y="105" width="10" height="15" fill="#28a745"/>
+</svg>
