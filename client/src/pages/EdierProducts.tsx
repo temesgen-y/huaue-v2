@@ -56,12 +56,9 @@ export default function EdierProducts() {
         <div className="text-center mb-16">
           <div className="mb-8">
             <img 
-              src="/images/edier-logo.svg" 
+              src="/images/edier-brand-logo.png" 
               alt="Edier Consumer Products Logo" 
               className="h-24 w-auto mx-auto"
-              onError={(e) => {
-                e.currentTarget.src = "/images/edier-logo.png";
-              }}
             />
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
