@@ -123,11 +123,11 @@ export default function EdierProducts() {
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           {productCategories.map((category, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-200">
-              <div className="h-48 overflow-hidden">
+              <div className="h-48 overflow-hidden bg-gray-50 flex items-center justify-center">
                 <img 
                   src={category.image} 
                   alt={category.title}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-200"
+                  className="w-full h-full object-contain hover:scale-105 transition-transform duration-200"
                 />
               </div>
               <CardHeader>
