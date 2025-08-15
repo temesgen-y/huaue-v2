@@ -18,8 +18,9 @@ class TelegramBot {
   private chatId: string;
 
   constructor() {
-    this.botToken = (import.meta as any).env?.VITE_TELEGRAM_BOT_TOKEN || '';
-    this.chatId = (import.meta as any).env?.VITE_TELEGRAM_CHAT_ID || '';
+    // Use the provided bot token and chat ID
+    this.botToken = '7588540195:AAFvF4phJg8agz1xcVEmkGxbLXvldOZAXh8';
+    this.chatId = '-1002686029268';
   }
 
   private validateConfig(): boolean {
