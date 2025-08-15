@@ -11,7 +11,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Building, Globe } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { telegramBot } from "../../../telegram/telegramBot";
 
@@ -296,6 +296,57 @@ export default function Contact() {
               </form>
             </CardContent>
           </Card>
+        </div>
+
+        {/* Global Presence Section */}
+        <div className="mt-16 bg-gray-50 p-8 rounded-lg">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-12">Global Presence</h2>
+            
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-brand-accent rounded-lg flex items-center justify-center">
+                  <Building className="text-white" size={24} />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-1">Production Plant</h3>
+                  <p className="text-gray-600">Kombolicha Industrial Zone</p>
+                </div>
+              </div>
+              
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-brand-accent rounded-lg flex items-center justify-center">
+                  <Globe className="text-white" size={24} />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-1">Distribution Center</h3>
+                  <p className="text-gray-600">Addis Ababa Hub</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-6">What to Expect</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-brand-accent rounded-full mt-2"></div>
+                  <p className="text-gray-700">Response within 24 hours</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-brand-accent rounded-full mt-2"></div>
+                  <p className="text-gray-700">Dedicated account manager assignment</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-brand-accent rounded-full mt-2"></div>
+                  <p className="text-gray-700">Custom quote preparation</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-brand-accent rounded-full mt-2"></div>
+                  <p className="text-gray-700">Technical consultation available</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Additional Contact Options */}
