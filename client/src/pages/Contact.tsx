@@ -86,16 +86,12 @@ export default function Contact() {
     {
       icon: MapPin,
       title: "Address",
-      details: [
-        "Industrial Zone",
-        "Kombolcha",
-        "Ethiopia",
-      ],
+      details: ["Industrial Zone", "Kombolcha", "Ethiopia"],
     },
     {
       icon: Phone,
       title: "Phone",
-      details: ["+86-21-1234-5678", "Fax: +86-21-1234-5679"],
+      details: ["++251 933 551 2345", "Fax: +251 91 123 4567"],
     },
     {
       icon: Mail,

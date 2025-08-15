@@ -33,28 +33,7 @@ export default function PartnershipCTA() {
             Agency Policy
           </Button>
         </div>
-        
-        {/* Trust Indicators */}
-        <div className="mt-12 pt-8 border-t border-white/20">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-2xl font-bold text-white mb-1">50+</div>
-              <div className="text-white/80 text-sm">Countries Served</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold text-white mb-1">25+</div>
-              <div className="text-white/80 text-sm">Years Experience</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold text-white mb-1">10K+</div>
-              <div className="text-white/80 text-sm">Projects Completed</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold text-white mb-1">99.8%</div>
-              <div className="text-white/80 text-sm">Client Satisfaction</div>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   );
