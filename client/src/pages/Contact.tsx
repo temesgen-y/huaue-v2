@@ -287,7 +287,7 @@ export default function Contact() {
 
                 <Button
                   type="submit"
-                  className="w-full bg-corporate-blue hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-semibold transition-colors duration-200"
+                  className="w-full bg-brand-accent hover:bg-green-600 text-white py-3 px-6 rounded-lg font-semibold transition-colors duration-200"
                   disabled={isSubmitting}
                   data-testid="button-send-message"
                 >
