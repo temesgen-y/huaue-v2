@@ -100,55 +100,55 @@ export default function HuayueProducts() {
               {
                 title: "Industrial Plastic Pipes",
                 description: "High-grade HUAYUE PP-R pipes and fittings for industrial applications",
-                image: "/images/industrial-plastic-pipes.svg"
+                image: "/products-pipes-green.jpg"
               },
               {
                 title: "Specialized Fittings", 
                 description: "Custom fittings for complex industrial systems",
-                image: "/images/specialized-fittings.svg"
+                image: "/products-edier-valves.jpg"
               },
               {
                 title: "High-Pressure Systems",
                 description: "Pipes designed for extreme pressure environments", 
-                image: "/images/high-pressure-systems.svg"
+                image: "/products-pipe-detail.jpg"
               },
               {
                 title: "Heavy-Duty Flanges",
                 description: "Robust flanges for secure pipe connections",
-                image: "/images/heavy-duty-flanges.svg"
+                image: "/products-warehouse-1.jpg"
               },
               {
                 title: "Welded Plastic Tubes",
                 description: "Seamlessly welded tubes for continuous flow systems",
-                image: "/images/welded-plastic-tubes.svg"
+                image: "/products-pipes-white.jpg"
               },
               {
                 title: "Carbon Plastic Assemblies", 
                 description: "Advanced carbon-reinforced plastic components",
-                image: "/images/carbon-plastic-assemblies.svg"
+                image: "/products-edier-pipes.jpg"
               },
               {
                 title: "Thermal Insulation Pipes",
                 description: "Temperature-controlled piping with advanced insulation",
-                image: "/images/thermal-insulation-pipes.svg"
+                image: "/products-warehouse-pipes.jpg"
               },
               {
                 title: "Chemical Resistant Tubing",
                 description: "Corrosion-resistant tubes for harsh chemical environments", 
-                image: "/images/chemical-resistant-tubing.svg"
+                image: "/products-warehouse-2.jpg"
               },
               {
                 title: "Precision Molded Components",
                 description: "High-precision molded parts with tight tolerances",
-                image: "/images/precision-molded-components.svg"
+                image: "/products-warehouse-3.jpg"
               }
             ].map((product, index) => (
               <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                <div className="h-48 p-4 bg-gray-50 flex items-center justify-center">
+                <div className="h-48 bg-gray-50 flex items-center justify-center overflow-hidden">
                   <img 
                     src={product.image} 
                     alt={product.title}
-                    className="max-w-full max-h-full object-contain"
+                    className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-6">
