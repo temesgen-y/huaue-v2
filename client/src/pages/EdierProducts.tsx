@@ -3,15 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Leaf, Users, Lightbulb, Home } from "lucide-react";
-import packagingImg from "@assets/image_1754401332605.png";
-import householdImg from "@assets/image_1754403817255.png";
-import innovativeImg from "@assets/image_1754404815990.png";
-import foodStorageImg from "@assets/image_1754405877464.png";
-import outdoorImg from "@assets/image_1754405982047.png";
-import smartHomeImg from "@assets/image_1754406300299.png";
-import healthBeautyImg from "@assets/image_1754406571640.png";
-import childrenImg from "@assets/image_1754407047025.png";
-import automotiveImg from "@assets/image_1754407543384.png";
+// Using authentic warehouse and product photos instead of placeholder images
 
 const productCategories = [
   // First Row
@@ -19,57 +11,57 @@ const productCategories = [
     title: "Packaging Solutions",
     description: "Sustainable and innovative packaging materials for food, retail, and e-commerce applications.",
     features: ["Food Safe", "Biodegradable Options", "Tamper Evident", "Custom Printing"],
-    image: packagingImg,
+    image: "/products-warehouse-1.jpg",
   },
   {
     title: "Household Items",
     description: "Durable and stylish plastic products designed for everyday home use and organization.",
     features: ["BPA Free", "Dishwasher Safe", "Ergonomic Design", "Color Varieties"],
-    image: householdImg,
+    image: "/products-pipes-white.jpg",
   },
   {
     title: "Innovative Designs",
     description: "Cutting-edge consumer products that combine functionality with aesthetic appeal.",
     features: ["Modern Design", "Multi-Functional", "Easy Maintenance", "Space Saving"],
-    image: innovativeImg,
+    image: "/products-pipes-green.jpg",
   },
   // Second Row
   {
     title: "Food Storage Solutions",
     description: "Premium food-grade containers and storage systems for commercial and domestic use.",
     features: ["Airtight Seal", "Microwave Safe", "Stackable Design", "Clear Visibility"],
-    image: foodStorageImg,
+    image: "/products-edier-valves.jpg",
   },
   {
     title: "Outdoor & Garden",
     description: "Weather-resistant plastic products designed for outdoor environments and gardening.",
     features: ["UV Resistant", "Weather Proof", "Durable Materials", "Easy Clean"],
-    image: outdoorImg,
+    image: "/products-warehouse-2.jpg",
   },
   {
     title: "Smart Home Integration",
     description: "Modern plastic components designed for smart home systems and IoT applications.",
     features: ["Tech Compatible", "Wireless Ready", "Sleek Design", "Easy Install"],
-    image: smartHomeImg,
+    image: "/products-pipe-detail.jpg",
   },
   // Third Row
   {
     title: "Health & Beauty",
     description: "Safe and elegant plastic products for personal care and beauty applications.",
     features: ["Medical Grade", "Anti-Bacterial", "Ergonomic", "Premium Finish"],
-    image: healthBeautyImg,
+    image: "/products-edier-pipes.jpg",
   },
   {
     title: "Children's Products",
     description: "Safe, colorful, and educational plastic products designed specifically for children.",
     features: ["Child Safe", "Non-Toxic", "Bright Colors", "Educational"],
-    image: childrenImg,
+    image: "/products-warehouse-pipes.jpg",
   },
   {
     title: "Automotive Accessories",
     description: "Durable automotive plastic components and accessories for vehicle enhancement.",
     features: ["Heat Resistant", "Impact Proof", "Custom Fit", "Long Lasting"],
-    image: automotiveImg,
+    image: "/products-warehouse-3.jpg",
   },
 ];
 
