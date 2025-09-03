@@ -13,7 +13,7 @@ const newsArticles = [
     date: "March 15, 2024",
     author: "Environmental Team",
     category: "Sustainability",
-    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+    image: "/news-1.jpg",
     featured: true
   },
   {
@@ -24,7 +24,7 @@ const newsArticles = [
     date: "March 8, 2024",
     author: "Technology Team",
     category: "Technology",
-    image: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+    image: "/news-2.jpg",
     featured: true
   },
   {
@@ -35,7 +35,7 @@ const newsArticles = [
     date: "February 28, 2024",
     author: "Marketing Team",
     category: "Events",
-    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+    image: "/news-3.jpg",
     featured: true
   },
   {
@@ -46,7 +46,7 @@ const newsArticles = [
     date: "January 20, 2024",
     author: "Finance Team",
     category: "Financial",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+    image: "/news-4.jpg",
     featured: false
   },
   {
@@ -57,7 +57,7 @@ const newsArticles = [
     date: "December 15, 2023",
     author: "R&D Team",
     category: "Innovation",
-    image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+    image: "/news-5.jpg",
     featured: false
   },
   {
@@ -68,7 +68,7 @@ const newsArticles = [
     date: "November 30, 2023",
     author: "Quality Team",
     category: "Quality",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+    image: "/news-6.jpg",
     featured: false
   }
 ];
