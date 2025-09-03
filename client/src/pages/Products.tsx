@@ -16,68 +16,102 @@ export default function Products() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
-          {/* Huayue Products */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-            <img 
-              src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
-              alt="Huayue industrial plastic products" 
-              className="w-full h-64 object-cover"
-            />
-            <div className="p-8">
-              <h2 className="text-3xl font-bold mb-4 corporate-blue">
-                Huayue Products
-              </h2>
-              <p className="corporate-gray mb-6 text-lg">
-                Premium quality plastic components for industrial applications, including injection molded parts, custom solutions, and specialized materials designed for demanding environments.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-6">
-                <Badge className="bg-blue-100 text-blue-800 text-sm">Industrial Grade</Badge>
-                <Badge className="bg-blue-100 text-blue-800 text-sm">Custom Solutions</Badge>
-                <Badge className="bg-blue-100 text-blue-800 text-sm">High Durability</Badge>
-                <Badge className="bg-blue-100 text-blue-800 text-sm">ISO Certified</Badge>
+          {/* HUAYUE PPR Pipes and Fittings */}
+          <div className="bg-white rounded-xl shadow-lg p-8">
+            <div className="text-center mb-6">
+              <h3 className="text-lg font-medium text-gray-600 mb-4">HUAYUE PPR Pipes and Fittings</h3>
+              <div className="bg-gray-50 p-6 rounded-lg mb-6">
+                <img 
+                  src="/huayue-product.jpg" 
+                  alt="HUAYUE PPR Pipes Bundle with cityscape logo" 
+                  className="w-full h-48 object-contain mx-auto"
+                />
               </div>
-              <Button 
-                asChild
-                className="bg-corporate-blue hover:bg-blue-700 text-white px-8 py-3 rounded-lg transition-colors duration-200 w-full"
-                data-testid="button-view-huayue-details"
-              >
-                <Link href="/products/huayue">
-                  View Huayue Products
-                </Link>
-              </Button>
             </div>
+            
+            <div className="space-y-4 mb-8">
+              <p className="text-gray-700 text-sm leading-relaxed">
+                HUAYUE PPR pipes and fittings designed for extreme industrial conditions. Built to 
+                withstand high pressure and corrosive environments with exceptional durability.
+              </p>
+              
+              <div className="space-y-3">
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-brand-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm text-gray-700">High Durability: Resistant to corrosion, chemicals, and scaling ensuring longevity in various applications.</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-brand-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm text-gray-700">Heat Resistance</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-brand-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm text-gray-700">Pressure Resistance</p>
+                </div>
+              </div>
+            </div>
+
+            <Button 
+              asChild
+              className="bg-brand-accent hover:bg-green-600 text-white px-8 py-3 rounded-lg font-medium w-full"
+              data-testid="button-explore-huayue-products"
+            >
+              <Link href="/products/huayue">
+                Explore HUAYUE Products
+              </Link>
+            </Button>
           </div>
 
-          {/* Edier Products */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-            <img 
-              src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
-              alt="Edier consumer plastic products" 
-              className="w-full h-64 object-cover"
-            />
-            <div className="p-8">
-              <h2 className="text-3xl font-bold mb-4 corporate-blue">
-                Edier Products
-              </h2>
-              <p className="corporate-gray mb-6 text-lg">
-                Consumer-focused plastic products including packaging solutions, household items, and innovative designs for everyday use, emphasizing sustainability and user experience.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-6">
-                <Badge className="bg-green-100 text-green-800 text-sm">Consumer Grade</Badge>
-                <Badge className="bg-green-100 text-green-800 text-sm">Eco-Friendly</Badge>
-                <Badge className="bg-green-100 text-green-800 text-sm">Innovative Design</Badge>
-                <Badge className="bg-green-100 text-green-800 text-sm">FDA Approved</Badge>
+          {/* EDIER PPR Piping Systems */}
+          <div className="bg-white rounded-xl shadow-lg p-8">
+            <div className="text-center mb-6">
+              <h3 className="text-lg font-medium text-gray-600 mb-4">EDIER PPR Piping Systems</h3>
+              <div className="bg-gray-50 p-6 rounded-lg mb-6 relative">
+                <img 
+                  src="/edier-product.jpg" 
+                  alt="EDIER PPR Pipe Fittings in packaging" 
+                  className="w-full h-48 object-contain mx-auto"
+                />
+                <div className="absolute top-4 right-4">
+                  <div className="bg-brand-accent text-white px-3 py-1 rounded-full text-xs font-medium">
+                    EDIER Easy Install
+                  </div>
+                </div>
               </div>
-              <Button 
-                asChild
-                className="bg-success-green hover:bg-green-700 text-white px-8 py-3 rounded-lg transition-colors duration-200 w-full"
-                data-testid="button-view-edier-details"
-              >
-                <Link href="/products/edier">
-                  View Edier Products
-                </Link>
-              </Button>
             </div>
+            
+            <div className="space-y-4 mb-8">
+              <p className="text-gray-700 text-sm leading-relaxed">
+                Precision-engineered piping systems for pharmaceutical, food processing, and clean 
+                energy applications. Designed for absolute purity and contamination-free fluid 
+                transport.
+              </p>
+              
+              <div className="space-y-3">
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-brand-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm text-gray-700">Lightweight & Easy Installation</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-brand-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm text-gray-700">Pressure Resistance</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-brand-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm text-gray-700">Low Thermal Conductivity: Reduces heat loss in hot water systems, improving energy efficiency.</p>
+                </div>
+              </div>
+            </div>
+
+            <Button 
+              asChild
+              className="bg-brand-accent hover:bg-green-600 text-white px-8 py-3 rounded-lg font-medium w-full"
+              data-testid="button-explore-edier-systems"
+            >
+              <Link href="/products/edier">
+                Explore EDIER Systems
+              </Link>
+            </Button>
           </div>
         </div>
 
