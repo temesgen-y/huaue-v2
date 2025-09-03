@@ -1,0 +1,654 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huayue Plastics Industry - Leading Manufacturer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    'corporate-blue': '#1E40AF',
+                    'corporate-gray': '#64748B',
+                    'light-blue': '#3B82F6',
+                    'success-green': '#10B981',
+                    'warning-orange': '#F59E0B'
+                },
+                fontFamily: {
+                    'inter': ['Inter', 'sans-serif'],
+                }
+            }
+        }
+    };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="font-inter bg-gray-50">
+
+    <!-- @COMPONENT: Navigation [responsive header with dropdown menus] -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-corporate-blue rounded-lg flex items-center justify-center">
+                        <i class="fas fa-industry text-white text-xl"></i>
+                    </div>
+                    <span class="text-xl font-bold text-corporate-blue">Huayue Plastics</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-corporate-gray hover:text-corporate-blue transition-colors duration-200 font-medium">Home</a>
+                    
+                    <!-- Products Dropdown -->
+                    <div class="relative group">
+                        <button class="text-corporate-gray hover:text-corporate-blue transition-colors duration-200 font-medium flex items-center">
+                            Products <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                        </button>
+                        <div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                            <a href="#huayue-products" class="block px-4 py-3 text-sm text-corporate-gray hover:text-corporate-blue hover:bg-gray-50">Huayue Products</a>
+                            <a href="#edier-products" class="block px-4 py-3 text-sm text-corporate-gray hover:text-corporate-blue hover:bg-gray-50">Edier Products</a>
+                        </div>
+                    </div>
+
+                    <a href="#about" class="text-corporate-gray hover:text-corporate-blue transition-colors duration-200 font-medium">About Us</a>
+                    <a href="#policy" class="text-corporate-gray hover:text-corporate-blue transition-colors duration-200 font-medium">Agency Policy</a>
+                    <a href="#news" class="text-corporate-gray hover:text-corporate-blue transition-colors duration-200 font-medium">News</a>
+                    <a href="#contact" class="text-corporate-gray hover:text-corporate-blue transition-colors duration-200 font-medium">Contact Us</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden text-corporate-gray hover:text-corporate-blue" data-event="click:toggleMobileMenu">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="md:hidden hidden bg-white border-t" id="mobile-menu" data-implementation="Toggle visibility with React state">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="#home" class="block px-3 py-2 text-corporate-gray hover:text-corporate-blue">Home</a>
+                    <a href="#huayue-products" class="block px-3 py-2 text-corporate-gray hover:text-corporate-blue">Huayue Products</a>
+                    <a href="#edier-products" class="block px-3 py-2 text-corporate-gray hover:text-corporate-blue">Edier Products</a>
+                    <a href="#about" class="block px-3 py-2 text-corporate-gray hover:text-corporate-blue">About Us</a>
+                    <a href="#policy" class="block px-3 py-2 text-corporate-gray hover:text-corporate-blue">Agency Policy</a>
+                    <a href="#news" class="block px-3 py-2 text-corporate-gray hover:text-corporate-blue">News</a>
+                    <a href="#contact" class="block px-3 py-2 text-corporate-gray hover:text-corporate-blue">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- @END_COMPONENT: Navigation -->
+
+    <!-- @COMPONENT: HeroSection [main landing section with CTA] -->
+    <section id="home" class="relative bg-gradient-to-r from-corporate-blue to-light-blue text-white">
+        <!-- Modern industrial facility with plastic manufacturing equipment -->
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl lg:text-6xl font-bold mb-6 leading-tight" data-mock="true">
+                    Leading Innovation in Plastics Manufacturing
+                </h1>
+                <p class="text-xl lg:text-2xl mb-8 text-gray-200" data-mock="true">
+                    Huayue Plastics Industry delivers high-quality plastic solutions with cutting-edge technology and sustainable practices for over two decades.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-white text-corporate-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200" data-event="click:navigateToProducts">
+                        View Our Products
+                    </button>
+                    <button class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-corporate-blue transition-all duration-200" data-event="click:navigateToContact">
+                        Get Quote
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: HeroSection -->
+
+    <!-- @COMPONENT: CompanyOverview [company stats and features] -->
+    <section class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Stats Section -->
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-corporate-blue mb-2" data-bind="stats.yearsInBusiness">25+</div>
+                    <div class="text-corporate-gray">Years in Business</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-corporate-blue mb-2" data-bind="stats.productsManufactured">10K+</div>
+                    <div class="text-corporate-gray">Products Manufactured</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-corporate-blue mb-2" data-bind="stats.satisfiedClients">500+</div>
+                    <div class="text-corporate-gray">Satisfied Clients</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-corporate-blue mb-2" data-bind="stats.countriesServed">15+</div>
+                    <div class="text-corporate-gray">Countries Served</div>
+                </div>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl">
+                    <div class="w-12 h-12 bg-corporate-blue rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-cogs text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3" data-mock="true">Advanced Manufacturing</h3>
+                    <p class="text-corporate-gray" data-mock="true">State-of-the-art equipment and processes ensure consistent quality and precision in every product we manufacture.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl">
+                    <div class="w-12 h-12 bg-success-green rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-leaf text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3" data-mock="true">Sustainable Practices</h3>
+                    <p class="text-corporate-gray" data-mock="true">Committed to environmental responsibility through eco-friendly materials and sustainable manufacturing processes.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl">
+                    <div class="w-12 h-12 bg-warning-orange rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-award text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3" data-mock="true">Quality Assurance</h3>
+                    <p class="text-corporate-gray" data-mock="true">Rigorous quality control standards and ISO certifications guarantee the highest quality in all our products.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: CompanyOverview -->
+
+    <!-- @COMPONENT: ProductsSection [featured products showcase] -->
+    <section id="products" class="py-16 lg:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4" data-mock="true">Our Product Lines</h2>
+                <p class="text-xl text-corporate-gray max-w-3xl mx-auto" data-mock="true">
+                    Discover our comprehensive range of high-quality plastic products designed to meet diverse industry needs.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Huayue Products -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <!-- Various industrial plastic components and materials -->
+                    <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400" 
+                         alt="Huayue plastic products" 
+                         class="w-full h-64 object-cover" data-mock-image="true" />
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-4 text-corporate-blue" data-mock="true">Huayue Products</h3>
+                        <p class="text-corporate-gray mb-6" data-mock="true">
+                            Premium quality plastic components for industrial applications, including injection molded parts, custom solutions, and specialized materials.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="bg-blue-100 text-corporate-blue px-3 py-1 rounded-full text-sm" data-mock="true">Industrial Grade</span>
+                            <span class="bg-blue-100 text-corporate-blue px-3 py-1 rounded-full text-sm" data-mock="true">Custom Solutions</span>
+                            <span class="bg-blue-100 text-corporate-blue px-3 py-1 rounded-full text-sm" data-mock="true">High Durability</span>
+                        </div>
+                        <button class="bg-corporate-blue text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200" data-event="click:viewHuayueProducts">
+                            View Huayue Products
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Edier Products -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <!-- Modern plastic consumer goods and packaging materials -->
+                    <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400" 
+                         alt="Edier plastic products" 
+                         class="w-full h-64 object-cover" data-mock-image="true" />
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-4 text-corporate-blue" data-mock="true">Edier Products</h3>
+                        <p class="text-corporate-gray mb-6" data-mock="true">
+                            Consumer-focused plastic products including packaging solutions, household items, and innovative designs for everyday use.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="bg-green-100 text-success-green px-3 py-1 rounded-full text-sm" data-mock="true">Consumer Grade</span>
+                            <span class="bg-green-100 text-success-green px-3 py-1 rounded-full text-sm" data-mock="true">Eco-Friendly</span>
+                            <span class="bg-green-100 text-success-green px-3 py-1 rounded-full text-sm" data-mock="true">Innovative Design</span>
+                        </div>
+                        <button class="bg-success-green text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors duration-200" data-event="click:viewEdierProducts">
+                            View Edier Products
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: ProductsSection -->
+
+    <!-- @COMPONENT: AboutSection [company information and values] -->
+    <section id="about" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6" data-mock="true">About Huayue Plastics Industry</h2>
+                    <p class="text-lg text-corporate-gray mb-6" data-mock="true">
+                        Founded with a vision to revolutionize the plastics industry, Huayue Plastics Industry has been at the forefront of innovation for over two decades. We combine traditional craftsmanship with cutting-edge technology to deliver superior products.
+                    </p>
+                    <p class="text-lg text-corporate-gray mb-8" data-mock="true">
+                        Our commitment to quality, sustainability, and customer satisfaction has made us a trusted partner for businesses worldwide. We continuously invest in research and development to stay ahead of industry trends.
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-success-green mr-3"></i>
+                            <span data-mock="true">ISO 9001:2015 Quality Management Certified</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-success-green mr-3"></i>
+                            <span data-mock="true">Environmentally Responsible Manufacturing</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-success-green mr-3"></i>
+                            <span data-mock="true">24/7 Customer Support and Service</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <!-- Modern plastic manufacturing facility with workers and machinery -->
+                    <img src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
+                         alt="Huayue Plastics manufacturing facility" 
+                         class="rounded-xl shadow-lg w-full h-auto" data-mock-image="true" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: AboutSection -->
+
+    <!-- @COMPONENT: PolicySection [agency policies and terms] -->
+    <section id="policy" class="py-16 lg:py-24 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4" data-mock="true">Agency Policy</h2>
+                <p class="text-xl text-corporate-gray" data-mock="true">
+                    Our comprehensive policies ensure transparent and professional business relationships.
+                </p>
+            </div>
+
+            <div class="space-y-8">
+                <div class="bg-white p-8 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-semibold mb-4 flex items-center">
+                        <i class="fas fa-handshake text-corporate-blue mr-3"></i>
+                        <span data-mock="true">Partnership Terms</span>
+                    </h3>
+                    <p class="text-corporate-gray" data-mock="true">
+                        We establish long-term partnerships based on mutual trust, transparent communication, and shared success. Our partnership terms are designed to be fair and beneficial for all parties involved.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-semibold mb-4 flex items-center">
+                        <i class="fas fa-shield-alt text-corporate-blue mr-3"></i>
+                        <span data-mock="true">Quality Guarantee</span>
+                    </h3>
+                    <p class="text-corporate-gray" data-mock="true">
+                        All our products come with comprehensive quality guarantees. We stand behind our manufacturing processes and offer warranty coverage on all products according to industry standards.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-semibold mb-4 flex items-center">
+                        <i class="fas fa-truck text-corporate-blue mr-3"></i>
+                        <span data-mock="true">Delivery & Logistics</span>
+                    </h3>
+                    <p class="text-corporate-gray" data-mock="true">
+                        We maintain efficient supply chain management to ensure timely delivery. Our logistics network covers global markets with reliable shipping partners and tracking systems.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-semibold mb-4 flex items-center">
+                        <i class="fas fa-recycle text-corporate-blue mr-3"></i>
+                        <span data-mock="true">Environmental Responsibility</span>
+                    </h3>
+                    <p class="text-corporate-gray" data-mock="true">
+                        Our environmental policy emphasizes sustainable practices, waste reduction, and the use of eco-friendly materials wherever possible. We are committed to minimizing our environmental footprint.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: PolicySection -->
+
+    <!-- @COMPONENT: NewsSection [company updates and announcements] -->
+    <section id="news" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4" data-mock="true">Latest News & Updates</h2>
+                <p class="text-xl text-corporate-gray" data-mock="true">
+                    Stay informed about our latest developments, innovations, and industry insights.
+                </p>
+            </div>
+
+            <!-- @MAP: newsArticles.map(article => ( -->
+            <div class="grid md:grid-cols-3 gap-8">
+                <article class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-200">
+                    <!-- Business professionals in a modern conference room discussing sustainability -->
+                    <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250" 
+                         alt="Sustainability initiative announcement" 
+                         class="w-full h-48 object-cover" data-mock-image="true" />
+                    <div class="p-6">
+                        <div class="text-sm text-corporate-blue font-medium mb-2" data-bind="article.date">March 15, 2024</div>
+                        <h3 class="text-lg font-semibold mb-3" data-bind="article.title" data-mock="true">New Sustainability Initiative Launched</h3>
+                        <p class="text-corporate-gray text-sm mb-4" data-bind="article.excerpt" data-mock="true">
+                            Huayue Plastics announces major investment in eco-friendly manufacturing processes and renewable materials.
+                        </p>
+                        <a href="#news-detail" class="text-corporate-blue font-medium hover:underline" data-event="click:readMore">Read More</a>
+                    </div>
+                </article>
+
+                <article class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-200">
+                    <!-- Modern manufacturing equipment in a high-tech factory setting -->
+                    <img src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250" 
+                         alt="Technology expansion announcement" 
+                         class="w-full h-48 object-cover" data-mock-image="true" />
+                    <div class="p-6">
+                        <div class="text-sm text-corporate-blue font-medium mb-2" data-bind="article.date">March 8, 2024</div>
+                        <h3 class="text-lg font-semibold mb-3" data-bind="article.title" data-mock="true">Technology Expansion Program</h3>
+                        <p class="text-corporate-gray text-sm mb-4" data-bind="article.excerpt" data-mock="true">
+                            Investment in advanced automation and AI-driven quality control systems to enhance production efficiency.
+                        </p>
+                        <a href="#news-detail" class="text-corporate-blue font-medium hover:underline" data-event="click:readMore">Read More</a>
+                    </div>
+                </article>
+
+                <article class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-200">
+                    <!-- International trade exhibition with plastic products on display -->
+                    <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250" 
+                         alt="International trade show participation" 
+                         class="w-full h-48 object-cover" data-mock-image="true" />
+                    <div class="p-6">
+                        <div class="text-sm text-corporate-blue font-medium mb-2" data-bind="article.date">February 28, 2024</div>
+                        <h3 class="text-lg font-semibold mb-3" data-bind="article.title" data-mock="true">International Trade Show Success</h3>
+                        <p class="text-corporate-gray text-sm mb-4" data-bind="article.excerpt" data-mock="true">
+                            Outstanding reception at the Global Plastics Expo with new product launches and partnership opportunities.
+                        </p>
+                        <a href="#news-detail" class="text-corporate-blue font-medium hover:underline" data-event="click:readMore">Read More</a>
+                    </div>
+                </article>
+            </div>
+            <!-- @END_MAP )) -->
+
+            <div class="text-center mt-12">
+                <button class="bg-corporate-blue text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200" data-event="click:viewAllNews">
+                    View All News
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: NewsSection -->
+
+    <!-- @COMPONENT: ContactSection [contact form and information] -->
+    <section id="contact" class="py-16 lg:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4" data-mock="true">Contact Us</h2>
+                <p class="text-xl text-corporate-gray" data-mock="true">
+                    Get in touch with our team for inquiries, quotes, or partnership opportunities.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Contact Information -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-8" data-mock="true">Get In Touch</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-corporate-blue rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1" data-mock="true">Address</h4>
+                                <p class="text-corporate-gray" data-bind="company.address" data-mock="true">
+                                    123 Industrial Park Avenue<br>
+                                    Manufacturing District<br>
+                                    Shanghai, China 200000
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-corporate-blue rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-phone text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1" data-mock="true">Phone</h4>
+                                <p class="text-corporate-gray" data-bind="company.phone" data-mock="true">+86-21-1234-5678</p>
+                                <p class="text-corporate-gray" data-bind="company.fax" data-mock="true">Fax: +86-21-1234-5679</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-corporate-blue rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-envelope text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1" data-mock="true">Email</h4>
+                                <p class="text-corporate-gray" data-bind="company.email" data-mock="true">info@huayueplastics.com</p>
+                                <p class="text-corporate-gray" data-bind="company.salesEmail" data-mock="true">sales@huayueplastics.com</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-corporate-blue rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-clock text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1" data-mock="true">Business Hours</h4>
+                                <p class="text-corporate-gray" data-bind="company.businessHours" data-mock="true">
+                                    Monday - Friday: 8:00 AM - 6:00 PM<br>
+                                    Saturday: 9:00 AM - 2:00 PM
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-white p-8 rounded-xl shadow-sm">
+                    <form class="space-y-6" data-event="submit:handleContactSubmit" data-implementation="Form validation and submission">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-2">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required 
+                                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-corporate-blue focus:border-transparent"
+                                       data-bind="form.firstName" />
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-2">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required 
+                                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-corporate-blue focus:border-transparent"
+                                       data-bind="form.lastName" />
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="company" class="block text-sm font-medium text-gray-700 mb-2">Company</label>
+                            <input type="text" id="company" name="company" 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-corporate-blue focus:border-transparent"
+                                   data-bind="form.company" />
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email *</label>
+                            <input type="email" id="email" name="email" required 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-corporate-blue focus:border-transparent"
+                                   data-bind="form.email" />
+                        </div>
+
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone</label>
+                            <input type="tel" id="phone" name="phone" 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-corporate-blue focus:border-transparent"
+                                   data-bind="form.phone" />
+                        </div>
+
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Subject *</label>
+                            <select id="subject" name="subject" required 
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-corporate-blue focus:border-transparent"
+                                    data-bind="form.subject">
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="quote">Request Quote</option>
+                                <option value="products">Product Information</option>
+                                <option value="partnership">Partnership Opportunity</option>
+                                <option value="support">Technical Support</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message *</label>
+                            <textarea id="message" name="message" rows="4" required 
+                                      class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-corporate-blue focus:border-transparent"
+                                      placeholder="Please describe your inquiry in detail..."
+                                      data-bind="form.message"></textarea>
+                        </div>
+
+                        <button type="submit" 
+                                class="w-full bg-corporate-blue text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200"
+                                data-implementation="Submit form with validation and loading state">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: ContactSection -->
+
+    <!-- @COMPONENT: Footer [company information and links] -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="col-span-2 md:col-span-1">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-10 h-10 bg-corporate-blue rounded-lg flex items-center justify-center">
+                            <i class="fas fa-industry text-white text-xl"></i>
+                        </div>
+                        <span class="text-xl font-bold">Huayue Plastics</span>
+                    </div>
+                    <p class="text-gray-300 mb-6" data-mock="true">
+                        Leading innovation in plastics manufacturing with a commitment to quality, sustainability, and customer satisfaction.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#linkedin" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-corporate-blue transition-colors duration-200">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#facebook" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-corporate-blue transition-colors duration-200">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#twitter" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-corporate-blue transition-colors duration-200">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6" data-mock="true">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#home" class="text-gray-300 hover:text-white transition-colors duration-200">Home</a></li>
+                        <li><a href="#about" class="text-gray-300 hover:text-white transition-colors duration-200">About Us</a></li>
+                        <li><a href="#huayue-products" class="text-gray-300 hover:text-white transition-colors duration-200">Huayue Products</a></li>
+                        <li><a href="#edier-products" class="text-gray-300 hover:text-white transition-colors duration-200">Edier Products</a></li>
+                        <li><a href="#news" class="text-gray-300 hover:text-white transition-colors duration-200">News</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6" data-mock="true">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#manufacturing" class="text-gray-300 hover:text-white transition-colors duration-200" data-mock="true">Custom Manufacturing</a></li>
+                        <li><a href="#consulting" class="text-gray-300 hover:text-white transition-colors duration-200" data-mock="true">Design Consulting</a></li>
+                        <li><a href="#quality" class="text-gray-300 hover:text-white transition-colors duration-200" data-mock="true">Quality Testing</a></li>
+                        <li><a href="#logistics" class="text-gray-300 hover:text-white transition-colors duration-200" data-mock="true">Global Shipping</a></li>
+                        <li><a href="#support" class="text-gray-300 hover:text-white transition-colors duration-200" data-mock="true">Technical Support</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6" data-mock="true">Contact Info</h4>
+                    <div class="space-y-3">
+                        <p class="text-gray-300 flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span data-bind="company.address" data-mock="true">123 Industrial Park Avenue<br>Shanghai, China</span>
+                        </p>
+                        <p class="text-gray-300 flex items-center">
+                            <i class="fas fa-phone mr-3"></i>
+                            <span data-bind="company.phone" data-mock="true">+86-21-1234-5678</span>
+                        </p>
+                        <p class="text-gray-300 flex items-center">
+                            <i class="fas fa-envelope mr-3"></i>
+                            <span data-bind="company.email" data-mock="true">info@huayueplastics.com</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm" data-mock="true">
+                    © 2024 Huayue Plastics Industry. All rights reserved.
+                </p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#privacy" class="text-gray-400 hover:text-white text-sm transition-colors duration-200" data-mock="true">Privacy Policy</a>
+                    <a href="#terms" class="text-gray-400 hover:text-white text-sm transition-colors duration-200" data-mock="true">Terms of Service</a>
+                    <a href="#sitemap" class="text-gray-400 hover:text-white text-sm transition-colors duration-200" data-mock="true">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- @END_COMPONENT: Footer -->
+
+    <script>
+    // TODO: Implement React Router for navigation
+    // TODO: Add state management for form handling
+    // TODO: Implement mobile menu toggle functionality
+    // TODO: Add smooth scrolling for anchor links
+    // TODO: Implement form validation and submission
+    // TODO: Add loading states for interactive elements
+    
+    (function() {
+        // Mobile menu toggle functionality
+        const mobileMenuToggle = document.querySelector('[data-event="click:toggleMobileMenu"]');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        if (mobileMenuToggle && mobileMenu) {
+            mobileMenuToggle.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Close mobile menu when clicking on links
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', function() {
+                if (mobileMenu) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+    })();
+    </script>
+</body>
+</html>
