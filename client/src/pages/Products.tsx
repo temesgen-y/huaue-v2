@@ -1,13 +1,10 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import HeroSlider from "@/components/HeroSlider";
 
 export default function Products() {
   return (
-    <div>
-      <HeroSlider />
-      <div className="py-16 lg:py-24 bg-gray-50 min-h-screen">
+    <div className="py-16 lg:py-24 bg-gray-50 min-h-screen">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
@@ -137,7 +134,6 @@ export default function Products() {
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 }

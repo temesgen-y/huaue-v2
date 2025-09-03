@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Settings, Shield, Truck, Award } from "lucide-react";
-import HeroSlider from "@/components/HeroSlider";
 
 const productCategories = [
   {
@@ -51,9 +50,7 @@ const specifications = [
 
 export default function HuayueProducts() {
   return (
-    <div>
-      <HeroSlider />
-      <div className="py-16 lg:py-24 bg-gray-50 min-h-screen">
+    <div className="py-16 lg:py-24 bg-gray-50 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
@@ -290,7 +287,6 @@ export default function HuayueProducts() {
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 }

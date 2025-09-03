@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Leaf, Users, Lightbulb, Home } from "lucide-react";
-import HeroSlider from "@/components/HeroSlider";
 import packagingImg from "@assets/image_1754401332605.png";
 import householdImg from "@assets/image_1754403817255.png";
 import innovativeImg from "@assets/image_1754404815990.png";
@@ -99,9 +98,7 @@ const features = [
 
 export default function EdierProducts() {
   return (
-    <div>
-      <HeroSlider />
-      <div className="py-16 lg:py-24 bg-gray-50 min-h-screen">
+    <div className="py-16 lg:py-24 bg-gray-50 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
@@ -255,7 +252,6 @@ export default function EdierProducts() {
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 }
