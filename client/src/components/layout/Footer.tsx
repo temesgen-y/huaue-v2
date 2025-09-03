@@ -202,7 +202,7 @@ export default function Footer() {
                 <span>
                   123 Industrial Park Avenue
                   <br />
-                  Shanghai, China
+                  Kombolcha, Ethiopia
                 </span>
               </p>
               <p className="text-gray-300 flex items-center">

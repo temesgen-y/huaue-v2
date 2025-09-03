@@ -22,99 +22,99 @@ interface HeroSliderProps {
 const heroSlides: HeroSlide[] = [
   {
     id: 1,
-    image: "/images/hero/banner1.svg",
-    title: "Industrial Excellence",
-    subtitle: "Leading manufacturer of high-quality plastic products for industrial applications worldwide",
+    image: "/slide-1.jpg",
+    title: "Product Inventory Excellence",
+    subtitle: "Comprehensive storage and organization systems for all plastic products and materials",
     ctaText: "Explore Products",
     ctaLink: "/products/huayue"
   },
   {
     id: 2,
-    image: "/images/hero/banner2.svg",
-    title: "Advanced Manufacturing",
-    subtitle: "State-of-the-art production facilities with cutting-edge technology and automation",
-    ctaText: "Learn More",
-    ctaLink: "/about"
+    image: "/slide-2.jpg",
+    title: "Premium PPR Pipes",
+    subtitle: "High-quality polypropylene random copolymer pipes for plumbing and industrial applications",
+    ctaText: "View Products",
+    ctaLink: "/products/huayue"
   },
   {
     id: 3,
-    image: "/images/hero/banner3.svg",
-    title: "Quality Assurance",
-    subtitle: "Rigorous testing and quality control ensuring the highest standards in every product",
+    image: "/slide-3.jpg",
+    title: "EDER Brand Quality",
+    subtitle: "Professional-grade green PPR pipes with superior durability and performance standards",
+    ctaText: "Learn More",
+    ctaLink: "/products/edier"
+  },
+  {
+    id: 4,
+    image: "/slide-4.jpg",
+    title: "Organized Storage Solutions",
+    subtitle: "Modern warehouse facilities with systematic product organization and quality management",
+    ctaText: "About Us",
+    ctaLink: "/about"
+  },
+  {
+    id: 5,
+    image: "/slide-5.jpg",
+    title: "Complete Product Range",
+    subtitle: "Comprehensive inventory of pipes, fittings, and accessories for all installation needs",
+    ctaText: "Product Catalog",
+    ctaLink: "/products/huayue"
+  },
+  {
+    id: 6,
+    image: "/slide-6.jpg",
+    title: "Quality Control Standards",
+    subtitle: "Rigorous quality inspection and testing for all products meeting international standards",
     ctaText: "Quality Policy",
     ctaLink: "/agency-policy"
   },
   {
-    id: 4,
-    image: "/images/hero/banner4.svg",
-    title: "Innovation & Technology",
-    subtitle: "Pioneering solutions through research, development, and advanced manufacturing processes",
-    ctaText: "Contact Us",
-    ctaLink: "/contact"
-  },
-  {
-    id: 5,
-    image: "/images/hero/banner5.svg",
-    title: "Sustainable Manufacturing",
-    subtitle: "Eco-friendly production processes with renewable energy and environmental responsibility",
-    ctaText: "Sustainability",
-    ctaLink: "/about"
-  },
-  {
-    id: 6,
-    image: "/images/hero/banner6.svg",
-    title: "Global Supply Chain",
-    subtitle: "Worldwide logistics network ensuring timely delivery and international market reach",
-    ctaText: "Global Reach",
-    ctaLink: "/about"
-  },
-  {
     id: 7,
-    image: "/images/hero/banner7.svg",
-    title: "Research & Development",
-    subtitle: "Cutting-edge laboratory facilities driving innovation in plastic technology and materials",
-    ctaText: "Innovation",
+    image: "/slide-7.jpg",
+    title: "Precision Manufacturing",
+    subtitle: "Close-up view of our high-precision pipe manufacturing with detailed specifications",
+    ctaText: "Manufacturing",
     ctaLink: "/about"
   },
   {
     id: 8,
-    image: "/images/hero/banner8.svg",
-    title: "Customer Support",
-    subtitle: "24/7 dedicated support team providing exceptional service and technical assistance",
-    ctaText: "Support Center",
+    image: "/slide-8.jpg",
+    title: "Showroom & Distribution",
+    subtitle: "Professional showroom displaying complete product range with expert consultation services",
+    ctaText: "Visit Showroom",
     ctaLink: "/contact"
   },
   {
     id: 9,
-    image: "/images/hero/banner9.svg",
-    title: "Strategic Partnerships",
-    subtitle: "Building strong relationships with global partners for mutual growth and success",
-    ctaText: "Partnerships",
-    ctaLink: "/contact"
+    image: "/slide-9.jpg",
+    title: "EDER Pipe Specifications",
+    subtitle: "Premium green EDER pipes with detailed technical specifications for professional use",
+    ctaText: "Technical Details",
+    ctaLink: "/products/edier"
   },
   {
     id: 10,
-    image: "/images/hero/banner10.svg",
-    title: "Future Technology",
-    subtitle: "Embracing next-generation technologies including AI, IoT, and advanced automation",
-    ctaText: "Technology",
-    ctaLink: "/about"
+    image: "/slide-10.jpg",
+    title: "Industrial Grade Products",
+    subtitle: "Heavy-duty pipes designed for industrial applications with superior strength and reliability",
+    ctaText: "Industrial Solutions",
+    ctaLink: "/products/huayue"
   },
   {
     id: 11,
-    image: "/images/hero/banner11.svg",
-    title: "Training & Education",
-    subtitle: "Comprehensive training programs ensuring skilled workforce and continuous improvement",
-    ctaText: "Career Center",
-    ctaLink: "/contact"
+    image: "/slide-11.jpg",
+    title: "Precision Engineering",
+    subtitle: "Detailed view of pipe specifications showcasing precision engineering and quality standards",
+    ctaText: "Engineering Excellence",
+    ctaLink: "/about"
   },
   {
     id: 12,
-    image: "/images/hero/banner12.svg",
-    title: "Awards & Recognition",
-    subtitle: "Industry recognition for excellence in quality, innovation, and customer satisfaction",
-    ctaText: "Achievements",
-    ctaLink: "/about"
+    image: "/slide-12.jpg",
+    title: "Complete Product Selection",
+    subtitle: "Extensive range of white and colored pipes with various sizes and specifications available",
+    ctaText: "Product Range",
+    ctaLink: "/products/huayue"
   }
 ];
 

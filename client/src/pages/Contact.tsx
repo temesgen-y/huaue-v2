@@ -91,7 +91,7 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Phone",
-      details: ["++251 933 551 2345", "Fax: +251 91 123 4567"],
+      details: ["+251 933 551 2345", "Fax: +251 91 123 4567"],
     },
     {
       icon: Mail,
@@ -301,25 +301,31 @@ export default function Contact() {
         {/* Global Presence Section */}
         <div className="mt-16 bg-gray-50 p-8 rounded-lg">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Global Presence</h2>
-            
+            <h2 className="text-3xl font-bold text-center mb-12">
+              Global Presence
+            </h2>
+
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-brand-accent rounded-lg flex items-center justify-center">
                   <Building className="text-white" size={24} />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-1">Production Plant</h3>
+                  <h3 className="text-xl font-semibold mb-1">
+                    Production Plant
+                  </h3>
                   <p className="text-gray-600">Kombolicha Industrial Zone</p>
                 </div>
               </div>
-              
+
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-brand-accent rounded-lg flex items-center justify-center">
                   <Globe className="text-white" size={24} />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-1">Distribution Center</h3>
+                  <h3 className="text-xl font-semibold mb-1">
+                    Distribution Center
+                  </h3>
                   <p className="text-gray-600">Addis Ababa Hub</p>
                 </div>
               </div>
@@ -334,7 +340,9 @@ export default function Contact() {
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-brand-accent rounded-full mt-2"></div>
-                  <p className="text-gray-700">Dedicated account manager assignment</p>
+                  <p className="text-gray-700">
+                    Dedicated account manager assignment
+                  </p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-brand-accent rounded-full mt-2"></div>
@@ -342,7 +350,9 @@ export default function Contact() {
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-brand-accent rounded-full mt-2"></div>
-                  <p className="text-gray-700">Technical consultation available</p>
+                  <p className="text-gray-700">
+                    Technical consultation available
+                  </p>
                 </div>
               </div>
             </div>
