@@ -22,9 +22,9 @@ export default function Products() {
               <h3 className="text-lg font-medium text-gray-600 mb-4">HUAYUE PPR Pipes and Fittings</h3>
               <div className="bg-gray-50 p-6 rounded-lg mb-6">
                 <img 
-                  src="/huayue-product-new.jpg" 
-                  alt="HUAYUE PPR Pipes Bundle with cityscape logo" 
-                  className="w-full h-48 object-contain mx-auto"
+                  src="/products-warehouse-1.jpg" 
+                  alt="HUAYUE warehouse with organized PPR pipes and fittings inventory" 
+                  className="w-full h-48 object-cover mx-auto rounded-lg"
                 />
               </div>
             </div>
@@ -68,9 +68,9 @@ export default function Products() {
               <h3 className="text-lg font-medium text-gray-600 mb-4">EDIER PPR Piping Systems</h3>
               <div className="bg-gray-50 p-6 rounded-lg mb-6 relative">
                 <img 
-                  src="/edier-product-new.jpg" 
-                  alt="EDIER PPR Pipe Fittings in packaging" 
-                  className="w-full h-48 object-contain mx-auto"
+                  src="/products-edier-valves.jpg" 
+                  alt="EDIER valve fittings with precision engineering" 
+                  className="w-full h-48 object-cover mx-auto rounded-lg"
                 />
                 <div className="absolute top-4 right-4">
                   <div className="bg-brand-accent text-white px-3 py-1 rounded-full text-xs font-medium">
