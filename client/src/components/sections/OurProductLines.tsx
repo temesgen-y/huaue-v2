@@ -27,9 +27,9 @@ export default function OurProductLines() {
               <div className="text-sm text-gray-500 mb-2">HUAYUE PPR Pipes and Fittings</div>
               <div className="w-full h-48 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 shadow-sm overflow-hidden">
                 <img 
-                  src="/images/huayue-product-image.svg" 
+                  src="/huayue-product-new.jpg" 
                   alt="HUAYUE Industrial PPR Products" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                   data-testid="img-huayue-products"
                 />
               </div>
@@ -74,9 +74,9 @@ export default function OurProductLines() {
               <div className="text-sm text-gray-500 mb-2">EDIER PPR Piping Systems</div>
               <div className="w-full h-48 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 shadow-sm overflow-hidden">
                 <img 
-                  src="/images/edier-product-image.svg" 
+                  src="/edier-product-new.jpg" 
                   alt="EDIER Consumer PPR Products" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                   data-testid="img-edier-products"
                 />
               </div>
