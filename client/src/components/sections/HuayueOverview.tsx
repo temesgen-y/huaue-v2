@@ -66,8 +66,8 @@ export default function HuayueOverview() {
           <div className="relative">
             <div className="bg-gray-100 rounded-lg overflow-hidden">
               <img 
-                src="/images/huayue-manufacturing-facility.svg" 
-                alt="Huayue Plastics Manufacturing Facility" 
+                src="/slide-8.jpg" 
+                alt="Huayue Plastics Manufacturing Facility - Professional Showroom" 
                 className="w-full h-96 object-cover"
                 data-testid="img-manufacturing-facility"
               />
