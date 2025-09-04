@@ -457,7 +457,7 @@ export default function About() {
             <div className="lg:order-last">
               <div className="rounded-lg overflow-hidden">
                 <img
-                  src="/sustainability-image.png"
+                  src="/products-pipes-green.jpg"
                   alt="Sustainable packaging and environmental responsibility"
                   className="w-full h-auto object-cover rounded-lg"
                   data-testid="sustainability-image"
