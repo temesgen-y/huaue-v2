@@ -52,7 +52,7 @@ export default function Footer() {
                 <Youtube size={18} />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/HuayuePlastics"
                 className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-brand-accent transition-colors duration-200"
                 data-testid="link-facebook"
               >
@@ -80,7 +80,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://t.me/HuayuePlastics"
                 className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-brand-accent transition-colors duration-200"
                 data-testid="link-telegram"
               >
