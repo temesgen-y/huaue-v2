@@ -11,7 +11,7 @@ import PartnershipCTA from "@/components/sections/PartnershipCTA";
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <HeroSlider />
       <HuayueOverview />
       <WhyChooseUs />
@@ -22,6 +22,6 @@ export default function Home() {
       <ProductPortfolio />
       <CompanyOverview />
       <PartnershipCTA />
-    </div>
+    </main>
   );
 }

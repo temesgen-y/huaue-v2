@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 
 export default function Products() {
   return (
-    <div className="py-16 lg:py-24 bg-gray-50 min-h-screen">
+    <main className="py-16 lg:py-24 bg-gray-50 min-h-screen">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
@@ -134,6 +134,6 @@ export default function Products() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

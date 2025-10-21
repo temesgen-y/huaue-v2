@@ -1,0 +1,65 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://huayue-plastics.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow admin or private areas (if any exist in the future)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+# Allow important pages
+Allow: /
+Allow: /about
+Allow: /products
+Allow: /products/huayue
+Allow: /products/edier
+Allow: /contact
+Allow: /news
+Allow: /agency-policy
+
+# Block common bot traps
+Disallow: /*.json$
+Disallow: /*?*
+Disallow: /*#*
+
+# Allow important file types
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.ico$
+Allow: /*.pdf$
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# Block aggressive crawlers
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: DotBot
+Crawl-delay: 10
