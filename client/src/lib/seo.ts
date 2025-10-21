@@ -53,6 +53,7 @@ export const siteConfig = {
     'Plastic Factory in Ethiopia',
     'Factory in Kombolcha',
     'PPR Pipe Factory in Ethiopia',
+    'PPR pipes Factory in Ethiopia',
     'Pipe Manufacturer in Ethiopia',
     'Pipe Supplier in Ethiopia',
     'Industrial Factory in Ethiopia',

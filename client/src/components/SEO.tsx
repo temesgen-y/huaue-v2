@@ -90,7 +90,7 @@ export const seoConfig = {
   home: {
     title: 'Huayue Plastics Industry - Eider & Huayue PPR Piping System',
     description: 'Leading plastic factory in Ethiopia specializing in Eider & Huayue PPR piping systems, PPR pipe and fittings. Factory in Kombolcha producing PVC, PEXA, PE, PERT pipes for water supply systems.',
-    keywords: 'Huayue Plastics Industry, Eider Huayue PPR Piping System, Hongyue Plastic Group, PPR Piping System, PPR Pipe and Fittings, PPR Pipe Fitting, PPR Pipe, PVC Pipe, PEXA Pipe, PE Pipe, PERT Pipe, Water Supply System PPR Pipes, Plastic Factory in Ethiopia, Factory in Kombolcha',
+    keywords: 'Huayue Plastics Industry, Eider Huayue PPR Piping System, Hongyue Plastic Group, PPR Piping System, PPR Pipe and Fittings, PPR Pipe Fitting, PPR Pipe, PVC Pipe, PEXA Pipe, PE Pipe, PERT Pipe, Water Supply System PPR Pipes, Plastic Factory in Ethiopia, PPR pipes Factory in Ethiopia, Factory in Kombolcha',
     url: 'https://huayue-plastics.com/',
   },
   about: {
